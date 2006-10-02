@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE registry SYSTEM 'errors.dtd' [
+  <!ENTITY % ents SYSTEM 'reg.ent'>
+%ents;
+]>
+<?xml-stylesheet type='text/xsl' href='errors.xsl'?>
+<registry>
+  <meta>
+    <title>Application-Specific Error Conditions</title>
+    &LEGALNOTICE;
+    <overview>This is the official registry of application-specific error conditions as maintained by the &REGISTRAR; and authorized by &jep0182;.</overview>
+    <revision>
+      <version>0.1</version>
+      <date>2006-05-16</date>
+      <initials>psa</initials>
+      <remark>Initial version.</remark>
+    </revision>
+  </meta>
+  <condition>
+    <ns>http://jabber.org/protocol/errors</ns>
+    <element>stanza-too-big</element>
+    <desc>the stanza is larger than the processing entity will accept</desc>
+    <doc>N/A</doc>
+  </condition>
+</registry>
