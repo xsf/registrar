@@ -3,7 +3,7 @@
 # when creating a registry, add the relevant transform here
 # usage: ./all.sh
 
-regpath=/var/www/stage.xmpp.org/registrar/
+regpath=/var/www/xmpp.org/registrar/
 
 # copy index page
 cp index.shtml $regpath/
