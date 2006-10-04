@@ -1,7 +1,7 @@
 #!/bin/sh
 # for each registry, generates HTML file
 # when creating a registry, add the relevant transform here
-# usage: ./gen.sh
+# usage: ./all.sh
 
 regpath=/var/www/stage.xmpp.org/registrar/
 
