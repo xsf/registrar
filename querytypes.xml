@@ -53,7 +53,7 @@
           <desc>a request to move to the next command in a series</desc>
         </value>
         <value>
-	  <name>complete</name>
+	  <name>previous</name>
           <desc>a request to move to the previous command in a series</desc>
         </value>
       </values>
