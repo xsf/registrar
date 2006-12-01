@@ -8,7 +8,7 @@
   <meta>
     <title>Application-Specific Error Conditions</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of application-specific error conditions as maintained by the &REGISTRAR; and authorized by &jep0182;.</overview>
+    <overview>This is the official registry of application-specific error conditions as maintained by the &REGISTRAR; and authorized by &xep0182;.</overview>
     <revision>
       <version>0.1</version>
       <date>2006-05-16</date>

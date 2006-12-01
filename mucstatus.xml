@@ -8,7 +8,7 @@
   <meta>
     <title>Multi-User Chat Status Codes</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of Multi-User Chat Status Codes as maintained by the &REGISTRAR; and authorized by &jep0045;.</overview>
+    <overview>This is the official registry of Multi-User Chat Status Codes as maintained by the &REGISTRAR; and authorized by &xep0045;.</overview>
     <revision>
       <version>0.3</version>
       <date>2006-11-30</date>
@@ -25,7 +25,7 @@
       <version>0.1</version>
       <date>2005-04-21</date>
       <initials>psa</initials>
-      <remark>Initial version (populated from JEP-0045, v. 1.19).</remark>
+      <remark>Initial version (populated from XEP-0045, v. 1.19).</remark>
     </revision>
   </meta>
   <statuscode>

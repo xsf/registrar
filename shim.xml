@@ -8,18 +8,18 @@
   <meta>
     <title>SHIM Headers</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of SHIM headers as authorized by &jep0131; and as maintained by the &REGISTRAR;.</overview>
+    <overview>This is the official registry of SHIM headers as authorized by &xep0131; and as maintained by the &REGISTRAR;.</overview>
     <revision>
       <version>0.5</version>
       <date>2006-07-05</date>
       <initials>psa</initials>
-      <remark>Added pubsub headers from JEP-0060.</remark>
+      <remark>Added pubsub headers from XEP-0060.</remark>
     </revision>
     <revision>
       <version>0.4</version>
       <date>2006-01-24</date>
       <initials>psa</initials>
-      <remark>Added Start and Stop headers from JEP-0149.</remark>
+      <remark>Added Start and Stop headers from XEP-0149.</remark>
     </revision>
     <revision>
       <version>0.3</version>
@@ -116,7 +116,7 @@
 <header>
   <name>Classification</name>
   <desc>a level within a classification scheme</desc>
-  <doc>JEP-0131</doc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -218,7 +218,7 @@
 <header>
   <name>Created</name>
   <desc>date and time of stanza creation in ISO 8601 format</desc>
-  <doc>JEP-0131</doc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -235,14 +235,14 @@
 
 <header>
   <name>Date</name>
-  <desc>a string that conforms to the Date profile specified in JEP-0082</desc>
-  <doc>JEP-0131</doc>
+  <desc>a string that conforms to the Date profile specified in XEP-0082</desc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
   <name>DateTime</name>
-  <desc>a string that conforms to the DateTime profile specified in JEP-0082</desc>
-  <doc>JEP-0131</doc>
+  <desc>a string that conforms to the DateTime profile specified in XEP-0082</desc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -254,7 +254,7 @@
 <header>
   <name>Distribute</name>
   <desc>whether or not the stanza may be further distributed</desc>
-  <doc>JEP-0131</doc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -416,19 +416,19 @@
 <header>
   <name>pubsub#collection</name>
   <desc>The collection via which a notification was received from the originating node.</desc>
-  <doc>JEP-0060</doc>
+  <doc>XEP-0060</doc>
 </header>
 
 <header>
   <name>pubsub#expire</name>
   <desc>The DateTime at which a pubsub leased subscription will end or has ended.</desc>
-  <doc>JEP-0060</doc>
+  <doc>XEP-0060</doc>
 </header>
 
 <header>
   <name>pubsub#subid</name>
   <desc>A subscription identifer within the pubsub protocol.</desc>
-  <doc>JEP-0060</doc>
+  <doc>XEP-0060</doc>
 </header>
 
 <header>
@@ -572,19 +572,19 @@
 <header>
   <name>Start</name>
   <desc>The dateTime at which a state, event, or activity starts</desc>
-  <doc>JEP-0149</doc>
+  <doc>XEP-0149</doc>
 </header>
 
 <header>
   <name>Stop</name>
   <desc>The dateTime at which a state, event, or activity stops</desc>
-  <doc>JEP-0149</doc>
+  <doc>XEP-0149</doc>
 </header>
 
 <header>
   <name>Store</name>
   <desc>whether or not the stanza may be stored or archived</desc>
-  <doc>JEP-0131</doc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -607,8 +607,8 @@
 
 <header>
   <name>Time</name>
-  <desc>a string that conforms to the Time profile specified in JEP-0082</desc>
-  <doc>JEP-0131</doc>
+  <desc>a string that conforms to the Time profile specified in XEP-0082</desc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>
@@ -638,7 +638,7 @@
 <header>
   <name>TTL</name>
   <desc>a time to live for the stanza, in seconds</desc>
-  <doc>JEP-0131</doc>
+  <doc>XEP-0131</doc>
 </header>
 
 <header>

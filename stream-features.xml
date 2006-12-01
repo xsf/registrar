@@ -8,7 +8,7 @@
   <meta>
     <title>XML Stream Features</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of XML stream features as maintained by the &REGISTRAR;. This registry contains only stream features that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.jabber.org/jeps/'>Jabber Enhancement Proposals</link> that have advanced to a status of Active, Draft, or Final. Other stream features may be in use within the Jabber community, but are not added to this page until the relevant document meets the above criteria.</overview>
+    <overview>This is the official registry of XML stream features as maintained by the &REGISTRAR;. This registry contains only stream features that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.jabber.org/xeps/'>Jabber Enhancement Proposals</link> that have advanced to a status of Active, Draft, or Final. Other stream features may be in use within the Jabber community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
       <version>0.3</version>
       <date>2005-06-16</date>
@@ -33,28 +33,28 @@
     <desc>Support for Advanced Message Processing</desc>
     <name>amp</name>
     <element>amp</element>
-    <doc>&jep0079;</doc>
+    <doc>&xep0079;</doc>
   </feature>
   <feature>
     <ns>http://jabber.org/features/compress</ns>
     <name>compress</name>
     <element>compression</element>
     <desc>Support for Stream Compression</desc>
-    <doc>&jep0138;</doc>
+    <doc>&xep0138;</doc>
   </feature>
   <feature>
     <ns>http://jabber.org/features/iq-auth</ns>
     <name>iq-auth</name>
     <element>auth</element>
     <desc>Support for Non-SASL Authentication</desc>
-    <doc>&jep0078;</doc>
+    <doc>&xep0078;</doc>
   </feature>
   <feature>
     <ns>http://jabber.org/features/iq-register</ns>
     <name>iq-register</name>
     <element>register</element>
     <desc>Support for In-Band Registration</desc>
-    <doc>&jep0077;</doc>
+    <doc>&xep0077;</doc>
   </feature>
   <feature>
     <ns>urn:ietf:params:xml:ns:xmpp-bind</ns>

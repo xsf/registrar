@@ -8,17 +8,17 @@
 <meta>
   <title>Stream Initiation Profiles</title>
   &LEGALNOTICE;
-  <overview>This is the official registry of stream initiation profiles maintained by the &REGISTRAR;, as authorized by &jep0095;.</overview>
+  <overview>This is the official registry of stream initiation profiles maintained by the &REGISTRAR;, as authorized by &xep0095;.</overview>
   <revision>
     <version>0.1</version>
     <date>2004-04-13</date>
     <initials>psa</initials>
-    <remark>Initial version (profile defined in JEP-0096).</remark>
+    <remark>Initial version (profile defined in XEP-0096).</remark>
   </revision>
 </meta>
 <profile>
   <name>http://jabber.org/protocol/si/profile/file-transfer</name>
-  <doc>JEP-0096</doc>
+  <doc>XEP-0096</doc>
   <desc>File transfer profile</desc>
 </profile>
 </registry>

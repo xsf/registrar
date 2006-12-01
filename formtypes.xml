@@ -8,7 +8,7 @@
 <meta>
   <title>FORM_TYPEs for Data Forms</title>
   &LEGALNOTICE;
-  <overview>This is the official registry of FORM_TYPEs and associated fields used in the context of the 'jabber:x:data' namespace (see &jep0004; and &jep0068;), as registered with the &REGISTRAR;.</overview>
+  <overview>This is the official registry of FORM_TYPEs and associated fields used in the context of the 'jabber:x:data' namespace (see &xep0004; and &xep0068;), as registered with the &REGISTRAR;.</overview>
   <revision>
     <version>0.4</version>
     <date>2006-07-05</date>
@@ -19,25 +19,25 @@
     <version>0.3</version>
     <date>2006-03-23</date>
     <initials>psa</initials>
-    <remark>Added registration from JEP-0146.</remark>
+    <remark>Added registration from XEP-0146.</remark>
   </revision>
   <revision>
     <version>0.2</version>
     <date>2004-01-18</date>
     <initials>psa</initials>
-    <remark>Registrations from JEP-0055 and JEP-0060.</remark>
+    <remark>Registrations from XEP-0055 and XEP-0060.</remark>
   </revision>
   <revision>
     <version>0.1</version>
     <date>2003-12-31</date>
     <initials>psa</initials>
-    <remark>Initial version (registrations from JEP-0045 and JEP-0077).</remark>
+    <remark>Initial version (registrations from XEP-0045 and XEP-0077).</remark>
   </revision>
 </meta>
-<!-- begin FORM_TYPEs for Service Administration (JEP-0133) -->
+<!-- begin FORM_TYPEs for Service Administration (XEP-0133) -->
 <form_type>
   <name>http://jabber.org/protocol/admin</name>
-  <doc>JEP-0133</doc>
+  <doc>XEP-0133</doc>
   <desc>Forms used for administration of servers and components.</desc>
   <field var='accountjid'
          type='jid-multi'
@@ -91,11 +91,11 @@
          type='jid-multi'
          label='A list of entities with whom communication is allowed'/>
 </form_type>
-<!-- end FORM_TYPEs for Service Administration (JEP-0133) -->
-<!-- begin FORM_TYPEs for Multi-User Chat (JEP-0045) -->
+<!-- end FORM_TYPEs for Service Administration (XEP-0133) -->
+<!-- begin FORM_TYPEs for Multi-User Chat (XEP-0045) -->
 <form_type>
   <name>http://jabber.org/protocol/muc#register</name>
-  <doc>JEP-0045</doc>
+  <doc>XEP-0045</doc>
   <desc>
     Forms enabling user registration with a
     Multi-User Chat (MUC) room.
@@ -127,7 +127,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/muc#roomconfig</name>
-  <doc>JEP-0045</doc>
+  <doc>XEP-0045</doc>
   <desc>
     Forms enabling creation and configuration of
     a Multi-User Chat (MUC) room.
@@ -201,11 +201,11 @@
       type='list-single'
       label='Affiliations that May Discover Real JIDs of Occupants'/>
 </form_type>
-<!-- end FORM_TYPEs for Multi-User Chat (JEP-0045) -->
-<!-- begin FORM_TYPEs for Publish-Subscribe (JEP-0060) -->
+<!-- end FORM_TYPEs for Multi-User Chat (XEP-0045) -->
+<!-- begin FORM_TYPEs for Publish-Subscribe (XEP-0060) -->
 <form_type>
   <name>http://jabber.org/protocol/pubsub#subscribe_authorization</name>
-  <jep>JEP-0060</jep>
+  <xep>XEP-0060</xep>
   <desc>Forms enabling authorization of subscriptions to pubsub nodes</desc>
   <field
       var='pubsub#allow'
@@ -226,7 +226,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#subscribe_options</name>
-  <jep>JEP-0060</jep>
+  <xep>XEP-0060</xep>
   <desc>Forms enabling configuration of subscription options for pubsub nodes</desc>
   <field
       var='pubsub#deliver'
@@ -296,7 +296,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#node_config</name>
-  <jep>JEP-0060</jep>
+  <xep>XEP-0060</xep>
   <desc>Forms enabling configuration of pubsub nodes</desc>
   <field var='pubsub#access_model'
          type='list-single'
@@ -438,7 +438,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#meta-data</name>
-  <jep>JEP-0060</jep>
+  <xep>XEP-0060</xep>
   <desc>Forms enabling setting of meta-data information about pubsub nodes</desc>
   <field var='pubsub#contact'
          type='jid-multi'
@@ -471,11 +471,11 @@
          type='text-single'
          label='Payload type'/>
 </form_type>
-<!-- end FORM_TYPEs for Publish-Subscribe (JEP-0060) -->
-<!-- begin FORM_TYPEs for Remote Controlling Clients (JEP-0145) -->
+<!-- end FORM_TYPEs for Publish-Subscribe (XEP-0060) -->
+<!-- begin FORM_TYPEs for Remote Controlling Clients (XEP-0145) -->
 <form_type>
   <name>http://jabber.org/protocol/rc</name>
-  <doc>JEP-0146</doc>
+  <doc>XEP-0146</doc>
   <desc>Forms used for remote controlling clients</desc>
   <field var='auto-auth'
          type='boolean'
@@ -530,11 +530,11 @@
          type='text-single'
          label='The new priority for the client'/>
 </form_type>
-<!-- end FORM_TYPEs for Remote Controlling Clients (JEP-0145) -->
-<!-- begin FORM_TYPEs for In-Band Registration (JEP-0077) -->
+<!-- end FORM_TYPEs for Remote Controlling Clients (XEP-0145) -->
+<!-- begin FORM_TYPEs for In-Band Registration (XEP-0077) -->
 <form_type>
   <name>jabber:iq:register</name>
-  <doc>JEP-0077</doc>
+  <doc>XEP-0077</doc>
   <desc>
     Standardization of fields related to in-band registration.
   </desc>
@@ -583,11 +583,11 @@
       type='text-single'
       label='Postal code portion of a physical or mailing address'/>
 </form_type>
-<!-- end FORM_TYPEs for In-Band Registration (JEP-0077) -->
-<!-- begin FORM_TYPEs for Jabber Search (JEP-0055) -->
+<!-- end FORM_TYPEs for In-Band Registration (XEP-0077) -->
+<!-- begin FORM_TYPEs for Jabber Search (XEP-0055) -->
 <form_type>
   <name>jabber:iq:search</name>
-  <doc>JEP-0055</doc>
+  <doc>XEP-0055</doc>
   <desc>Forms enabling directory searches.</desc>
   <field
       var='first'
@@ -606,5 +606,5 @@
       type='text-single'
       label='Email Address'/>
 </form_type>
-<!-- end FORM_TYPEs for Jabber Search (JEP-0055) -->
+<!-- end FORM_TYPEs for Jabber Search (XEP-0055) -->
 </registry>

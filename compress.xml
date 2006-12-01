@@ -8,7 +8,7 @@
   <meta>
     <title>Stream Compression Methods</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of stream compression methods as maintained by the &REGISTRAR; and authorized by &jep0138;.</overview>
+    <overview>This is the official registry of stream compression methods as maintained by the &REGISTRAR; and authorized by &xep0138;.</overview>
     <revision>
       <version>0.2</version>
       <date>2005-12-14</date>

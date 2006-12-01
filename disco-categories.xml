@@ -8,7 +8,7 @@
   <meta>
     <title>Service Discovery Identities</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &jep0030;), as registered with the &REGISTRAR;.</overview>
+    <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
       <version>0.16</version>
       <date>2006-09-20</date>
@@ -31,13 +31,13 @@
       <version>0.13</version>
       <date>2005-12-14</date>
       <initials>psa</initials>
-      <remark>Added "soap" and "rpc" types to "automation" category (per JEP-0072 and JEP-0009).</remark>
+      <remark>Added "soap" and "rpc" types to "automation" category (per XEP-0072 and XEP-0009).</remark>
     </revision>
     <revision>
       <version>0.12</version>
       <date>2005-08-26</date>
       <initials>psa</initials>
-      <remark>Added "group" type and "waitinglist" type to "directory" category (per JEP-0144 and JEP-0130).</remark>
+      <remark>Added "group" type and "waitinglist" type to "directory" category (per XEP-0144 and XEP-0130).</remark>
     </revision>
     <revision>
       <version>0.11</version>
@@ -79,13 +79,13 @@
       <version>0.5</version>
       <date>2003-09-24</date>
       <initials>psa</initials>
-      <remark>Added "proxy" category per JEP-0065, removed "headline" category.</remark>
+      <remark>Added "proxy" category per XEP-0065, removed "headline" category.</remark>
     </revision>
     <revision>
       <version>0.4</version>
       <date>2003-09-23</date>
       <initials>psa</initials>
-      <remark>Added "automation" category per JEP-0050.</remark>
+      <remark>Added "automation" category per XEP-0050.</remark>
     </revision>
     <revision>
       <version>0.3</version>
@@ -103,7 +103,7 @@
       <version>0.1</version>
       <date>2003-04-23</date>
       <initials>psa</initials>
-      <remark>Initial version (parameters from JEP).</remark>
+      <remark>Initial version (parameters from XEP).</remark>
     </revision>
   </meta>
   <category>
@@ -165,22 +165,22 @@
     <type>
       <name>command-list</name>
       <desc>The node for a list of commands; valid only for the node "http://jabber.org/protocol/commands"</desc>
-      <doc>JEP-0050</doc>
+      <doc>XEP-0050</doc>
     </type>
     <type>
       <name>command-node</name>
       <desc>A node for a specific command; the "node" attribute uniquely identifies the command</desc>
-      <doc>JEP-0050</doc>
+      <doc>XEP-0050</doc>
     </type>
     <type>
       <name>rpc</name>
       <desc>An entity that supports Jabber-RPC.</desc>
-      <doc>JEP-0009</doc>
+      <doc>XEP-0009</doc>
     </type>
     <type>
       <name>soap</name>
       <desc>An entity that supports the SOAP XMPP Binding.</desc>
-      <doc>JEP-0072</doc>
+      <doc>XEP-0072</doc>
     </type>
   </category>
   <category>
@@ -291,7 +291,7 @@
     <type>
       <name>text</name>
       <desc>Text conferencing service</desc>
-      <doc>&jep0045;</doc>
+      <doc>&xep0045;</doc>
     </type>
   </category>
   <category>
@@ -305,7 +305,7 @@
     <type>
       <name>group</name>
       <desc>A directory that provides shared roster groups</desc>
-      <doc>JEP-0144</doc>
+      <doc>XEP-0144</doc>
     </type>
     <type>
       <name>user</name>
@@ -315,7 +315,7 @@
     <type>
       <name>waitinglist</name>
       <desc>A directory of waiting list entries</desc>
-      <doc>JEP-0130</doc>
+      <doc>XEP-0130</doc>
     </type>
   </category>
   <category>
@@ -397,12 +397,12 @@
     <type>
       <name>branch</name>
       <desc>A service discovery node that contains further nodes in the hierarchy.</desc>
-      <doc>&jep0030;</doc>
+      <doc>&xep0030;</doc>
     </type>
     <type>
       <name>leaf</name>
       <desc>A service discovery node that does not contain further nodes in the hierarchy.</desc>
-      <doc>&jep0030;</doc>
+      <doc>&xep0030;</doc>
     </type>
   </category>
   <category>
@@ -411,38 +411,38 @@
     <type>
       <name>bytestreams</name>
       <desc>SOCKS5 bytestreams proxy service</desc>
-      <doc>&jep0065;</doc>
+      <doc>&xep0065;</doc>
     </type>
     <!--
     <type>
       <name>stun</name>
       <desc>a STUN (Simple Traversal of UDP Through NATs) service per RFC 3489</desc>
-      <doc>&jep0176;</doc>
+      <doc>&xep0176;</doc>
     </type>
     -->
   </category>
   <category>
     <name>pubsub</name>
-    <desc>Services and nodes that adhere to JEP-0060.</desc>
+    <desc>Services and nodes that adhere to XEP-0060.</desc>
     <type>
       <name>collection</name>
       <desc>A pubsub node of the "collection" type.</desc>
-      <doc>&jep0060;</doc>
+      <doc>&xep0060;</doc>
     </type>
     <type>
       <name>leaf</name>
       <desc>A pubsub node of the "leaf" type.</desc>
-      <doc>&jep0060;</doc>
+      <doc>&xep0060;</doc>
     </type>
     <type>
       <name>pep</name>
-      <desc>A personal eventing service that supports the publish-subscribe subset defined in JEP-0163.</desc>
-      <doc>JEP-0163</doc>
+      <desc>A personal eventing service that supports the publish-subscribe subset defined in XEP-0163.</desc>
+      <doc>XEP-0163</doc>
     </type>
     <type>
       <name>service</name>
-      <desc>A pubsub service that supports the functionality defined in JEP-0060.</desc>
-      <doc>&jep0060;</doc>
+      <desc>A pubsub service that supports the functionality defined in XEP-0060.</desc>
+      <doc>&xep0060;</doc>
     </type>
   </category>
   <category>

@@ -8,7 +8,7 @@
   <meta>
     <title>Well-Known Service Discovery Nodes</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of well-known service discovery nodes (see &jep0030;), as registered with the &REGISTRAR;.</overview>
+    <overview>This is the official registry of well-known service discovery nodes (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
       <version>0.2</version>
       <date>2004-10-11</date>
@@ -25,31 +25,31 @@
   <node>
     <name>http://jabber.org/protocol/amp</name>
     <desc>A node for all Advanced Message Processing conditions and actions supported by an entity.</desc>
-    <doc>&jep0079;</doc>
+    <doc>&xep0079;</doc>
   </node>
   <node>
     <name>http://jabber.org/protocol/commands</name>
     <desc>A node for all ad-hoc commands provided by an entity.</desc>
-    <doc>&jep0050;</doc>
+    <doc>&xep0050;</doc>
   </node>
   <node>
     <name>http://jabber.org/protocol/muc#rooms</name>
     <desc>A node for discovery of the rooms in which a user is an occupant.</desc>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </node>
   <node>
     <name>http://jabber.org/protocol/muc#traffic</name>
     <desc>A node for discovery of the namespaces that are allowed in traffic sent through a room.</desc>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </node>
   <node>
     <name>pubsub/nodes</name>
     <desc>A "meta-node" for all pubsub nodes hosted by a publish-subscribe service.</desc>
-    <doc>&jep0060;</doc>
+    <doc>&xep0060;</doc>
   </node>
   <node>
     <name>x-roomuser-item</name>
     <desc>A node by which a user can discover his or her reserved room nickname.</desc>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </node>
 </registry>

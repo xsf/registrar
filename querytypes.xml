@@ -8,25 +8,25 @@
   <meta>
     <title>XMPP URI/IRI Querytypes</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of XMPP URI/IRI Querytypes as maintained by the &REGISTRAR; and authorized by &jep0147;.</overview>
+    <overview>This is the official registry of XMPP URI/IRI Querytypes as maintained by the &REGISTRAR; and authorized by &xep0147;.</overview>
     <revision>
       <version>0.2</version>
       <date>2006-06-19</date>
       <initials>psa</initials>
-      <remark>Added remove, unregister, and unsubscribe (from JEP-0147, version 1.1).</remark>
+      <remark>Added remove, unregister, and unsubscribe (from XEP-0147, version 1.1).</remark>
     </revision>
     <revision>
       <version>0.1</version>
       <date>2006-03-23</date>
       <initials>psa</initials>
-      <remark>Initial version (populated from JEP-0147, version 1.0).</remark>
+      <remark>Initial version (populated from XEP-0147, version 1.0).</remark>
     </revision>
   </meta>
 <querytype>
   <name>command</name>
   <proto>http://jabber.org/protocol/commands</proto>
   <desc>enables completion of ad-hoc commands</desc>
-  <doc>JEP-0050</doc>
+  <doc>XEP-0050</doc>
   <keys>
     <key>
       <name>node</name>
@@ -65,7 +65,7 @@
   <name>disco</name>
   <proto>http://jabber.org/protocol/disco</proto>
   <desc>enables interaction for the purpose of service discovery</desc>
-  <doc>JEP-0030</doc>
+  <doc>XEP-0030</doc>
   <keys>
     <key>
       <name>node</name>
@@ -106,7 +106,7 @@
   <name>invite</name>
   <proto>http://jabber.org/protocol/muc</proto>
   <desc>enables simultaneously joining a groupchat room and inviting others</desc>
-  <doc>JEP-0045</doc>
+  <doc>XEP-0045</doc>
   <keys>
     <key>
       <name>jid</name>
@@ -119,7 +119,7 @@
   <name>join</name>
   <proto>http://jabber.org/protocol/muc</proto>
   <desc>enables joining a groupchat room</desc>
-  <doc>JEP-0045</doc>
+  <doc>XEP-0045</doc>
   <keys>
     <key>
       <name>password</name>
@@ -132,7 +132,7 @@
   <name>message</name>
   <proto>jabber:client</proto>
   <desc>enables sending of an XMPP message stanza</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
   <keys>
     <key>
       <name>subject</name>
@@ -183,14 +183,14 @@
   <name>probe</name>
   <proto>jabber:client</proto>
   <desc>enables probing for a contact's current presence information</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
 </querytype>
 
 <querytype>
   <name>pubsub</name>
   <proto>http://jabber.org/protocol/pubsub</proto>
   <desc>enables interaction with a publish-subscribe service</desc>
-  <doc>JEP-0060</doc>
+  <doc>XEP-0060</doc>
   <keys>
     <key>
       <name>action</name>
@@ -217,7 +217,7 @@
   <name>recvfile</name>
   <proto>http://jabber.org/protocol/si/profile/file-transfer</proto>
   <desc>enables initiation of an outbound file transfer from XMPP entity</desc>
-  <doc>JEP-0096</doc>
+  <doc>XEP-0096</doc>
   <keys>
     <key>
       <name>mime-type</name>
@@ -242,21 +242,21 @@
   <name>register</name>
   <proto>jabber:iq:register</proto>
   <desc>enables registering with a server or service</desc>
-  <doc>JEP-0077</doc>
+  <doc>XEP-0077</doc>
 </querytype>
 
 <querytype>
   <name>remove</name>
   <proto>jabber:iq:roster</proto>
   <desc>enables removing a roster item</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
 </querytype>
 
 <querytype>
   <name>roster</name>
   <proto>jabber:iq:roster</proto>
   <desc>enables adding or editing a roster item</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
   <keys>
     <key>
       <name>group</name>
@@ -273,35 +273,35 @@
   <name>sendfile</name>
   <proto>http://jabber.org/protocol/si/profile/file-transfer</proto>
   <desc>enables initiation of an inbound file transfer to XMPP entity</desc>
-  <doc>JEP-0096</doc>
+  <doc>XEP-0096</doc>
 </querytype>
 
 <querytype>
   <name>subscribe</name>
   <proto>jabber:client</proto>
   <desc>enables sending a presence subscription request</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
 </querytype>
 
 <querytype>
   <name>unregister</name>
   <proto>jabber:iq:register</proto>
   <desc>enables cancellation of a registration with a server or service</desc>
-  <doc>JEP-0077</doc>
+  <doc>XEP-0077</doc>
 </querytype>
 
 <querytype>
   <name>unsubscribe</name>
   <proto>jabber:client</proto>
   <desc>enables unsubscribing from an entity's presence</desc>
-  <doc>JEP-0147</doc>
+  <doc>XEP-0147</doc>
 </querytype>
 
 <querytype>
   <name>vcard</name>
   <proto>vcard-temp</proto>
   <desc>enables retrieval of an entity's vCard data</desc>
-  <doc>JEP-0054</doc>
+  <doc>XEP-0054</doc>
 </querytype>
 
 </registry>

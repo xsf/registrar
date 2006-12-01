@@ -8,24 +8,24 @@
   <meta>
     <title>Data Forms Validation Datatypes</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of datatypes for use in the context of &jep0122;, as maintained by the &REGISTRAR;. This registry contains datatypes specified in JEP-0122 as well as datatypes submitted directly to the Jabber Registrar.</overview>
+    <overview>This is the official registry of datatypes for use in the context of &xep0122;, as maintained by the &REGISTRAR;. This registry contains datatypes specified in XEP-0122 as well as datatypes submitted directly to the Jabber Registrar.</overview>
     <revision>
       <version>0.2</version>
       <date>2005-08-26</date>
       <initials>psa</initials>
-      <remark>Added sipub:file-transfer type specified in JEP-0137.</remark>
+      <remark>Added sipub:file-transfer type specified in XEP-0137.</remark>
     </revision>
     <revision>
       <version>0.1</version>
       <date>2004-09-22</date>
       <initials>psa</initials>
-      <remark>Initial version with parameters specified in JEP-0122.</remark>
+      <remark>Initial version with parameters specified in XEP-0122.</remark>
     </revision>
   </meta>
 <datatype>
   <name>sipub:file-transfer</name>
   <desc>Datatype for publishing an SI using the File Transfer Profile</desc>
-  <doc>JEP-0096</doc>
+  <doc>XEP-0096</doc>
   <methods>basic</methods>
   <min>N/A</min>
   <max>N/A</max>

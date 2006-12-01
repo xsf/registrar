@@ -14,91 +14,91 @@
 <!ENTITY xmppim "<link url='http://www.ietf.org/rfc/rfc3921.txt'>RFC 3921: XMPP IM</link>" >
 <!ENTITY xmppe2e "<link url='http://www.ietf.org/rfc/rfc3923.txt'>RFC 3923: XMPP E2E</link>" >
 
-<!-- Final (Standards-Track) JEPs -->
+<!-- Final (Standards-Track) XEPs -->
 
-<!ENTITY jep0004 "<link url='http://www.jabber.org/jeps/jep-0004.html'>JEP-0004: Data Forms</link>" >
-<!ENTITY jep0009 "<link url='http://www.jabber.org/jeps/jep-0009.html'>JEP-0009: Jabber-RPC</link>" >
-<!ENTITY jep0030 "<link url='http://www.jabber.org/jeps/jep-0030.html'>JEP-0030: Service Discovery</link>" >
-<!ENTITY jep0077 "<link url='http://www.jabber.org/jeps/jep-0077.html'>JEP-0077: In-Band Registration</link>" >
-<!ENTITY jep0078 "<link url='http://www.jabber.org/jeps/jep-0078.html'>JEP-0078: Non-SASL Authentication</link>" >
+<!ENTITY xep0004 "<link url='http://www.jabber.org/xeps/xep-0004.html'>XEP-0004: Data Forms</link>" >
+<!ENTITY xep0009 "<link url='http://www.jabber.org/xeps/xep-0009.html'>XEP-0009: Jabber-RPC</link>" >
+<!ENTITY xep0030 "<link url='http://www.jabber.org/xeps/xep-0030.html'>XEP-0030: Service Discovery</link>" >
+<!ENTITY xep0077 "<link url='http://www.jabber.org/xeps/xep-0077.html'>XEP-0077: In-Band Registration</link>" >
+<!ENTITY xep0078 "<link url='http://www.jabber.org/xeps/xep-0078.html'>XEP-0078: Non-SASL Authentication</link>" >
 
-<!-- Draft (Standards-Track) JEPs -->
+<!-- Draft (Standards-Track) XEPs -->
 
-<!ENTITY jep0013 "<link url='http://www.jabber.org/jeps/jep-0013.html'>JEP-0013: Flexible Offline Message Retrieval</link>" >
-<!ENTITY jep0020 "<link url='http://www.jabber.org/jeps/jep-0020.html'>JEP-0020: Feature Negotiation</link>" >
-<!ENTITY jep0033 "<link url='http://www.jabber.org/jeps/jep-0033.html'>JEP-0033: Extended Stanza Addressing</link>" >
-<!ENTITY jep0045 "<link url='http://www.jabber.org/jeps/jep-0045.html'>JEP-0045: Multi-User Chat</link>" >
-<!ENTITY jep0047 "<link url='http://www.jabber.org/jeps/jep-0047.html'>JEP-0047: In-Band Bytestreams</link>" >
-<!ENTITY jep0050 "<link url='http://www.jabber.org/jeps/jep-0050.html'>JEP-0050: Ad-Hoc Commands</link>" >
-<!ENTITY jep0059 "<link url='http://www.jabber.org/jeps/jep-0059.html'>JEP-0059: Result Set Management</link>" >
-<!ENTITY jep0060 "<link url='http://www.jabber.org/jeps/jep-0060.html'>JEP-0060: Publish-Subscribe</link>" >
-<!ENTITY jep0065 "<link url='http://www.jabber.org/jeps/jep-0065.html'>JEP-0065: SOCKS5 Bytestreams</link>" >
-<!ENTITY jep0066 "<link url='http://www.jabber.org/jeps/jep-0066.html'>JEP-0066: Out of Band Data</link>" >
-<!ENTITY jep0070 "<link url='http://www.jabber.org/jeps/jep-0070.html'>JEP-0070: Verifying HTTP Requests via XMPP</link>" >
-<!ENTITY jep0071 "<link url='http://www.jabber.org/jeps/jep-0071.html'>JEP-0071: XHTML-IM</link>" >
-<!ENTITY jep0072 "<link url='http://www.jabber.org/jeps/jep-0072.html'>JEP-0072: SOAP Over XMPP</link>" >
-<!ENTITY jep0079 "<link url='http://www.jabber.org/jeps/jep-0079.html'>JEP-0079: Advanced Message Processing</link>" >
-<!ENTITY jep0080 "<link url='http://www.jabber.org/jeps/jep-0080.html'>JEP-0080: User Geolocation</link>" >
-<!ENTITY jep0085 "<link url='http://www.jabber.org/jeps/jep-0085.html'>JEP-0085: Chat State Notifications</link>" >
-<!ENTITY jep0095 "<link url='http://www.jabber.org/jeps/jep-0095.html'>JEP-0095: Stream Initiation</link>" >
-<!ENTITY jep0096 "<link url='http://www.jabber.org/jeps/jep-0096.html'>JEP-0096: File Transfer</link>" >
-<!ENTITY jep0106 "<link url='http://www.jabber.org/jeps/jep-0106.html'>JEP-0106: JID Escaping</link>" >
-<!ENTITY jep0107 "<link url='http://www.jabber.org/jeps/jep-0107.html'>JEP-0107: User Mood</link>" >
-<!ENTITY jep0108 "<link url='http://www.jabber.org/jeps/jep-0108.html'>JEP-0108: User Activity</link>" >
-<!ENTITY jep0112 "<link url='http://www.jabber.org/jeps/jep-0112.html'>JEP-0112: User Physical Location</link>" >
-<!ENTITY jep0115 "<link url='http://www.jabber.org/jeps/jep-0115.html'>JEP-0115: Entity Capabilities</link>" >
-<!ENTITY jep0122 "<link url='http://www.jabber.org/jeps/jep-0122.html'>JEP-0122: Data Forms Validation</link>" >
-<!ENTITY jep0124 "<link url='http://www.jabber.org/jeps/jep-0124.html'>JEP-0124: HTTP Binding</link>" >
-<!ENTITY jep0131 "<link url='http://www.jabber.org/jeps/jep-0131.html'>JEP-0131: Stanza Headers and Internet Metadata (SHIM)</link>" >
-<!ENTITY jep0137 "<link url='http://www.jabber.org/jeps/jep-0137.html'>JEP-0137: Publishing SI Requests</link>" >
-<!ENTITY jep0138 "<link url='http://www.jabber.org/jeps/jep-0138.html'>JEP-0138: Stream Compression</link>" >
-<!ENTITY jep0141 "<link url='http://www.jabber.org/jeps/jep-0141.html'>JEP-0141: Data Forms Layout</link>" >
-<!ENTITY jep0144 "<link url='http://www.jabber.org/jeps/jep-0144.html'>JEP-0144: Roster Item Exchange</link>" >
-<!ENTITY jep0163 "<link url='http://www.jabber.org/jeps/jep-0163.html'>JEP-0163: Personal Eventing via Publish-Subscribe</link>" >
-<!ENTITY jep0172 "<link url='http://www.jabber.org/jeps/jep-0172.html'>JEP-0172: User Nickname</link>" >
+<!ENTITY xep0013 "<link url='http://www.jabber.org/xeps/xep-0013.html'>XEP-0013: Flexible Offline Message Retrieval</link>" >
+<!ENTITY xep0020 "<link url='http://www.jabber.org/xeps/xep-0020.html'>XEP-0020: Feature Negotiation</link>" >
+<!ENTITY xep0033 "<link url='http://www.jabber.org/xeps/xep-0033.html'>XEP-0033: Extended Stanza Addressing</link>" >
+<!ENTITY xep0045 "<link url='http://www.jabber.org/xeps/xep-0045.html'>XEP-0045: Multi-User Chat</link>" >
+<!ENTITY xep0047 "<link url='http://www.jabber.org/xeps/xep-0047.html'>XEP-0047: In-Band Bytestreams</link>" >
+<!ENTITY xep0050 "<link url='http://www.jabber.org/xeps/xep-0050.html'>XEP-0050: Ad-Hoc Commands</link>" >
+<!ENTITY xep0059 "<link url='http://www.jabber.org/xeps/xep-0059.html'>XEP-0059: Result Set Management</link>" >
+<!ENTITY xep0060 "<link url='http://www.jabber.org/xeps/xep-0060.html'>XEP-0060: Publish-Subscribe</link>" >
+<!ENTITY xep0065 "<link url='http://www.jabber.org/xeps/xep-0065.html'>XEP-0065: SOCKS5 Bytestreams</link>" >
+<!ENTITY xep0066 "<link url='http://www.jabber.org/xeps/xep-0066.html'>XEP-0066: Out of Band Data</link>" >
+<!ENTITY xep0070 "<link url='http://www.jabber.org/xeps/xep-0070.html'>XEP-0070: Verifying HTTP Requests via XMPP</link>" >
+<!ENTITY xep0071 "<link url='http://www.jabber.org/xeps/xep-0071.html'>XEP-0071: XHTML-IM</link>" >
+<!ENTITY xep0072 "<link url='http://www.jabber.org/xeps/xep-0072.html'>XEP-0072: SOAP Over XMPP</link>" >
+<!ENTITY xep0079 "<link url='http://www.jabber.org/xeps/xep-0079.html'>XEP-0079: Advanced Message Processing</link>" >
+<!ENTITY xep0080 "<link url='http://www.jabber.org/xeps/xep-0080.html'>XEP-0080: User Geolocation</link>" >
+<!ENTITY xep0085 "<link url='http://www.jabber.org/xeps/xep-0085.html'>XEP-0085: Chat State Notifications</link>" >
+<!ENTITY xep0095 "<link url='http://www.jabber.org/xeps/xep-0095.html'>XEP-0095: Stream Initiation</link>" >
+<!ENTITY xep0096 "<link url='http://www.jabber.org/xeps/xep-0096.html'>XEP-0096: File Transfer</link>" >
+<!ENTITY xep0106 "<link url='http://www.jabber.org/xeps/xep-0106.html'>XEP-0106: JID Escaping</link>" >
+<!ENTITY xep0107 "<link url='http://www.jabber.org/xeps/xep-0107.html'>XEP-0107: User Mood</link>" >
+<!ENTITY xep0108 "<link url='http://www.jabber.org/xeps/xep-0108.html'>XEP-0108: User Activity</link>" >
+<!ENTITY xep0112 "<link url='http://www.jabber.org/xeps/xep-0112.html'>XEP-0112: User Physical Location</link>" >
+<!ENTITY xep0115 "<link url='http://www.jabber.org/xeps/xep-0115.html'>XEP-0115: Entity Capabilities</link>" >
+<!ENTITY xep0122 "<link url='http://www.jabber.org/xeps/xep-0122.html'>XEP-0122: Data Forms Validation</link>" >
+<!ENTITY xep0124 "<link url='http://www.jabber.org/xeps/xep-0124.html'>XEP-0124: HTTP Binding</link>" >
+<!ENTITY xep0131 "<link url='http://www.jabber.org/xeps/xep-0131.html'>XEP-0131: Stanza Headers and Internet Metadata (SHIM)</link>" >
+<!ENTITY xep0137 "<link url='http://www.jabber.org/xeps/xep-0137.html'>XEP-0137: Publishing SI Requests</link>" >
+<!ENTITY xep0138 "<link url='http://www.jabber.org/xeps/xep-0138.html'>XEP-0138: Stream Compression</link>" >
+<!ENTITY xep0141 "<link url='http://www.jabber.org/xeps/xep-0141.html'>XEP-0141: Data Forms Layout</link>" >
+<!ENTITY xep0144 "<link url='http://www.jabber.org/xeps/xep-0144.html'>XEP-0144: Roster Item Exchange</link>" >
+<!ENTITY xep0163 "<link url='http://www.jabber.org/xeps/xep-0163.html'>XEP-0163: Personal Eventing via Publish-Subscribe</link>" >
+<!ENTITY xep0172 "<link url='http://www.jabber.org/xeps/xep-0172.html'>XEP-0172: User Nickname</link>" >
 
-<!-- Active (Informational) JEPs -->
+<!-- Active (Informational) XEPs -->
 
-<!ENTITY jep0068 "<link url='http://www.jabber.org/jeps/jep-0068.html'>JEP-0068: Field Standardization for Data Forms</link>" >
-<!ENTITY jep0082 "<link url='http://www.jabber.org/jeps/jep-0082.html'>JEP-0082: Jabber Date and Time Profiles</link>" >
-<!ENTITY jep0083 "<link url='http://www.jabber.org/jeps/jep-0083.html'>JEP-0083: Nested Roster Groups</link>" >
-<!ENTITY jep0086 "<link url='http://www.jabber.org/jeps/jep-0086.html'>JEP-0086: Error Condition Mappings</link>" >
-<!ENTITY jep0100 "<link url='http://www.jabber.org/jeps/jep-0100.html'>JEP-0100: Gateway Interaction</link>" >
-<!ENTITY jep0126 "<link url='http://www.jabber.org/jeps/jep-0126.html'>JEP-0126: Invisibility</link>" >
-<!ENTITY jep0146 "<link url='http://www.jabber.org/jeps/jep-0146.html'>JEP-0146: Remote Controllling Clients</link>" >
-<!ENTITY jep0147 "<link url='http://www.jabber.org/jeps/jep-0147.html'>JEP-0147: XMPP URI Scheme Query Components</link>" >
-<!ENTITY jep0149 "<link url='http://www.jabber.org/jeps/jep-0149.html'>JEP-0149: Time Periods</link>" >
-<!ENTITY jep0160 "<link url='http://www.jabber.org/jeps/jep-0160.html'>JEP-0160: Best Practices for Handling Offline Messages</link>" >
-<!ENTITY jep0175 "<link url='http://www.jabber.org/jeps/jep-0175.html'>JEP-0175: Best Practices for Use of SASL ANONYMOUS</link>" >
-<!ENTITY jep0182 "<link url='http://www.jabber.org/jeps/jep-0182.html'>JEP-0182: Application-Specific Error Conditions</link>" >
+<!ENTITY xep0068 "<link url='http://www.jabber.org/xeps/xep-0068.html'>XEP-0068: Field Standardization for Data Forms</link>" >
+<!ENTITY xep0082 "<link url='http://www.jabber.org/xeps/xep-0082.html'>XEP-0082: Jabber Date and Time Profiles</link>" >
+<!ENTITY xep0083 "<link url='http://www.jabber.org/xeps/xep-0083.html'>XEP-0083: Nested Roster Groups</link>" >
+<!ENTITY xep0086 "<link url='http://www.jabber.org/xeps/xep-0086.html'>XEP-0086: Error Condition Mappings</link>" >
+<!ENTITY xep0100 "<link url='http://www.jabber.org/xeps/xep-0100.html'>XEP-0100: Gateway Interaction</link>" >
+<!ENTITY xep0126 "<link url='http://www.jabber.org/xeps/xep-0126.html'>XEP-0126: Invisibility</link>" >
+<!ENTITY xep0146 "<link url='http://www.jabber.org/xeps/xep-0146.html'>XEP-0146: Remote Controllling Clients</link>" >
+<!ENTITY xep0147 "<link url='http://www.jabber.org/xeps/xep-0147.html'>XEP-0147: XMPP URI Scheme Query Components</link>" >
+<!ENTITY xep0149 "<link url='http://www.jabber.org/xeps/xep-0149.html'>XEP-0149: Time Periods</link>" >
+<!ENTITY xep0160 "<link url='http://www.jabber.org/xeps/xep-0160.html'>XEP-0160: Best Practices for Handling Offline Messages</link>" >
+<!ENTITY xep0175 "<link url='http://www.jabber.org/xeps/xep-0175.html'>XEP-0175: Best Practices for Use of SASL ANONYMOUS</link>" >
+<!ENTITY xep0182 "<link url='http://www.jabber.org/xeps/xep-0182.html'>XEP-0182: Application-Specific Error Conditions</link>" >
 
-<!-- Active (Historical) JEPs -->
+<!-- Active (Historical) XEPs -->
 
-<!ENTITY jep0003 "<link url='http://www.jabber.org/jeps/jep-0003.html'>JEP-0003: Proxy Accept Socket Service</link>" >
-<!ENTITY jep0011 "<link url='http://www.jabber.org/jeps/jep-0011.html'>JEP-0011: Jabber Browsing</link>" >
-<!ENTITY jep0012 "<link url='http://www.jabber.org/jeps/jep-0012.html'>JEP-0012: Last Activity</link>" >
-<!ENTITY jep0022 "<link url='http://www.jabber.org/jeps/jep-0022.html'>JEP-0022: Message Events</link>" >
-<!ENTITY jep0023 "<link url='http://www.jabber.org/jeps/jep-0023.html'>JEP-0023: Message Expiration</link>" >
-<!ENTITY jep0025 "<link url='http://www.jabber.org/jeps/jep-0025.html'>JEP-0025: Jabber HTTP Polling</link>" >
-<!ENTITY jep0027 "<link url='http://www.jabber.org/jeps/jep-0027.html'>JEP-0027: Current OpenPGP Usage</link>" >
-<!ENTITY jep0048 "<link url='http://www.jabber.org/jeps/jep-0048.html'>JEP-0048: Bookmark Storage</link>" >
-<!ENTITY jep0049 "<link url='http://www.jabber.org/jeps/jep-0049.html'>JEP-0049: Private XML Storage</link>" >
-<!ENTITY jep0054 "<link url='http://www.jabber.org/jeps/jep-0054.html'>JEP-0054: vcard-temp</link>" >
-<!ENTITY jep0055 "<link url='http://www.jabber.org/jeps/jep-0055.html'>JEP-0055: Jabber Search</link>" >
-<!ENTITY jep0090 "<link url='http://www.jabber.org/jeps/jep-0090.html'>JEP-0090: Entity Time</link>" >
-<!ENTITY jep0091 "<link url='http://www.jabber.org/jeps/jep-0091.html'>JEP-0091: Delayed Delivery</link>" >
-<!ENTITY jep0092 "<link url='http://www.jabber.org/jeps/jep-0092.html'>JEP-0092: Software Version</link>" >
-<!ENTITY jep0093 "<link url='http://www.jabber.org/jeps/jep-0093.html'>JEP-0093: Roster Item Exchange</link>" >
-<!ENTITY jep0114 "<link url='http://www.jabber.org/jeps/jep-0114.html'>JEP-0114: Existing Component Protocol</link>" >
-<!ENTITY jep0130 "<link url='http://www.jabber.org/jeps/jep-0130.html'>JEP-0130: Waiting Lists</link>" >
-<!ENTITY jep0145 "<link url='http://www.jabber.org/jeps/jep-0145.html'>JEP-0145: Annotations</link>" >
-<!ENTITY jep0153 "<link url='http://www.jabber.org/jeps/jep-0153.html'>JEP-0153: vCard-Based Avatars</link>" >
+<!ENTITY xep0003 "<link url='http://www.jabber.org/xeps/xep-0003.html'>XEP-0003: Proxy Accept Socket Service</link>" >
+<!ENTITY xep0011 "<link url='http://www.jabber.org/xeps/xep-0011.html'>XEP-0011: Jabber Browsing</link>" >
+<!ENTITY xep0012 "<link url='http://www.jabber.org/xeps/xep-0012.html'>XEP-0012: Last Activity</link>" >
+<!ENTITY xep0022 "<link url='http://www.jabber.org/xeps/xep-0022.html'>XEP-0022: Message Events</link>" >
+<!ENTITY xep0023 "<link url='http://www.jabber.org/xeps/xep-0023.html'>XEP-0023: Message Expiration</link>" >
+<!ENTITY xep0025 "<link url='http://www.jabber.org/xeps/xep-0025.html'>XEP-0025: Jabber HTTP Polling</link>" >
+<!ENTITY xep0027 "<link url='http://www.jabber.org/xeps/xep-0027.html'>XEP-0027: Current OpenPGP Usage</link>" >
+<!ENTITY xep0048 "<link url='http://www.jabber.org/xeps/xep-0048.html'>XEP-0048: Bookmark Storage</link>" >
+<!ENTITY xep0049 "<link url='http://www.jabber.org/xeps/xep-0049.html'>XEP-0049: Private XML Storage</link>" >
+<!ENTITY xep0054 "<link url='http://www.jabber.org/xeps/xep-0054.html'>XEP-0054: vcard-temp</link>" >
+<!ENTITY xep0055 "<link url='http://www.jabber.org/xeps/xep-0055.html'>XEP-0055: Jabber Search</link>" >
+<!ENTITY xep0090 "<link url='http://www.jabber.org/xeps/xep-0090.html'>XEP-0090: Entity Time</link>" >
+<!ENTITY xep0091 "<link url='http://www.jabber.org/xeps/xep-0091.html'>XEP-0091: Delayed Delivery</link>" >
+<!ENTITY xep0092 "<link url='http://www.jabber.org/xeps/xep-0092.html'>XEP-0092: Software Version</link>" >
+<!ENTITY xep0093 "<link url='http://www.jabber.org/xeps/xep-0093.html'>XEP-0093: Roster Item Exchange</link>" >
+<!ENTITY xep0114 "<link url='http://www.jabber.org/xeps/xep-0114.html'>XEP-0114: Existing Component Protocol</link>" >
+<!ENTITY xep0130 "<link url='http://www.jabber.org/xeps/xep-0130.html'>XEP-0130: Waiting Lists</link>" >
+<!ENTITY xep0145 "<link url='http://www.jabber.org/xeps/xep-0145.html'>XEP-0145: Annotations</link>" >
+<!ENTITY xep0153 "<link url='http://www.jabber.org/xeps/xep-0153.html'>XEP-0153: vCard-Based Avatars</link>" >
 
-<!-- Active (Procedural) JEPs -->
+<!-- Active (Procedural) XEPs -->
 
-<!ENTITY jep0001 "<link url='http://www.jabber.org/jeps/jep-0001.html'>JEP-0001: Jabber Enhancement Proposals</link>" >
-<!ENTITY jep0002 "<link url='http://www.jabber.org/jeps/jep-0002.html'>JEP-0002: Jabber Interest Groups</link>" >
-<!ENTITY jep0053 "<link url='http://www.jabber.org/jeps/jep-0053.html'>JEP-0053: Jabber Registrar</link>" >
+<!ENTITY xep0001 "<link url='http://www.jabber.org/xeps/xep-0001.html'>XEP-0001: Jabber Enhancement Proposals</link>" >
+<!ENTITY xep0002 "<link url='http://www.jabber.org/xeps/xep-0002.html'>XEP-0002: Jabber Interest Groups</link>" >
+<!ENTITY xep0053 "<link url='http://www.jabber.org/xeps/xep-0053.html'>XEP-0053: Jabber Registrar</link>" >
 
 <!-- Other specs -->
 

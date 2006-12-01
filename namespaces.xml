@@ -8,18 +8,18 @@
   <meta>
     <title>Jabber Protocol Namespaces</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of Jabber protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.jabber.org/jeps/'>Jabber Enhancement Proposals</link> that have advanced to a status of Active, Draft, or Final. Other namespaces may be in use within the Jabber community, but are not added to this page until the relevant document meets the above criteria.</overview>
+    <overview>This is the official registry of Jabber protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.jabber.org/xeps/'>Jabber Enhancement Proposals</link> that have advanced to a status of Active, Draft, or Final. Other namespaces may be in use within the Jabber community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
       <version>0.21</version>
       <date>2006-09-20</date>
       <initials>psa</initials>
-      <remark>Added result set management (JEP-0059).</remark>
+      <remark>Added result set management (XEP-0059).</remark>
     </revision>
     <revision>
       <version>0.20</version>
       <date>2006-08-16</date>
       <initials>psa</initials>
-      <remark>Added vcard-temp:x:update (JEP-0153).</remark>
+      <remark>Added vcard-temp:x:update (XEP-0153).</remark>
     </revision>
     <revision>
       <version>0.19</version>
@@ -31,55 +31,55 @@
       <version>0.18</version>
       <date>2006-06-05</date>
       <initials>psa</initials>
-      <remark>Added nick (JEP-0172).</remark>
+      <remark>Added nick (XEP-0172).</remark>
     </revision>
     <revision>
       <version>0.17</version>
       <date>2006-05-16</date>
       <initials>psa</initials>
-      <remark>Added errors (JEP-0182).</remark>
+      <remark>Added errors (XEP-0182).</remark>
     </revision>
     <revision>
       <version>0.16</version>
       <date>2005-12-14</date>
       <initials>psa</initials>
-      <remark>Added http-auth (JEP-0070) as well as soap and soap#fault (JEP-0072).</remark>
+      <remark>Added http-auth (XEP-0070) as well as soap and soap#fault (XEP-0072).</remark>
     </revision>
     <revision>
       <version>0.15</version>
       <date>2005-10-05</date>
       <initials>psa</initials>
-      <remark>Added iq-gateway (JEP-0100).</remark>
+      <remark>Added iq-gateway (XEP-0100).</remark>
     </revision>
     <revision>
       <version>0.14</version>
       <date>2005-08-26</date>
       <initials>psa</initials>
-      <remark>Added chatstates (JEP-0085), waitinglist (JEP-0130), sipub (JEP-0137), and rosterx (JEP-0144).</remark>
+      <remark>Added chatstates (XEP-0085), waitinglist (XEP-0130), sipub (XEP-0137), and rosterx (XEP-0144).</remark>
     </revision>
     <revision>
       <version>0.13</version>
       <date>2005-06-16</date>
       <initials>psa</initials>
-      <remark>Added compression (JEP-0138).</remark>
+      <remark>Added compression (XEP-0138).</remark>
     </revision>
     <revision>
       <version>0.12</version>
       <date>2005-05-12</date>
       <initials>psa</initials>
-      <remark>Added xdata-layout (JEP-0141).</remark>
+      <remark>Added xdata-layout (XEP-0141).</remark>
     </revision>
     <revision>
       <version>0.11</version>
       <date>2005-03-03</date>
       <initials>psa</initials>
-      <remark>Added httpbind (JEP-0124).</remark>
+      <remark>Added httpbind (XEP-0124).</remark>
     </revision>
     <revision>
       <version>0.10</version>
       <date>2004-11-12</date>
       <initials>psa</initials>
-      <remark>Added tune (JEP-0118).</remark>
+      <remark>Added tune (XEP-0118).</remark>
     </revision>
     <revision>
       <version>0.10</version>
@@ -91,43 +91,43 @@
       <version>0.9</version>
       <date>2004-10-20</date>
       <initials>psa</initials>
-      <remark>Added mood (JEP-0107) and activity (JEP-0108).</remark>
+      <remark>Added mood (XEP-0107) and activity (XEP-0108).</remark>
     </revision>
     <revision>
       <version>0.8</version>
       <date>2004-10-12</date>
       <initials>psa</initials>
-      <remark>Added geoloc (JEP-0080) and physloc (JEP-0112).</remark>
+      <remark>Added geoloc (XEP-0080) and physloc (XEP-0112).</remark>
     </revision>
     <revision>
       <version>0.7</version>
       <date>2004-10-11</date>
       <initials>psa</initials>
-      <remark>Added XHTML-IM (JEP-0071), advanced message processing (JEP-0079), and nested roster groups (JEP-0083).</remark>
+      <remark>Added XHTML-IM (XEP-0071), advanced message processing (XEP-0079), and nested roster groups (XEP-0083).</remark>
     </revision>
     <revision>
       <version>0.6</version>
       <date>2004-09-22</date>
       <initials>psa</initials>
-      <remark>Added data forms validation (JEP-0122).</remark>
+      <remark>Added data forms validation (XEP-0122).</remark>
     </revision>
     <revision>
       <version>0.5</version>
       <date>2004-08-02</date>
       <initials>psa</initials>
-      <remark>Added entity capabilities (JEP-0115).</remark>
+      <remark>Added entity capabilities (XEP-0115).</remark>
     </revision>
     <revision>
       <version>0.4</version>
       <date>2004-05-10</date>
       <initials>psa</initials>
-      <remark>Added extended stanza addressing (JEP-0033).</remark>
+      <remark>Added extended stanza addressing (XEP-0033).</remark>
     </revision>
     <revision>
       <version>0.3</version>
       <date>2003-12-10</date>
       <initials>psa</initials>
-      <remark>Added pubsub and ibb (JEP-0060 and JEP-0047).</remark>
+      <remark>Added pubsub and ibb (XEP-0060 and XEP-0047).</remark>
     </revision>
     <revision>
       <version>0.2</version>
@@ -145,159 +145,159 @@
   <!-- new-style HTTP URIs at jabber.org -->
   <ns>
     <name>http://jabber.org/protocol/activity</name>
-    <doc>&jep0108;</doc>
+    <doc>&xep0108;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/address</name>
-    <doc>&jep0033;</doc>
+    <doc>&xep0033;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/amp</name>
-    <doc>&jep0079;</doc>
+    <doc>&xep0079;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/amp#errors</name>
-    <doc>&jep0079;</doc>
+    <doc>&xep0079;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/bytestreams</name>
-    <doc>&jep0065;</doc>
+    <doc>&xep0065;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/caps</name>
-    <doc>&jep0115;</doc>
+    <doc>&xep0115;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/chatstates</name>
-    <doc>&jep0085;</doc>
+    <doc>&xep0085;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/commands</name>
-    <doc>&jep0050;</doc>
+    <doc>&xep0050;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/compress</name>
-    <doc>&jep0138;</doc>
+    <doc>&xep0138;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/disco#info</name>
-    <doc>&jep0030;</doc>
+    <doc>&xep0030;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/disco#items</name>
-    <doc>&jep0030;</doc>
+    <doc>&xep0030;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/errors</name>
-    <doc>&jep0182;</doc>
+    <doc>&xep0182;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/feature-neg</name>
-    <doc>&jep0020;</doc>
+    <doc>&xep0020;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/geoloc</name>
-    <doc>&jep0080;</doc>
+    <doc>&xep0080;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/http-auth</name>
-    <doc>&jep0070;</doc>
+    <doc>&xep0070;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/httpbind</name>
-    <doc>&jep0124;</doc>
+    <doc>&xep0124;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/ibb</name>
-    <doc>&jep0047;</doc>
+    <doc>&xep0047;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/mood</name>
-    <doc>&jep0107;</doc>
+    <doc>&xep0107;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/muc</name>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/muc#admin</name>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/muc#owner</name>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/muc#user</name>
-    <doc>&jep0045;</doc>
+    <doc>&xep0045;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/nick</name>
-    <doc>&jep0172;</doc>
+    <doc>&xep0172;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/offline</name>
-    <doc>&jep0013;</doc>
+    <doc>&xep0013;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/physloc</name>
-    <doc>&jep0112;</doc>
+    <doc>&xep0112;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/pubsub</name>
-    <doc>&jep0060;</doc>
+    <doc>&xep0060;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/pubsub#errors</name>
-    <doc>&jep0060;</doc>
+    <doc>&xep0060;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/pubsub#event</name>
-    <doc>&jep0060;</doc>
+    <doc>&xep0060;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/pubsub#owner</name>
-    <doc>&jep0060;</doc>
+    <doc>&xep0060;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/rc</name>
-    <doc>&jep0146;</doc>
+    <doc>&xep0146;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/rosterx</name>
-    <doc>&jep0144;</doc>
+    <doc>&xep0144;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/sipub</name>
-    <doc>&jep0137;</doc>
+    <doc>&xep0137;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/soap</name>
-    <doc>&jep0072;</doc>
+    <doc>&xep0072;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/soap#fault</name>
-    <doc>&jep0072;</doc>
+    <doc>&xep0072;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/waitinglist</name>
-    <doc>&jep0130;</doc>
+    <doc>&xep0130;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/waitinglist</name>
-    <doc>&jep0130;</doc>
+    <doc>&xep0130;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/xhtml-im</name>
-    <doc>&jep0071;</doc>
+    <doc>&xep0071;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/xdata-layout</name>
-    <doc>&jep0141;</doc>
+    <doc>&xep0141;</doc>
   </ns>
   <ns>
     <name>http://jabber.org/protocol/xdata-validate</name>
-    <doc>&jep0122;</doc>
+    <doc>&xep0122;</doc>
   </ns>
   <!-- old-style jabber: namespaces -->
   <ns>
@@ -306,35 +306,35 @@
   </ns>
   <ns>
     <name>jabber:component:accept</name>
-    <doc>&jep0114;</doc>
+    <doc>&xep0114;</doc>
   </ns>
   <ns>
     <name>jabber:component:connect</name>
-    <doc>&jep0114;</doc>
+    <doc>&xep0114;</doc>
   </ns>
   <ns>
     <name>jabber:iq:auth</name>
-    <doc>&jep0078;</doc>
+    <doc>&xep0078;</doc>
   </ns>
   <ns>
     <name>jabber:iq:browse</name>
-    <doc>&jep0011;</doc>
+    <doc>&xep0011;</doc>
   </ns>
   <ns>
     <name>jabber:iq:gateway</name>
-    <doc>&jep0100;</doc>
+    <doc>&xep0100;</doc>
   </ns>
   <ns>
     <name>jabber:iq:last</name>
-    <doc>&jep0012;</doc>
+    <doc>&xep0012;</doc>
   </ns>
   <ns>
     <name>jabber:iq:oob</name>
-    <doc>&jep0066;</doc>
+    <doc>&xep0066;</doc>
   </ns>
   <ns>
     <name>jabber:iq:pass</name>
-    <doc>&jep0003;</doc>
+    <doc>&xep0003;</doc>
   </ns>
   <ns>
     <name>jabber:iq:privacy</name>
@@ -342,11 +342,11 @@
   </ns>
   <ns>
     <name>jabber:iq:private</name>
-    <doc>&jep0049;</doc>
+    <doc>&xep0049;</doc>
   </ns>
   <ns>
     <name>jabber:iq:register</name>
-    <doc>&jep0077;</doc>
+    <doc>&xep0077;</doc>
   </ns>
   <ns>
     <name>jabber:iq:roster</name>
@@ -354,19 +354,19 @@
   </ns>
   <ns>
     <name>jabber:iq:rpc</name>
-    <doc>&jep0009;</doc>
+    <doc>&xep0009;</doc>
   </ns>
   <ns>
     <name>jabber:iq:search</name>
-    <doc>&jep0055;</doc>
+    <doc>&xep0055;</doc>
   </ns>
   <ns>
     <name>jabber:iq:time</name>
-    <doc>&jep0090;</doc>
+    <doc>&xep0090;</doc>
   </ns>
   <ns>
     <name>jabber:iq:version</name>
-    <doc>&jep0092;</doc>
+    <doc>&xep0092;</doc>
   </ns>
   <ns>
     <name>jabber:server</name>
@@ -374,39 +374,39 @@
   </ns>
   <ns>
     <name>jabber:x:data</name>
-    <doc>&jep0004;</doc>
+    <doc>&xep0004;</doc>
   </ns>
   <ns>
     <name>jabber:x:delay</name>
-    <doc>&jep0091;</doc>
+    <doc>&xep0091;</doc>
   </ns>
   <ns>
     <name>jabber:x:encrypted</name>
-    <doc>&jep0027;</doc>
+    <doc>&xep0027;</doc>
   </ns>
   <ns>
     <name>jabber:x:event</name>
-    <doc>&jep0022;</doc>
+    <doc>&xep0022;</doc>
   </ns>
   <ns>
     <name>jabber:x:expire</name>
-    <doc>&jep0023;</doc>
+    <doc>&xep0023;</doc>
   </ns>
   <ns>
     <name>jabber:x:oob</name>
-    <doc>&jep0066;</doc>
+    <doc>&xep0066;</doc>
   </ns>
   <ns>
     <name>jabber:x:roster</name>
-    <doc>&jep0093;</doc>
+    <doc>&xep0093;</doc>
   </ns>
   <ns>
     <name>jabber:x:signed</name>
-    <doc>&jep0027;</doc>
+    <doc>&xep0027;</doc>
   </ns>
   <ns>
     <name>roster:delimiter</name>
-    <doc>&jep0083;</doc>
+    <doc>&xep0083;</doc>
   </ns>
   <ns>
     <name>urn:ietf:params:xml:ns:xmpp-bind</name>
@@ -438,10 +438,10 @@
   </ns>
   <ns>
     <name>vcard-temp</name>
-    <doc>&jep0054;</doc>
+    <doc>&xep0054;</doc>
   </ns>
   <ns>
     <name>vcard-temp:x:update</name>
-    <doc>&jep0153;</doc>
+    <doc>&xep0153;</doc>
   </ns>
 </registry>
