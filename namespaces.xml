@@ -6,9 +6,9 @@
 <?xml-stylesheet type='text/xsl' href='ns.xsl'?>
 <registry>
   <meta>
-    <title>Jabber Protocol Namespaces</title>
+    <title>Jabber/XMPP Protocol Namespaces</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of Jabber protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.jabber.org/xeps/'>Jabber Enhancement Proposals</link> that have advanced to a status of Active, Draft, or Final. Other namespaces may be in use within the Jabber community, but are not added to this page until the relevant document meets the above criteria.</overview>
+    <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the IETF's <link url='http://www.xmpp.org/specs/'>XMPP RFCs</link> or in JSF <link url='http://www.xmpp.org/xeps/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
       <version>0.21</version>
       <date>2006-09-20</date>

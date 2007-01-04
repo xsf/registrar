@@ -15,7 +15,7 @@
         <xsl:apply-templates select='/registry/meta/overview'/>
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
-        <p>XML: <a href='http://jabber.org/registrar/xdv-prefixes.xml'>http://jabber.org/registrar/xdv-prefixes.xml</a></p>
+        <p>XML: <a href='http://xmpp.org/registrar/xdv-prefixes.xml'>http://xmpp.org/registrar/xdv-prefixes.xml</a></p>
         <p><hr /></p>
         <table border='1' cellpadding='3' cellspacing='0'>
           <tr class='tablebody'>

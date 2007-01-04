@@ -41,13 +41,13 @@
   <desc>Forms used for administration of servers and components.</desc>
   <field var='accountjid'
          type='jid-multi'
-         label='The Jabber ID of one or more entities to which an operation applies'/>
+         label='The JID of one or more entities to which an operation applies'/>
   <field var='accountjids'
          type='jid-single'
-         label='The Jabber ID of a single entity to which an operation applies'/>
+         label='The JID of a single entity to which an operation applies'/>
   <field var='activeuserjids'
          type='jid-multi'
-         label='The Jabber IDs associated with active sessions'/>
+         label='The JIDs associated with active sessions'/>
   <field var='adminjids'
          type='jid-multi'
          label='A list of entities with administrative privileges'/>

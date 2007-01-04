@@ -296,7 +296,7 @@
   </category>
   <category>
     <name>directory</name>
-    <desc>The "directory" category consists of information retrieval services that enable users to search online directories or otherwise be informed about the existence of other Jabber entities.</desc>
+    <desc>The "directory" category consists of information retrieval services that enable users to search online directories or otherwise be informed about the existence of other XMPP entities.</desc>
     <type>
       <name>chatroom</name>
       <desc>A directory of chatrooms</desc>
@@ -320,7 +320,7 @@
   </category>
   <category>
     <name>gateway</name>
-    <desc>The "gateway" category consists of translators between Jabber/XMPP services and non-Jabber services.</desc>
+    <desc>The "gateway" category consists of translators between Jabber/XMPP services and non-XMPP services.</desc>
     <type>
       <name>aim</name>
       <desc>Gateway to AOL Instant Messenger</desc>
@@ -407,7 +407,7 @@
   </category>
   <category>
     <name>proxy</name>
-    <desc>The "proxy" category consists of servers or services that act as special-purpose proxies or intermediaries between two or more Jabber endpoints.</desc>
+    <desc>The "proxy" category consists of servers or services that act as special-purpose proxies or intermediaries between two or more XMPP endpoints.</desc>
     <type>
       <name>bytestreams</name>
       <desc>SOCKS5 bytestreams proxy service</desc>

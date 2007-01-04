@@ -8,7 +8,7 @@
   <meta>
     <title>Data Forms Validation Datatypes</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of datatypes for use in the context of &xep0122;, as maintained by the &REGISTRAR;. This registry contains datatypes specified in XEP-0122 as well as datatypes submitted directly to the Jabber Registrar.</overview>
+    <overview>This is the official registry of datatypes for use in the context of &xep0122;, as maintained by the &REGISTRAR;. This registry contains datatypes specified in XEP-0122 as well as datatypes submitted directly to the XMPP Registrar.</overview>
     <revision>
       <version>0.2</version>
       <date>2005-08-26</date>

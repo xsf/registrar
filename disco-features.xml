@@ -8,7 +8,7 @@
   <meta>
     <title>Service Discovery Features</title>
     &LEGALNOTICE;
-    <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.jabber.org/registrar/namespaces.html'>http://www.jabber.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
+    <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
       <version>0.10</version>
       <date>2006-07-05</date>

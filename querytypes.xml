@@ -110,7 +110,7 @@
   <keys>
     <key>
       <name>jid</name>
-      <desc>the Jabber ID of the invitee</desc>
+      <desc>the JID of the invitee</desc>
     </key>
   </keys>
 </querytype>

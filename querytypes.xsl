@@ -15,7 +15,7 @@
         <xsl:apply-templates select='/registry/meta/overview'/>
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
-        <p>XML: <a href='http://jabber.org/registrar/querytypes.xml'>http://jabber.org/registrar/querytypes.xml</a></p>
+        <p>XML: <a href='http://xmpp.org/registrar/querytypes.xml'>http://xmpp.org/registrar/querytypes.xml</a></p>
         <p><hr /></p>
         <xsl:call-template name='processTOC' />
         <p><hr /></p>
