@@ -61,8 +61,8 @@ if (version == "0.1"):
 
 # SEND MAIL:
 #
-# From: registrar@jabber.org
-# To: standards-jig@jabber.org
+# From: registrar@xmpp.org
+# To: standards@xmpp.org
 # Subject: UPDATED REGISTRY: $title
 # [or "NEW REGISTRY:" if version 0.1]
 # Body:
@@ -71,11 +71,11 @@ if (version == "0.1"):
 #    Changelog: $remark ($initials)
 #    URL: http://www.xmpp.org/registrar/$regname.html
 
-fromaddr = "registrar@jabber.org"
+fromaddr = "registrar@xmpp.org"
 # for testing...
 # toaddrs = "stpeter@jabber.org"
 # for real...
-toaddrs = "standards-jig@jabber.org"
+toaddrs = "standards@xmpp.org"
 
 if regflag == "new":
     thesubject = 'NEW REGISTRY: '

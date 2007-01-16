@@ -27,5 +27,5 @@
 <tr class='tablebody'><td>Stream Initiation Profiles</td><td><a href='si-profiles.html'>HTML</a></td><td><a href='si-profiles.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>XMPP URI/IRI Querytypes</td><td><a href='querytypes.html'>HTML</a></td><td><a href='querytypes.xml'>XML</a></td></tr>
 </table>
-<p>The functions of the XMPP Registrar are managed by the <a href="/extensions/editor.shtml">XMPP Extensions Editor</a>. Changes to the registries are announced on the <a href="http://mail.jabber.org/mailman/listinfo/standards-jig/">Standards mailing list</a>.</p>
+<p>The functions of the XMPP Registrar are managed by the <a href="/extensions/editor.shtml">XMPP Extensions Editor</a>. Changes to the registries are announced on the <a href="http://mail.jabber.org/mailman/listinfo/standards/">Standards mailing list</a>.</p>
 <!--#include virtual="/includes/foot.txt" -->
