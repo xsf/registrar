@@ -443,6 +443,10 @@
     <doc>&xmppcore;</doc>
   </ns>
   <ns>
+    <name>urn:xmpp:chatneg</name>
+    <doc>&xep0155;</doc>
+  </ns>
+  <ns>
     <name>vcard-temp</name>
     <doc>&xep0054;</doc>
   </ns>
