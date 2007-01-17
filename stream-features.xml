@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of XML stream features as maintained by the &REGISTRAR;. This registry contains only stream features that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other stream features may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.4</version>
+      <date>2007-01-17</date>
+      <initials>psa</initials>
+      <remark>Added dialback.</remark>
+    </revision>
+    <revision>
       <version>0.3</version>
       <date>2005-06-16</date>
       <initials>psa</initials>
@@ -83,5 +89,12 @@
     <element>starttls</element>
     <desc>Support for Transport Layer Security (TLS)</desc>
     <doc>&xmppcore;</doc>
+  </feature>
+  <feature>
+    <ns>urn:xmpp:features:dialback</ns>
+    <name>dialback</name>
+    <element>dialback</element>
+    <desc>Support for Server Dialback</desc>
+    <doc>XEP-0192 (rfc3920bis when published)</doc>
   </feature>
 </registry>
