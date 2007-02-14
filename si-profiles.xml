@@ -18,7 +18,7 @@
 </meta>
 <profile>
   <name>http://jabber.org/protocol/si/profile/file-transfer</name>
-  <doc>XEP-0096</doc>
+  <doc>&xep0096;</doc>
   <desc>File transfer profile</desc>
 </profile>
 </registry>
