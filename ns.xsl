@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- stylesheet for registered namespaces -->
 <xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0'>
-<xsl:output method='html'/>
+
+  <xsl:output doctype-public='-//W3C//DTD XHTML 1.0 Transitional//EN' doctype-system='http://www.w3.org/TR/xhtml1/DTD/xhtml1-loose.dtd' method='xml'/>
 
   <xsl:template match='/'>
     <html>
@@ -16,7 +17,7 @@
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
         <p>XML: <a href='http://xmpp.org/registrar/namespaces.xml'>http://xmpp.org/registrar/namespaces.xml</a></p>
-        <p><hr /></p>
+        <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
           <tr class='tablebody'>
             <th>Namespace</th>
@@ -24,12 +25,12 @@
           </tr>
           <xsl:apply-templates select='/registry/ns'/>
         </table>
-        <p><hr /></p>
+        <hr />
         <h2>Revision History</h2>
           <blockquote>
             <xsl:apply-templates select='/registry/meta/revision'/>
           </blockquote>
-        <p><hr /></p>
+        <hr />
       </body>
     </html>
   </xsl:template>

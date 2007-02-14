@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- stylesheet for Advanced Message Processing rule actions registry -->
 <xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0'>
-<xsl:output method='html'/>
+
+  <xsl:output doctype-public='-//W3C//DTD XHTML 1.0 Transitional//EN' doctype-system='http://www.w3.org/TR/xhtml1/DTD/xhtml1-loose.dtd' method='xml'/>
 
   <xsl:template match='/'>
     <html>
@@ -16,25 +17,25 @@
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
         <p>XML: <a href='http://xmpp.org/registrar/amp-actions.xml'>http://xmpp.org/registrar/amp-actions.xml</a></p>
-        <p><hr /></p>
+        <hr />
         <xsl:call-template name='processTOC' />
-        <p><hr /></p>
+        <hr />
         <xsl:apply-templates select='/registry/action'/>
-        <p><hr /></p>
+        <hr />
         <h2>Revision History</h2>
           <blockquote>
             <xsl:apply-templates select='/registry/meta/revision'/>
           </blockquote>
-        <p><hr /></p>
+        <hr />
       </body>
     </html>
   </xsl:template>
 
   <xsl:template name='processTOC'>
     <h4>Table of Contents</h4>
-    <dl>
+    <p>
       <xsl:apply-templates select='//action' mode='toc'/>
-    </dl>
+    </p>
   </xsl:template>
       
   <xsl:template match='overview'>
@@ -48,8 +49,7 @@
     <xsl:variable name='num'>
       <xsl:number level='multiple' count='action'/><xsl:text>. </xsl:text>
     </xsl:variable>
-    <dt><xsl:value-of select='$num'/>
-      <a href='#{$thisname}'><xsl:value-of select='name' /></a></dt>
+    <br /><xsl:value-of select='$num'/> <a href='#{$thisname}'><xsl:value-of select='name' /></a>
   </xsl:template>
 
   <xsl:template match='action'>
