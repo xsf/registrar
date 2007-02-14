@@ -24,7 +24,7 @@
             <th>Description</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/profil'/>
+          <xsl:apply-templates select='/registry/profile'/>
         </table>
         <hr />
         <h2>Revision History</h2>
