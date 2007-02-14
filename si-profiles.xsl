@@ -18,9 +18,14 @@
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
         <p>XML: <a href='http://xmpp.org/registrar/si-profiles.xml'>http://xmpp.org/registrar/si-profiles.xml</a></p>
         <hr />
-        <xsl:call-template name='processTOC' />
-        <hr />
-        <xsl:apply-templates select='/registry/profile'/>
+        <table border='1' cellpadding='3' cellspacing='0'>
+          <tr class='tablebody'>
+            <th>Namespace</th>
+            <th>Description</th>
+            <th>Documentation</th>
+          </tr>
+          <xsl:apply-templates select='/registry/profil'/>
+        </table>
         <hr />
         <h2>Revision History</h2>
           <blockquote>
@@ -31,39 +36,20 @@
     </html>
   </xsl:template>
 
-  <xsl:template name='processTOC'>
-    <h4>Table of Contents</h4>
-    <p>
-      <xsl:apply-templates select='//profile' mode='toc'/>
-    </p>
+  <xsl:template match='profile'>
+    <tr class='tablebody'>
+      <td><xsl:value-of select='name'/></td>
+      <td><xsl:value-of select='desc'/></td>
+      <xsl:apply-templates select='doc'/>
+    </tr>
   </xsl:template>
-      
+
   <xsl:template match='overview'>
       <p><xsl:apply-templates/></p>
   </xsl:template>
 
-  <xsl:template match='profile' mode='toc'>
-    <xsl:variable name='thisname'>
-      <xsl:value-of select='name'/>
-    </xsl:variable>
-    <xsl:variable name='num'>
-      <xsl:number level='multiple' count='profile'/><xsl:text>. </xsl:text>
-    </xsl:variable>
-    <br /><xsl:value-of select='$num'/> <a href='#{$thisname}'><xsl:value-of select='name' /></a>
-  </xsl:template>
-
-  <xsl:template match='profile'>
-    <a>
-      <xsl:attribute name='name'>
-        <xsl:value-of select='name'/>
-      </xsl:attribute>
-    </a>
-    <xsl:variable name='num'>
-      <xsl:number level='multiple' count='profile'/><xsl:text>. </xsl:text>
-    </xsl:variable>
-    <h3><xsl:value-of select='$num'/><xsl:value-of select='name'/></h3>
-    <p><xsl:value-of select='desc'/></p>
-    <p>Defined in <xsl:value-of select='doc'/>.</p>
+  <xsl:template match='doc'>
+      <td><xsl:apply-templates/></td>
   </xsl:template>
 
   <xsl:template match='revision'>
