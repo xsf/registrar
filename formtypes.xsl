@@ -44,7 +44,7 @@
 
   <xsl:template match='form_type' mode='toc'>
     <xsl:variable name='thisname'>
-      <xsl:value-of select='name'/>
+      <xsl:value-of select="translate(name,'/#','-')"/>
     </xsl:variable>
     <xsl:variable name='num'>
       <xsl:number level='multiple' count='form_type'/><xsl:text>. </xsl:text>
@@ -55,7 +55,7 @@
   <xsl:template match='form_type'>
     <a>
       <xsl:attribute name='name'>
-        <xsl:value-of select='name'/>
+        <xsl:value-of select="translate(name,'/#','-')"/>
       </xsl:attribute>
     </a>
     <xsl:variable name='num'>
