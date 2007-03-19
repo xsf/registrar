@@ -744,8 +744,8 @@
     <doc>&xmppcore;</doc>
   </var>
   <var>
-    <name>urn:xmpp:chatneg</name>
-    <desc>Support for Chat Session Negotiation and its FORM_TYPE</desc>
+    <name>urn:xmpp:ssn</name>
+    <desc>Support for Session Session Negotiation and its FORM_TYPE</desc>
     <doc>&xep0155;</doc>
   </var>
   <var>

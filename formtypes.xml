@@ -649,9 +649,9 @@
       label='Email Address'/>
 </form_type>
 <!-- end FORM_TYPEs for Jabber Search (XEP-0055) -->
-<!-- begin FORM_TYPEs for Chat Session Negotiation (XEP-0155) -->
+<!-- begin FORM_TYPEs for Stanza Session Negotiation (XEP-0155) -->
 <form_type>
-  <name>urn:xmpp:chatneg</name>
+  <name>urn:xmpp:ssn</name>
   <doc>XEP-0155</doc>
   <desc>
     Forms enabling negotation of a one-to-one
@@ -747,5 +747,5 @@
       type='boolean'
       label='Whether to terminate the session'/>
 </form_type>
-<!-- end FORM_TYPEs for Chat Session Negotiation (XEP-0155) -->
+<!-- end FORM_TYPEs for Stanza Session Negotiation (XEP-0155) -->
 </registry>
