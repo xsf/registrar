@@ -551,8 +551,8 @@
   </var>
   <var>
     <name>jabber:iq:time</name>
-    <desc>DEPRECATED; see XEP-0090</desc>
-    <doc>&xep0090;</doc>
+    <desc>DEPRECATED</desc>
+    <doc>&xep0202;</doc>
   </var>
   <var>
     <name>jabber:iq:version</name>
