@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
+      <version>0.13</version>
+      <date>2007-03-29</date>
+      <initials>psa</initials>
+      <remark>Added delayed delivery from XEP-0203.</remark>
+    </revision>
+    <revision>
       <version>0.12</version>
       <date>2007-03-28</date>
       <initials>psa</initials>
@@ -571,8 +577,8 @@
   </var>
   <var>
     <name>jabber:x:delay</name>
-    <desc>See XEP-0091</desc>
-    <doc>&xep0091;</doc>
+    <desc>DEPRECATED</desc>
+    <doc>&xep0203;</doc>
   </var>
   <var>
     <name>jabber:x:encrypted</name>
@@ -748,6 +754,11 @@
     <name>urn:ietf:params:xml:ns:xmpp-tls#s2s</name>
     <desc>Application supports server-to-server TLS.</desc>
     <doc>&xmppcore;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:delay</name>
+    <desc>See XEP-0203</desc>
+    <doc>&xep0203;</doc>
   </var>
   <var>
     <name>urn:xmpp:ssn</name>
