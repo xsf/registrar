@@ -18,10 +18,10 @@
 <tr class='tablebody'><td>Data Forms Validation Datatype Prefixes</td><td><a href='xdv-prefixes.html'>HTML</a></td><td><a href='xdv-prefixes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>FORM_TYPEs and Fields for Data Forms</td><td><a href='formtypes.html'>HTML</a></td><td><a href='formtypes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Multi-User Chat Status Codes</td><td><a href='mucstatus.html'>HTML</a></td><td><a href='mucstatus.xml'>XML</a></td></tr>
+<tr class='tablebody'><td>Nodes for Service Discovery and Publish-Subscribe</td><td><a href='nodes.html'>HTML</a></td><td><a href='nodes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Protocol Namespaces</td><td><a href='namespaces.html'>HTML</a></td><td><a href='namespaces.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Service Discovery Features</td><td><a href='disco-features.html'>HTML</a></td><td><a href='disco-features.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Service Discovery Identities</td><td><a href='disco-categories.html'>HTML</a></td><td><a href='disco-categories.xml'>XML</a></td></tr>
-<tr class='tablebody'><td>Service Discovery Nodes</td><td><a href='disco-nodes.html'>HTML</a></td><td><a href='disco-nodes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>SHIM Headers</td><td><a href='shim.html'>HTML</a></td><td><a href='shim.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Stream Compression Methods</td><td><a href='compress.html'>HTML</a></td><td><a href='compress.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Stream Features</td><td><a href='stream-features.html'>HTML</a></td><td><a href='stream-features.xml'>XML</a></td></tr>

@@ -4,7 +4,7 @@
 <xsl:output method='xml' indent='yes'/>
 
   <xsl:template match='/'>
-    <registry type='disco-nodes'>
+    <registry type='nodes'>
       <xsl:apply-templates select='/registry/node'/>
     </registry>
   </xsl:template>

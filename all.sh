@@ -20,8 +20,8 @@ xsltproc categories-xml.xsl disco-categories.xml > $regpath/disco-categories.xml
 xsltproc categories.xsl disco-categories.xml > $regpath/disco-categories.html
 xsltproc vars-xml.xsl disco-features.xml > $regpath/disco-features.xml
 xsltproc vars.xsl disco-features.xml > $regpath/disco-features.html
-xsltproc nodes-xml.xsl disco-nodes.xml > $regpath/disco-nodes.xml
-xsltproc nodes.xsl disco-nodes.xml > $regpath/disco-nodes.html
+xsltproc nodes-xml.xsl nodes.xml > $regpath/nodes.xml
+xsltproc nodes.xsl nodes.xml > $regpath/nodes.html
 # XEP-0045
 xsltproc mucstatus-xml.xsl mucstatus.xml > $regpath/mucstatus.xml
 xsltproc mucstatus.xsl mucstatus.xml > $regpath/mucstatus.html

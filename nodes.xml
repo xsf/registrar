@@ -6,9 +6,9 @@
 <?xml-stylesheet type='text/xsl' href='nodes.xsl'?>
 <registry>
   <meta>
-    <title>Well-Known Service Discovery Nodes</title>
+    <title>Nodes for Service Discovery and Publish-Subscribe</title>
     &LEGALNOTICE;
-    <overview>This is the official registry of well-known service discovery nodes (see &xep0030;), as registered with the &REGISTRAR;.</overview>
+    <overview>This is the official registry of well-known nodes for service discovery (see &xep0030;) and publish-subscribe (see &xep0060;), as registered with the &REGISTRAR;.</overview>
     <revision>
       <version>0.2</version>
       <date>2004-10-11</date>
