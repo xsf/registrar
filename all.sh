@@ -51,8 +51,8 @@ xsltproc compress.xsl compress.xml > $regpath/compress.html
 xsltproc querytypes-xml.xsl querytypes.xml > $regpath/querytypes.xml
 xsltproc querytypes.xsl querytypes.xml > $regpath/querytypes.html
 # XEP-0156
-xsltproc altconn-xml.xsl altconn.xml > $regpath/alt-connections.xml
-xsltproc altconn.xsl altconn.xml > $regpath/alt-connections.html
+xsltproc altconn-xml.xsl alt-connections.xml > $regpath/alt-connections.xml
+xsltproc altconn.xsl alt-connections.xml > $regpath/alt-connections.html
 # XEP-0174
 xsltproc linklocal-xml.xsl linklocal.xml > $regpath/linklocal.xml
 xsltproc linklocal.xsl linklocal.xml > $regpath/linklocal.html
