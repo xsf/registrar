@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.27</version>
+      <date>2007-06-12</date>
+      <initials>psa</initials>
+      <remark>Added urn:xmpp:ping (XEP-0199).</remark>
+    </revision>
+    <revision>
       <version>0.26</version>
       <date>2007-03-29</date>
       <initials>psa</initials>
