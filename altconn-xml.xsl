@@ -5,17 +5,17 @@
 
   <xsl:template match='/'>
     <registry type='alt-connections'>
-      <xsl:apply-templates select='/registry/altoconn'/>
+      <xsl:apply-templates select='/registry/method'/>
     </registry>
   </xsl:template>
 
-  <xsl:template match='ns'>
-    <ns>
+  <xsl:template match='method'>
+    <method>
       <name><xsl:value-of select='name'/></name>
-      <name><xsl:value-of select='desc'/></name>
-      <name><xsl:value-of select='syntax'/></name>
+      <desc><xsl:value-of select='desc'/></desc>
+      <syntax><xsl:value-of select='syntax'/></syntax>
       <doc><xsl:value-of select='doc'/></doc>
-    </ns>
+    </method>
   </xsl:template>
 
 </xsl:stylesheet>
