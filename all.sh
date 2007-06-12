@@ -53,6 +53,9 @@ xsltproc querytypes.xsl querytypes.xml > $regpath/querytypes.html
 # XEP-0156
 xsltproc altconn-xml.xsl altconn.xml > $regpath/alt-connections.xml
 xsltproc altconn.xsl altconn.xml > $regpath/alt-connections.html
+# XEP-0174
+xsltproc linklocal-xml.xsl linklocal.xml > $regpath/linklocal.xml
+xsltproc linklocal.xsl linklocal.xml > $regpath/linklocal.html
 # XEP-0182
 xsltproc errors-xml.xsl errors.xml > $regpath/errors.xml
 xsltproc errors.xsl errors.xml > $regpath/errors.html

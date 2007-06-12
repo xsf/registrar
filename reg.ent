@@ -58,6 +58,7 @@
 <!ENTITY xep0156 "<link url='http://www.xmpp.org/extensions/xep-0156.html'>XEP-0156: Discovering Alternative XMPP Connection Methods</link>" >
 <!ENTITY xep0163 "<link url='http://www.xmpp.org/extensions/xep-0163.html'>XEP-0163: Personal Eventing via Publish-Subscribe</link>" >
 <!ENTITY xep0172 "<link url='http://www.xmpp.org/extensions/xep-0172.html'>XEP-0172: User Nickname</link>" >
+<!ENTITY xep0174 "<link url='http://www.xmpp.org/extensions/xep-0174.html'>XEP-0174: Link-Local Messaging</link>" >
 <!ENTITY xep0192 "<link url='http://www.xmpp.org/extensions/xep-0192.html'>XEP-0192: Proposed Stream Feature Improvements</link>" >
 <!ENTITY xep0199 "<link url='http://www.xmpp.org/extensions/xep-0199.html'>XEP-0199: XMPP Ping</link>" >
 <!ENTITY xep0202 "<link url='http://www.xmpp.org/extensions/xep-0202.html'>XEP-0202: Entity Time</link>" >

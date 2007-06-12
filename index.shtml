@@ -18,6 +18,7 @@
 <tr class='tablebody'><td>Data Forms Validation Datatypes</td><td><a href='xdv-datatypes.html'>HTML</a></td><td><a href='xdv-datatypes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Data Forms Validation Datatype Prefixes</td><td><a href='xdv-prefixes.html'>HTML</a></td><td><a href='xdv-prefixes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>FORM_TYPEs and Fields for Data Forms</td><td><a href='formtypes.html'>HTML</a></td><td><a href='formtypes.xml'>XML</a></td></tr>
+<tr class='tablebody'><td>Link-Local Messaging TXT Records</td><td><a href='linklocal.html'>HTML</a></td><td><a href='linklocal.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Multi-User Chat Status Codes</td><td><a href='mucstatus.html'>HTML</a></td><td><a href='mucstatus.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Nodes for Service Discovery and Publish-Subscribe</td><td><a href='nodes.html'>HTML</a></td><td><a href='nodes.xml'>XML</a></td></tr>
 <tr class='tablebody'><td>Protocol Namespaces</td><td><a href='namespaces.html'>HTML</a></td><td><a href='namespaces.xml'>XML</a></td></tr>
