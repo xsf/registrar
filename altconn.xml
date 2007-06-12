@@ -7,9 +7,9 @@
 <registry>
 
 <meta>
-  <title>Alternative Connection Methods</title>
+  <title>Alternative XMPP Connection Methods</title>
   &LEGALNOTICE;
-  <overview>This is the official registry of Alternative Connection Methods as maintained by the &REGISTRAR; and authorized by &xep0156;.</overview>
+  <overview>This is the official registry of Alternative XMPP Connection Methods as maintained by the &REGISTRAR; and authorized by &xep0156;.</overview>
   <revision>
     <version>0.1</version>
     <date>2007-06-12</date>
