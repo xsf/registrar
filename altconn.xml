@@ -22,14 +22,14 @@
   <name>_xmpp-client-httppoll</name>
   <desc>HTTP Polling connection method</desc>
   <syntax>The http: or https: URL at which to contact the HTTP Polling connection manager or proxy</syntax>
-  <doc>XEP-0025</doc>
+  <doc>&xep0025;</doc>
 </method>
 
 <method>
   <name>_xmpp-client-xbosh</name>
   <desc>XMPP Over Bosh connection method</desc>
   <syntax>The http: or https: URL at which to contact the HTTP Binding connection manager or proxy</syntax>
-  <doc>XEP-0206</doc>
+  <doc>&xep0206;</doc>
 </method>
 
 </registry>
