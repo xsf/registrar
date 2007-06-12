@@ -55,6 +55,7 @@
 <!ENTITY xep0141 "<link url='http://www.xmpp.org/extensions/xep-0141.html'>XEP-0141: Data Forms Layout</link>" >
 <!ENTITY xep0144 "<link url='http://www.xmpp.org/extensions/xep-0144.html'>XEP-0144: Roster Item Exchange</link>" >
 <!ENTITY xep0155 "<link url='http://www.xmpp.org/extensions/xep-0155.html'>XEP-0155: Stanza Session Negotiation</link>" >
+<!ENTITY xep0156 "<link url='http://www.xmpp.org/extensions/xep-0156.html'>XEP-0156: Discovering Alternative XMPP Connection Methods</link>" >
 <!ENTITY xep0163 "<link url='http://www.xmpp.org/extensions/xep-0163.html'>XEP-0163: Personal Eventing via Publish-Subscribe</link>" >
 <!ENTITY xep0172 "<link url='http://www.xmpp.org/extensions/xep-0172.html'>XEP-0172: User Nickname</link>" >
 <!ENTITY xep0192 "<link url='http://www.xmpp.org/extensions/xep-0192.html'>XEP-0192: Proposed Stream Feature Improvements</link>" >
