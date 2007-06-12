@@ -48,6 +48,16 @@
       <p><xsl:apply-templates/></p>
   </xsl:template>
 
+  <xsl:template match='doc'>
+      <td><xsl:apply-templates/></td>
+  </xsl:template>
+
+  <xsl:template match='link'>
+    <a href='{@url}'>
+    <xsl:apply-templates/>
+    </a>
+  </xsl:template>
+
   <xsl:template match='revision'>
     <p><strong><xsl:value-of select='date'/></strong><xsl:text> </xsl:text><xsl:value-of select='remark'/><xsl:text> </xsl:text>(<xsl:value-of select='initials'/>)</p>
   </xsl:template>

@@ -13,7 +13,7 @@
     <ns>
       <name><xsl:value-of select='name'/></name>
       <desc><xsl:value-of select='desc'/></desc>
-      <desc><xsl:value-of select='status'/></status>
+      <status><xsl:value-of select='status'/></status>
     </ns>
   </xsl:template>
 
