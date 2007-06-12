@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE registry SYSTEM 'linklocal.dtd' [
+  <!ENTITY % ents SYSTEM 'reg.ent'>
+%ents;
+]>
+<?xml-stylesheet type='text/xsl' href='linklocal.xsl'?>
+<registry>
+
+<meta>
+  <title>Link-Local Messaging TXT Records</title>
+  &LEGALNOTICE;
+  <overview>This is the official registry of Link-Local Messaging TXT Records as maintained by the &REGISTRAR; and authorized by &xep0174;.</overview>
+  <revision>
+    <version>0.1</version>
+    <date>2007-06-12</date>
+    <initials>psa</initials>
+    <remark>Initial version (populated from XEP-0174, version 1.0).</remark>
+  </revision>
+</meta>
+
+<record>
+  <name>1st</name>
+  <desc>The given or first name of the user.</desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>email</name>
+  <desc>
+    The email address of the user; may contain a space-separated list 
+    of more than one email address.
+  </desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>ext</name>
+  <desc>
+    A space-separated list of extensions; the value of this record MUST 
+    be the same as that provided via normal XMPP presence (if applicable) 
+    in the 'ext' attribute specified in XEP-0115; for details, refer to 
+    the Discovering Capabilities section of XEP-0174.
+  </desc>
+  <status>recommended</status>
+</record>
+
+<record>
+  <name>jid</name>
+  <desc>
+    The Jabber ID of the user; may contain a space-separated list of 
+    more than one JID.
+  </desc>
+  <status>recommended</status>
+</record>
+
+<record>
+  <name>last</name>
+  <desc>The family or last name of the user.</desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>msg</name>
+  <desc>
+    Natural-language text describing the user's state. This is 
+    equivalent to the XMPP &lt;status/&gt;; element.
+  </desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>nick</name>
+  <desc>A friendly or informal name for the user.</desc>
+  <status>recommended</status>
+</record>
+
+<record>
+  <name>node</name>
+  <desc>
+    A unique identifier for the application; the value of this record MUST 
+    be the same as that provided via normal XMPP presence (if applicable) 
+    in the 'node' attribute specified in XEP-0115; for details, refer to 
+    the Discovering Capabilities section of XEP-0174.
+  </desc>
+  <status>recommended</status>
+</record>
+
+<record>
+  <name>phsh</name>
+  <desc>
+    The SHA-1 hash of the user's avatar icon or photo. This SHOULD be 
+    requested using mDNS in unicast mode by sending a DNS query to the 
+    mDNS multicast address (224.0.0.251 or its IPv6 equivalent FF02::FB).
+    The client should keep a local cache of icons keyed by hash. If the 
+    phsh value is not in the cache, the client should fetch the unknown 
+    icon and then cache it. Implementations should also include logic for 
+    expiring avatar icons.
+  </desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>port.p2pj</name>
+  <desc>
+    The port for link-local communications. This MUST be the same as the
+    value provided for SRV lookups. Clients MUST use the port discovered 
+    via SRV lookups and MUST ignore the value of this TXT record. However, 
+    clients SHOULD advertise this TXT record if it is important to ensure
+    backwards-compatibility with some existing implementations. (Note: In
+    some existing implementations this value was hardcoded to "5298".)
+  </desc>
+  <status>deprecated</status>
+</record>
+
+<record>
+  <name>status</name>
+  <desc>
+    The presence availability of the user. Allowable values are "avail", "away", 
+    and "dnd", which map to mere XMPP presence (the user is available) and the 
+    XMPP &lt;show/&gt; values of "away" and "dnd", respectively; if the status
+    record is not included, the status should be assumed to be "avail".
+  </desc>
+  <status>recommended</status>
+</record>
+
+<record>
+  <name>txtvers</name>
+  <desc>
+    The version of the TXT records supported by the client. For backwards 
+    compatibility this is hardcoded at "1".
+  </desc>
+  <status>deprecated</status>
+</record>
+
+<record>
+  <name>vc</name>
+  <desc>
+    A flag advertising the user's ability to engage in audio or video 
+    conferencing. If the user is able to engage in audio conferencing, 
+    the string MUST include the "A" character. If the user is able to 
+    engage in video conferencing, the string MUST include the "V" 
+    character. If the user is able to engage in conferencing with more 
+    than one participant, the string MUST include the "C" character. If 
+    the user is not currently engaged in an audio or video conference, 
+    the string MUST include the "!" character. The order of characters 
+    in the string is immaterial. NOTE: This flag is included only for
+    backwards-compatibility; implementations SHOULD use the node, ver, 
+    and ext records for more robust capabilities discovery as described 
+    in the Discovering Capabilities section of XEP-0174.
+  </desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>ver</name>
+  <desc>
+    The application version; the value of this record MUST be the same as that 
+    provided via normal XMPP presence (if applicable) in the 'ver' attribute 
+    specified in XEP-0115; for details, refer to the Discovering Capabilities 
+    section of XEP-0174.
+  </desc>
+  <status>recommended</status>
+</record>
+
+</registry>
