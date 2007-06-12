@@ -481,6 +481,10 @@
     <doc>&xep0203;</doc>
   </ns>
   <ns>
+    <name>urn:xmpp:ping</name>
+    <doc>&xep0199;</doc>
+  </ns>
+  <ns>
     <name>urn:xmpp:ssn</name>
     <doc>&xep0155;</doc>
   </ns>
