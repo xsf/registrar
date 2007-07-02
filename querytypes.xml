@@ -180,13 +180,6 @@
 </querytype>
 
 <querytype>
-  <name>probe</name>
-  <proto>jabber:client</proto>
-  <desc>enables probing for a contact's current presence information</desc>
-  <doc>XEP-0147</doc>
-</querytype>
-
-<querytype>
   <name>pubsub</name>
   <proto>http://jabber.org/protocol/pubsub</proto>
   <desc>enables interaction with a publish-subscribe service</desc>
