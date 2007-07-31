@@ -49,7 +49,7 @@
 <!-- begin FORM_TYPEs for extended server information (XEP-0128 / XEP-0157) -->
 <form_type>
   <name>http://jabber.org/network/serverinfo</name>
-  <doc>XEP-0157</doc>
+  <doc>&xep0157;</doc>
   <desc>
     Forms enabling the communication of contact addresses
     and other server information.
@@ -79,7 +79,7 @@
 <!-- begin FORM_TYPEs for Service Administration (XEP-0133) -->
 <form_type>
   <name>http://jabber.org/protocol/admin</name>
-  <doc>XEP-0133</doc>
+  <doc>&xep0133;</doc>
   <desc>Forms used for administration of servers and components.</desc>
   <field var='accountjid'
          type='jid-multi'
@@ -137,7 +137,7 @@
 <!-- begin FORM_TYPEs for Multi-User Chat (XEP-0045) -->
 <form_type>
   <name>http://jabber.org/protocol/muc#register</name>
-  <doc>XEP-0045</doc>
+  <doc>&xep0045;</doc>
   <desc>
     Forms enabling user registration with a
     Multi-User Chat (MUC) room.
@@ -169,7 +169,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/muc#roomconfig</name>
-  <doc>XEP-0045</doc>
+  <doc>&xep0045;</doc>
   <desc>
     Forms enabling creation and configuration of
     a Multi-User Chat (MUC) room.
@@ -247,7 +247,7 @@
 <!-- begin FORM_TYPEs for Publish-Subscribe (XEP-0060) -->
 <form_type>
   <name>http://jabber.org/protocol/pubsub#subscribe_authorization</name>
-  <xep>XEP-0060</xep>
+  <doc>&xep0060;</doc>
   <desc>Forms enabling authorization of subscriptions to pubsub nodes</desc>
   <field
       var='pubsub#allow'
@@ -268,7 +268,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#subscribe_options</name>
-  <xep>XEP-0060</xep>
+  <doc>&xep0060;</doc>
   <desc>Forms enabling configuration of subscription options for pubsub nodes</desc>
   <field
       var='pubsub#deliver'
@@ -338,7 +338,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#node_config</name>
-  <xep>XEP-0060</xep>
+  <doc>&xep0060;</doc>
   <desc>Forms enabling configuration of pubsub nodes</desc>
   <field var='pubsub#access_model'
          type='list-single'
@@ -480,7 +480,7 @@
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#meta-data</name>
-  <xep>XEP-0060</xep>
+  <doc>&xep0060;</doc>
   <desc>Forms enabling setting of meta-data information about pubsub nodes</desc>
   <field var='pubsub#contact'
          type='jid-multi'
@@ -517,7 +517,7 @@
 <!-- begin FORM_TYPEs for Remote Controlling Clients (XEP-0145) -->
 <form_type>
   <name>http://jabber.org/protocol/rc</name>
-  <doc>XEP-0146</doc>
+  <doc>&xep0146;</doc>
   <desc>Forms used for remote controlling clients</desc>
   <field var='auto-auth'
          type='boolean'
@@ -576,7 +576,7 @@
 <!-- begin FORM_TYPEs for In-Band Registration (XEP-0077) -->
 <form_type>
   <name>jabber:iq:register</name>
-  <doc>XEP-0077</doc>
+  <doc>&xep0077;</doc>
   <desc>
     Standardization of fields related to in-band registration.
   </desc>
@@ -629,7 +629,7 @@
 <!-- begin FORM_TYPEs for Jabber Search (XEP-0055) -->
 <form_type>
   <name>jabber:iq:search</name>
-  <doc>XEP-0055</doc>
+  <doc>&xep0055;</doc>
   <desc>Forms enabling directory searches.</desc>
   <field
       var='first'
@@ -652,7 +652,7 @@
 <!-- begin FORM_TYPEs for Stanza Session Negotiation (XEP-0155) -->
 <form_type>
   <name>urn:xmpp:ssn</name>
-  <doc>XEP-0155</doc>
+  <doc>&xep0155;</doc>
   <desc>
     Forms enabling negotation of a one-to-one
     chat session between two entities.
