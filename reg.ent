@@ -73,9 +73,11 @@
 <!ENTITY xep0086 "<link url='http://www.xmpp.org/extensions/xep-0086.html'>XEP-0086: Error Condition Mappings</link>" >
 <!ENTITY xep0100 "<link url='http://www.xmpp.org/extensions/xep-0100.html'>XEP-0100: Gateway Interaction</link>" >
 <!ENTITY xep0126 "<link url='http://www.xmpp.org/extensions/xep-0126.html'>XEP-0126: Invisibility</link>" >
+<!ENTITY xep0133 "<link url='http://www.xmpp.org/extensions/xep-0133.html'>XEP-0133: Service Administration</link>" >
 <!ENTITY xep0146 "<link url='http://www.xmpp.org/extensions/xep-0146.html'>XEP-0146: Remote Controllling Clients</link>" >
 <!ENTITY xep0147 "<link url='http://www.xmpp.org/extensions/xep-0147.html'>XEP-0147: XMPP URI Scheme Query Components</link>" >
 <!ENTITY xep0149 "<link url='http://www.xmpp.org/extensions/xep-0149.html'>XEP-0149: Time Periods</link>" >
+<!ENTITY xep0157 "<link url='http://www.xmpp.org/extensions/xep-0157.html'>XEP-0157: Contact Addresses for XMPP Services</link>" >
 <!ENTITY xep0160 "<link url='http://www.xmpp.org/extensions/xep-0160.html'>XEP-0160: Best Practices for Handling Offline Messages</link>" >
 <!ENTITY xep0175 "<link url='http://www.xmpp.org/extensions/xep-0175.html'>XEP-0175: Best Practices for Use of SASL ANONYMOUS</link>" >
 <!ENTITY xep0182 "<link url='http://www.xmpp.org/extensions/xep-0182.html'>XEP-0182: Application-Specific Error Conditions</link>" >
