@@ -10,6 +10,12 @@
   &LEGALNOTICE;
   <overview>This is the official registry of FORM_TYPEs and associated fields used in the context of the 'jabber:x:data' namespace (see &xep0004; and &xep0068;), as registered with the &REGISTRAR;.</overview>
   <revision>
+    <version>0.7</version>
+    <date>2007-09-27</date>
+    <initials>psa</initials>
+    <remark>Added pubsub-options form type.</remark>
+  </revision>
+  <revision>
     <version>0.6</version>
     <date>2007-01-31</date>
     <initials>psa</initials>
@@ -284,6 +290,34 @@
 </form_type>
 <!-- end FORM_TYPEs for Multi-User Chat (XEP-0045) -->
 <!-- begin FORM_TYPEs for Publish-Subscribe (XEP-0060) -->
+<form_type>
+  <name>http://jabber.org/protocol/pubsub#publish-options</name>
+  <doc>XEP-0060</doc>
+  <desc>
+    Forms enabling publication with options; each field must specify whether it
+    defines METADATA to be attached to the item, a per-item OVERRIDE of the node 
+    configuration, or a PRECONDITION to be checked against the node configuration.
+  </desc>
+  <field var='pubsub#access_model'
+         type='list-single'
+         label='Precondition: node configuration with the specified access model'>
+    <option label='Access model of authorize'>
+      <value>authorize</value>
+    </option>
+    <option label='Access model of open'>
+      <value>open</value>
+    </option>
+    <option label='Access model of presence'>
+      <value>presence</value>
+    </option>
+    <option label='Access model of roster'>
+      <value>roster</value>
+    </option>
+    <option label='Access model of whitelist'>
+      <value>whitelist</value>
+    </option>
+  </field>
+</form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#subscribe_authorization</name>
   <doc>&xep0060;</doc>
@@ -785,6 +819,10 @@
       var='terminate'
       type='boolean'
       label='Whether to terminate the session'/>
+  <field
+      var='urn:xmpp:receipts'
+      type='boolean'
+      label='Whether to enable Message Receipts per XEP-0184'/>
 </form_type>
 <!-- end FORM_TYPEs for Stanza Session Negotiation (XEP-0155) -->
 </registry>
