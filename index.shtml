@@ -4,7 +4,7 @@
 <title>XMPP Registrar</title>
 <!--#include virtual='/includes/head.txt' -->
 <h2>XMPP Registrar</h2>
-<p style='font-style: italic'>Last Updated: 2007-09-26</p>
+<p style='font-style: italic'>Last Updated: 2007-11-07</p>
 <p>As authorized by <a href='/extensions/xep-0053.html'>XEP-0053</a>, the XMPP Registrar maintains registries of protocol namespaces and of various parameters that are used by the IETF's <a href='/'>Extensible Messaging and Presence Protocol</a> (XMPP) as well as by <a href='/extensions/'>XMPP extensions</a> published by the <a href='/xsf/'>XMPP Standards Foundation</a>. The following registries are available:</p>
 <table border='1' cellpadding='3' cellspacing='0'>
   <tr class='tablebody'>
