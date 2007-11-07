@@ -22,7 +22,7 @@
   <name>_xmpp-client-httppoll</name>
   <desc>HTTP Polling connection method</desc>
   <syntax>The http: or https: URL at which to contact the HTTP Polling connection manager or proxy</syntax>
-  <doc>&xep0025;</doc>
+  <doc>XEP-0025 (DEPRECATED)</doc>
 </method>
 
 <method>

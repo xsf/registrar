@@ -410,7 +410,7 @@
   </ns>
   <ns>
     <name>jabber:iq:time</name>
-    <doc>DEPRECATED (see &xep0201;)</doc>
+    <doc>DEPRECATED (see &xep0202;)</doc>
   </ns>
   <ns>
     <name>jabber:iq:version</name>

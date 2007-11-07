@@ -578,7 +578,7 @@
   <var>
     <name>jabber:iq:browse</name>
     <desc>See XEP-0011</desc>
-    <doc>&xep0011;</doc>
+    <doc>XEP-0011 (DEPRECATED)</doc>
   </var>
   <var>
     <name>jabber:iq:gateway</name>
@@ -598,7 +598,7 @@
   <var>
     <name>jabber:iq:pass</name>
     <desc>See XEP-0003</desc>
-    <doc>&xep0003;</doc>
+    <doc>XEP-0003 (DEPRECATED)</doc>
   </var>
   <var>
     <name>jabber:iq:privacy</name>
@@ -663,12 +663,12 @@
   <var>
     <name>jabber:x:event</name>
     <desc>See XEP-0022</desc>
-    <doc>&xep0022;</doc>
+    <doc>XEP-0022 (DEPRECATED)</doc>
   </var>
   <var>
     <name>jabber:x:expire</name>
     <desc>See XEP-0023</desc>
-    <doc>&xep0023;</doc>
+    <doc>XEP-0023 (DEPRECATED)</doc>
   </var>
   <var>
     <name>jabber:x:oob</name>
@@ -678,7 +678,7 @@
   <var>
     <name>jabber:x:roster</name>
     <desc>See XEP-0093</desc>
-    <doc>&xep0093;</doc>
+    <doc>XEP-0093 (DEPRECATED)</doc>
   </var>
   <var>
     <name>jabber:x:signed</name>
