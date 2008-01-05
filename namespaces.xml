@@ -365,10 +365,6 @@
     <doc>&xep0078;</doc>
   </ns>
   <ns>
-    <name>jabber:iq:browse</name>
-    <doc>XEP-0011 (DEPRECATED)</doc>
-  </ns>
-  <ns>
     <name>jabber:iq:gateway</name>
     <doc>&xep0100;</doc>
   </ns>
@@ -379,10 +375,6 @@
   <ns>
     <name>jabber:iq:oob</name>
     <doc>&xep0066;</doc>
-  </ns>
-  <ns>
-    <name>jabber:iq:pass</name>
-    <doc>XEP-0003 (DEPRECATED)</doc>
   </ns>
   <ns>
     <name>jabber:iq:privacy</name>
@@ -409,10 +401,6 @@
     <doc>&xep0055;</doc>
   </ns>
   <ns>
-    <name>jabber:iq:time</name>
-    <doc>DEPRECATED (see &xep0202;)</doc>
-  </ns>
-  <ns>
     <name>jabber:iq:version</name>
     <doc>&xep0092;</doc>
   </ns>
@@ -425,28 +413,12 @@
     <doc>&xep0004;</doc>
   </ns>
   <ns>
-    <name>jabber:x:delay</name>
-    <doc>DEPRECATED (see &xep0203;)</doc>
-  </ns>
-  <ns>
     <name>jabber:x:encrypted</name>
     <doc>&xep0027;</doc>
   </ns>
   <ns>
-    <name>jabber:x:event</name>
-    <doc>XEP-0022 (DEPRECATED)</doc>
-  </ns>
-  <ns>
-    <name>jabber:x:expire</name>
-    <doc>XEP-0023 (DEPRECATED)</doc>
-  </ns>
-  <ns>
     <name>jabber:x:oob</name>
     <doc>&xep0066;</doc>
-  </ns>
-  <ns>
-    <name>jabber:x:roster</name>
-    <doc>XEP-0093 (DEPRECATED)</doc>
   </ns>
   <ns>
     <name>jabber:x:signed</name>
@@ -491,10 +463,6 @@
   <ns>
     <name>urn:xmpp:avatar:metadata</name>
     <doc>&xep0084;</doc>
-  </ns>
-  <ns>
-    <name>urn:xmpp:chatneg</name>
-    <doc>DEPRECATED in favor of urn:xmpp:ssn</doc>
   </ns>
   <ns>
     <name>urn:xmpp:delay</name>
