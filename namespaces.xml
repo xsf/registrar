@@ -332,10 +332,6 @@
     <doc>&xep0130;</doc>
   </ns>
   <ns>
-    <name>http://jabber.org/protocol/waitinglist</name>
-    <doc>&xep0130;</doc>
-  </ns>
-  <ns>
     <name>http://jabber.org/protocol/xhtml-im</name>
     <doc>&xep0071;</doc>
   </ns>
