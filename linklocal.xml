@@ -9,7 +9,13 @@
 <meta>
   <title>Link-Local Messaging TXT Records</title>
   &LEGALNOTICE;
-  <overview>This is the official registry of Link-Local Messaging TXT Records as maintained by the &REGISTRAR; and authorized by &xep0174;.</overview>
+  <overview>This is the official registry of Link-Local Messaging TXT Records as maintained by the &REGISTRAR; and authorized by &xep0174;. Note: For historical reasons this registry refers to "Link-Local Messaging" even though the name of the authorizing specification has been changed to "Serverless Messaging".</overview>
+  <revision>
+    <version>0.2</version>
+    <date>2008-03-05</date>
+    <initials>psa</initials>
+    <remark>Corrections per version 1.5 of XEP-0115.</remark>
+  </revision>
   <revision>
     <version>0.1</version>
     <date>2007-06-12</date>
@@ -38,8 +44,17 @@
   <desc>
     A space-separated list of extensions; the value of this record MUST 
     be the same as that provided via normal XMPP presence (if applicable) 
-    in the 'ext' attribute specified in XEP-0115; for details, refer to 
-    the Discovering Capabilities section of XEP-0174.
+    in the 'ext' attribute specified in Entity Capabilities (XEP-0115).
+  </desc>
+  <status>optional</status>
+</record>
+
+<record>
+  <name>hash</name>
+  <desc>
+    The hashing algorithm used to generated the 'ver' attribute in 
+    Entity Capabilities (XEP-0115) and therefore the ver TXT record
+    in Link-Local Messaging.
   </desc>
   <status>recommended</status>
 </record>
@@ -79,8 +94,7 @@
   <desc>
     A unique identifier for the application; the value of this record MUST 
     be the same as that provided via normal XMPP presence (if applicable) 
-    in the 'node' attribute specified in XEP-0115; for details, refer to 
-    the Discovering Capabilities section of XEP-0174.
+    in the 'node' attribute specified in Entity Capabilities (XEP-0115).
   </desc>
   <status>recommended</status>
 </record>
@@ -102,7 +116,7 @@
 <record>
   <name>port.p2pj</name>
   <desc>
-    The port for link-local communications. This MUST be the same as the
+    The port for serverless communications. This MUST be the same as the
     value provided for SRV lookups. Clients MUST use the port discovered 
     via SRV lookups and MUST ignore the value of this TXT record. However, 
     clients SHOULD advertise this TXT record if it is important to ensure
@@ -115,10 +129,11 @@
 <record>
   <name>status</name>
   <desc>
-    The presence availability of the user. Allowable values are "avail", "away", 
-    and "dnd", which map to mere XMPP presence (the user is available) and the 
-    XMPP &lt;show/&gt; values of "away" and "dnd", respectively; if the status
-    record is not included, the status should be assumed to be "avail".
+    The presence availability of the user. Allowable values are "avail", 
+    "away", and "dnd", which map to mere XMPP presence (the user is 
+    available) and the XMPP &lt;show/&gt; values of "away" and "dnd", 
+    respectively; if the status record is not included, the status should 
+    be assumed to be "avail".
   </desc>
   <status>recommended</status>
 </record>
@@ -127,7 +142,8 @@
   <name>txtvers</name>
   <desc>
     The version of the TXT records supported by the client. For backwards 
-    compatibility this is hardcoded at "1".
+    compatibility this is hardcoded at "1". This TXT record should be the
+    first one provided, in accordance with the DNS-SD specification.
   </desc>
   <status>deprecated</status>
 </record>
@@ -154,10 +170,11 @@
 <record>
   <name>ver</name>
   <desc>
-    The application version; the value of this record MUST be the same as that 
-    provided via normal XMPP presence (if applicable) in the 'ver' attribute 
-    specified in XEP-0115; for details, refer to the Discovering Capabilities 
-    section of XEP-0174.
+    A hashed string that defines the XMPP service discovery (XEP-0030) 
+    identity of the application and the XMPP service discovery features 
+    supported by the application; the value of this record MUST be the 
+    same as that provided via normal XMPP presence (if applicable) in 
+    the 'ver' attribute specified in Entity Capabilities (XEP-0115).
   </desc>
   <status>recommended</status>
 </record>
