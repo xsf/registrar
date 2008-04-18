@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.17</version>
+      <date>2008-04-14</date>
+      <initials>psa</initials>
+      <remark>Added xfire type to gateway category.</remark>
+    </revision>
+    <revision>
       <version>0.16</version>
       <date>2006-09-20</date>
       <initials>psa</initials>
@@ -364,6 +370,11 @@
     <type>
       <name>tlen</name>
       <desc>Gateway to the Tlen IM service</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>xfire</name>
+      <desc>Gateway to the Xfire gaming and IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
