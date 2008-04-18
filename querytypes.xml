@@ -112,6 +112,10 @@
       <name>jid</name>
       <desc>the JID of the invitee</desc>
     </key>
+    <key>
+      <name>password</name>
+      <desc>the password required to enter a multi-user chat room</desc>
+    </key>
   </keys>
 </querytype>
 
