@@ -61,6 +61,7 @@
 <!ENTITY xep0155 "<link url='http://www.xmpp.org/extensions/xep-0155.html'>XEP-0155: Stanza Session Negotiation</link>" >
 <!ENTITY xep0156 "<link url='http://www.xmpp.org/extensions/xep-0156.html'>XEP-0156: Discovering Alternative XMPP Connection Methods</link>" >
 <!ENTITY xep0163 "<link url='http://www.xmpp.org/extensions/xep-0163.html'>XEP-0163: Personal Eventing via Publish-Subscribe</link>" >
+<!ENTITY xep0171 "<link url='http://www.xmpp.org/extensions/xep-0171.html'>XEP-0171: Language Translation</link>" >
 <!ENTITY xep0172 "<link url='http://www.xmpp.org/extensions/xep-0172.html'>XEP-0172: User Nickname</link>" >
 <!ENTITY xep0174 "<link url='http://www.xmpp.org/extensions/xep-0174.html'>XEP-0174: Link-Local Messaging</link>" >
 <!ENTITY xep0184 "<link url='http://www.xmpp.org/extensions/xep-0184.html'>XEP-0184: Message Receipts</link>" >

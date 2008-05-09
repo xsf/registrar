@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.18</version>
+      <date>2008-05-09</date>
+      <initials>psa</initials>
+      <remark>Added translation type to automation category.</remark>
+    </revision>
+    <revision>
       <version>0.17</version>
       <date>2008-04-14</date>
       <initials>psa</initials>
@@ -187,6 +193,11 @@
       <name>soap</name>
       <desc>An entity that supports the SOAP XMPP Binding.</desc>
       <doc>XEP-0072</doc>
+    </type>
+    <type>
+      <name>translation</name>
+      <desc>An entity that provides automated translation services.</desc>
+      <doc>XEP-0171</doc>
     </type>
   </category>
   <category>
