@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.19</version>
+      <date>2008-06-12</date>
+      <initials>psa</initials>
+      <remark>Added lcs, ocs, sametime, simple, and xmpp types to the gateway category.</remark>
+    </revision>
+    <revision>
       <version>0.18</version>
       <date>2008-05-09</date>
       <initials>psa</initials>
@@ -359,13 +365,33 @@
       <doc>N/A</doc>
     </type>
     <type>
+      <name>lcs</name>
+      <desc>Gateway to Microsoft Live Communications Server</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
       <name>msn</name>
       <desc>Gateway to MSN Messenger</desc>
       <doc>N/A</doc>
     </type>
     <type>
+      <name>ocs</name>
+      <desc>Gateway to Microsoft Office Communications Server</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
       <name>qq</name>
       <desc>Gateway to the QQ IM service</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>sametime</name>
+      <desc>Gateway to IBM Lotus Sametime</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>simple</name>
+      <desc>Gateway to SIP for Instant Messaging and Presence Leveraging Extensions (SIMPLE)</desc>
       <doc>N/A</doc>
     </type>
     <type>
@@ -386,6 +412,11 @@
     <type>
       <name>xfire</name>
       <desc>Gateway to the Xfire gaming and IM service</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>xmpp</name>
+      <desc>Gateway to another XMPP service (NOT via native server-to-server communication)</desc>
       <doc>N/A</doc>
     </type>
     <type>
