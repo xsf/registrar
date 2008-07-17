@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
+      <version>0.16</version>
+      <date>2008-07-16</date>
+      <initials>psa</initials>
+      <remark>Added archiving features from XEP-0136.</remark>
+    </revision>
+    <revision>
       <version>0.15</version>
       <date>2007-11-07</date>
       <initials>psa</initials>
@@ -829,6 +835,26 @@
     <name>urn:ietf:params:xml:ns:xmpp-tls#s2s</name>
     <desc>Application supports server-to-server TLS.</desc>
     <doc>&xmppcore;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:archive:auto</name>
+    <desc>Server supports automatic message archiving</desc>
+    <doc>&xep0136;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:archive:manage</name>
+    <desc>Server supports management of archived messages</desc>
+    <doc>&xep0136;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:archive:manual</name>
+    <desc>Server supports manual message archiving</desc>
+    <doc>&xep0136;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:archive:pref</name>
+    <desc>Server supports message archiving preferences</desc>
+    <doc>&xep0136;</doc>
   </var>
   <var>
     <name>urn:xmpp:avatar:data</name>

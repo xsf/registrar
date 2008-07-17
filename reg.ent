@@ -54,6 +54,7 @@
 <!ENTITY xep0122 "<link url='http://www.xmpp.org/extensions/xep-0122.html'>XEP-0122: Data Forms Validation</link>" >
 <!ENTITY xep0124 "<link url='http://www.xmpp.org/extensions/xep-0124.html'>XEP-0124: Bidirectional-streams Over Synchronous HTTP</link>" >
 <!ENTITY xep0131 "<link url='http://www.xmpp.org/extensions/xep-0131.html'>XEP-0131: Stanza Headers and Internet Metadata (SHIM)</link>" >
+<!ENTITY xep0136 "<link url='http://www.xmpp.org/extensions/xep-0136.html'>XEP-0136: Message Archiving</link>" >
 <!ENTITY xep0137 "<link url='http://www.xmpp.org/extensions/xep-0137.html'>XEP-0137: Publishing SI Requests</link>" >
 <!ENTITY xep0138 "<link url='http://www.xmpp.org/extensions/xep-0138.html'>XEP-0138: Stream Compression</link>" >
 <!ENTITY xep0141 "<link url='http://www.xmpp.org/extensions/xep-0141.html'>XEP-0141: Data Forms Layout</link>" >
