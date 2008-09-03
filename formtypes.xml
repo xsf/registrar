@@ -10,6 +10,12 @@
   &LEGALNOTICE;
   <overview>This is the official registry of FORM_TYPEs and associated fields used in the context of the 'jabber:x:data' namespace (see &xep0004; and &xep0068;), as registered with the &REGISTRAR;.</overview>
   <revision>
+    <version>0.8</version>
+    <date>2008-09-03</date>
+    <initials>psa</initials>
+    <remark>Added CAPTCHA form type and CAPTCHA-related fields for registration form type.</remark>
+  </revision>
+  <revision>
     <version>0.7</version>
     <date>2007-09-27</date>
     <initials>psa</initials>
@@ -654,21 +660,29 @@
     Standardization of fields related to in-band registration.
   </desc>
   <field
-      var='username'
+      var='address'
       type='text-single'
-      label='Account name associated with the user'/>
+      label='Street portion of a physical or mailing address'/>
   <field
-      var='nick'
+      var='answers'
+      type='hidden'
+      label='number of answers required'/>
+  <field
+      var='audio_recog'
       type='text-single'
-      label='Familiar name of the user'/>
+      label='text associated with a sound'/>
   <field
-      var='password'
-      type='text-private'
-      label='Password or secret for the user'/>
+      var='challenge'
+      type='hidden'
+      label='challenge ID'/>
   <field
-      var='name'
+      var='city'
       type='text-single'
-      label='Full name of the user'/>
+      label='Locality portion of a physical or mailing address'/>
+  <field
+      var='email'
+      type='text-single'
+      label='Email address of the user'/>
   <field
       var='first'
       type='text-single'
@@ -678,21 +692,65 @@
       type='text-single'
       label='Last name, surname, or family name of the user'/>
   <field
-      var='email'
+      var='name'
       type='text-single'
-      label='Email address of the user'/>
+      label='Full name of the user'/>
   <field
-      var='address'
+      var='nick'
       type='text-single'
-      label='Street portion of a physical or mailing address'/>
+      label='Familiar name of the user'/>
   <field
-      var='city'
+      var='ocr'
       type='text-single'
-      label='Locality portion of a physical or mailing address'/>
+      label='code appearing in an image'/>
+  <field
+      var='password'
+      type='text-private'
+      label='Password or secret for the user'/>
+  <field
+      var='picture_q'
+      type='text-single'
+      label='answer associated with a picture'/>
+  <field
+      var='picture_recog'
+      type='text-single'
+      label='text associated with a picture'/>
+  <field
+      var='qa'
+      type='text-single'
+      label='answer to a question'/>
+  <field
+      var='SHA-256'
+      type='text-single'
+      label='least significant bits of SHA-256 hash of text should equal hexadecimal label'/>
+  <field
+      var='sid'
+      type='hidden'
+      label='stanza ID'/>
+  <field
+      var='speech_q'
+      type='text-single'
+      label='answer associated with speech'/>
+  <field
+      var='speech_recog'
+      type='text-single'
+      label='text associated with speech'/>
   <field
       var='state'
       type='text-single'
       label='Region portion of a physical or mailing address'/>
+  <field
+      var='username'
+      type='text-single'
+      label='Account name associated with the user'/>
+  <field
+      var='video_q'
+      type='text-single'
+      label='answer associated with a video'/>
+  <field
+      var='video_recog'
+      type='text-single'
+      label='text associated with a video'/>
   <field
       var='zip'
       type='text-single'
@@ -722,6 +780,69 @@
       label='Email Address'/>
 </form_type>
 <!-- end FORM_TYPEs for Jabber Search (XEP-0055) -->
+<!-- begin FORM_TYPEs for CAPTCHA forms (XEP-0158) -->
+<form_type>
+  <name>urn:xmpp:captcha</name>
+  <doc>XEP-0158</doc>
+  <desc>forms enabling CAPTCHAs</desc>
+  <field
+      var='answers'
+      type='hidden'
+      label='number of answers required'/>
+  <field
+      var='audio_recog'
+      type='text-single'
+      label='text associated with a sound'/>
+  <field
+      var='challenge'
+      type='hidden'
+      label='challenge ID'/>
+  <field
+      var='from'
+      type='hidden'
+      label='to attribute of stanza that triggered challenge'/>
+  <field
+      var='ocr'
+      type='text-single'
+      label='code appearing in an image'/>
+  <field
+      var='picture_q'
+      type='text-single'
+      label='answer associated with a picture'/>
+  <field
+      var='picture_recog'
+      type='text-single'
+      label='text associated with a picture'/>
+  <field
+      var='qa'
+      type='text-single'
+      label='answer to a question'/>
+  <field
+      var='SHA-256'
+      type='text-single'
+      label='least significant bits of SHA-256 hash of text should equal hexadecimal label'/>
+  <field
+      var='sid'
+      type='hidden'
+      label='stanza ID'/>
+  <field
+      var='speech_q'
+      type='text-single'
+      label='answer associated with speech'/>
+  <field
+      var='speech_recog'
+      type='text-single'
+      label='text associated with speech'/>
+  <field
+      var='video_q'
+      type='text-single'
+      label='answer associated with a video'/>
+  <field
+      var='video_recog'
+      type='text-single'
+      label='text associated with a video'/>
+</form_type>
+<!-- end FORM_TYPEs for CAPTCHA forms (XEP-0158) -->
 <!-- begin FORM_TYPEs for Stanza Session Negotiation (XEP-0155) -->
 <form_type>
   <name>urn:xmpp:ssn</name>
