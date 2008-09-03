@@ -784,7 +784,7 @@
 <form_type>
   <name>urn:xmpp:captcha</name>
   <doc>XEP-0158</doc>
-  <desc>forms enabling CAPTCHAs</desc>
+  <desc>Forms enabling the use of CAPTCHAs.</desc>
   <field
       var='answers'
       type='hidden'
