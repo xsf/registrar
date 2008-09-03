@@ -61,6 +61,7 @@
 <!ENTITY xep0144 "<link url='http://www.xmpp.org/extensions/xep-0144.html'>XEP-0144: Roster Item Exchange</link>" >
 <!ENTITY xep0155 "<link url='http://www.xmpp.org/extensions/xep-0155.html'>XEP-0155: Stanza Session Negotiation</link>" >
 <!ENTITY xep0156 "<link url='http://www.xmpp.org/extensions/xep-0156.html'>XEP-0156: Discovering Alternative XMPP Connection Methods</link>" >
+<!ENTITY xep0158 "<link url='http://www.xmpp.org/extensions/xep-0158.html'>XEP-0158: CAPTCHA Forms</link>" >
 <!ENTITY xep0163 "<link url='http://www.xmpp.org/extensions/xep-0163.html'>XEP-0163: Personal Eventing via Publish-Subscribe</link>" >
 <!ENTITY xep0171 "<link url='http://www.xmpp.org/extensions/xep-0171.html'>XEP-0171: Language Translation</link>" >
 <!ENTITY xep0172 "<link url='http://www.xmpp.org/extensions/xep-0172.html'>XEP-0172: User Nickname</link>" >
@@ -71,6 +72,8 @@
 <!ENTITY xep0202 "<link url='http://www.xmpp.org/extensions/xep-0202.html'>XEP-0202: Entity Time</link>" >
 <!ENTITY xep0203 "<link url='http://www.xmpp.org/extensions/xep-0203.html'>XEP-0203: Delayed Delivery</link>" >
 <!ENTITY xep0206 "<link url='http://www.xmpp.org/extensions/xep-0206.html'>XEP-0206: XMPP Over BOSH</link>" >
+<!ENTITY xep0221 "<link url='http://www.xmpp.org/extensions/xep-0221.html'>XEP-0221: Data Forms Media Element</link>" >
+<!ENTITY xep0231 "<link url='http://www.xmpp.org/extensions/xep-0231.html'>XEP-0231: Bits of Binary</link>" >
 
 <!-- Active (Informational) XEPs -->
 

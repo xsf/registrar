@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.33</version>
+      <date>2008-09-03</date>
+      <initials>psa</initials>
+      <remark>Added urn:xmpp:bob from XEP-0231, urn:xmpp:media-element from XEP-0221, and urn:xmpp:captcha from XEP-0158.</remark>
+    </revision>
+    <revision>
       <version>0.32</version>
       <date>2008-07-16</date>
       <initials>psa</initials>
@@ -479,6 +485,18 @@
     <doc>&xep0084;</doc>
   </ns>
   <ns>
+    <name>urn:xmpp:avatar:data</name>
+    <doc>&xep0084;</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:bob</name>
+    <doc>&xep0231;</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:captcha</name>
+    <doc>&xep0158;</doc>
+  </ns>
+  <ns>
     <name>urn:xmpp:delay</name>
     <doc>&xep0203;</doc>
   </ns>
@@ -493,6 +511,10 @@
   <ns>
     <name>urn:xmpp:langtrans#items</name>
     <doc>&xep0171;</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:media-element</name>
+    <doc>&xep0221;</doc>
   </ns>
   <ns>
     <name>urn:xmpp:ping</name>
