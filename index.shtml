@@ -2,7 +2,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>
 <title>XMPP Registrar</title>
-<!--#include virtual='/includes/head.txt' -->
+<!--#include virtual="/includes/head.txt" -->
 <h2>XMPP Registrar</h2>
 <p style='font-style: italic'>Last Updated: 2007-11-07</p>
 <p>As authorized by <a href='/extensions/xep-0053.html'>XEP-0053</a>, the XMPP Registrar maintains registries of protocol namespaces and of various parameters that are used by the IETF's <a href='/'>Extensible Messaging and Presence Protocol</a> (XMPP) as well as by <a href='/extensions/'>XMPP extensions</a> published by the <a href='/xsf/'>XMPP Standards Foundation</a>. The following registries are available:</p>
@@ -32,4 +32,4 @@
 <tr class='tablebody'><td>XMPP URI/IRI Querytypes</td><td><a href='querytypes.html'>HTML</a></td><td><a href='querytypes.xml'>XML</a></td></tr>
 </table>
 <p>The functions of the XMPP Registrar are managed by the <a href='/extensions/editor.shtml'>XMPP Extensions Editor</a>. Changes to the registries are announced on the <a href='http://mail.jabber.org/mailman/listinfo/standards/'>Standards mailing list</a>.</p>
-<!--#include virtual='/includes/foot.txt' -->
+<!--#include virtual="/includes/foot.txt" -->
