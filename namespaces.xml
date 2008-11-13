@@ -483,6 +483,10 @@
     <doc>&xep0136;</doc>
   </ns>
   <ns>
+    <name>urn:xmpp:attention:0</name>
+    <doc>&xep0224;</doc>
+  </ns>
+  <ns>
     <name>urn:xmpp:avatar:data</name>
     <doc>&xep0084;</doc>
   </ns>
