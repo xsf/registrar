@@ -9,7 +9,7 @@
     </registry>
   </xsl:template>
 
-  <xsl:template match='record'>
+  <xsl:template match='param'>
     <ns>
       <name><xsl:value-of select='name'/></name>
       <desc><xsl:value-of select='desc'/></desc>

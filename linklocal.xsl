@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- stylesheet for link-local messaging TXT records -->
+<!-- stylesheet for link-local messaging TXT record parameters -->
 <xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0'>
 
   <xsl:output doctype-public='-//W3C//DTD XHTML 1.0 Transitional//EN' doctype-system='http://www.w3.org/TR/xhtml1/DTD/xhtml1-loose.dtd' method='xml'/>
@@ -24,7 +24,7 @@
             <th>Description</th>
             <th>Status</th>
           </tr>
-          <xsl:apply-templates select='/registry/record'/>
+          <xsl:apply-templates select='/registry/param'/>
         </table>
         <hr />
         <h2>Revision History</h2>
@@ -36,7 +36,7 @@
     </html>
   </xsl:template>
 
-  <xsl:template match='record'>
+  <xsl:template match='param'>
     <tr class='tablebody'>
       <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='desc'/></td>

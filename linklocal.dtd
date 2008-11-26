@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- DTD for link-local messaging TXT records registry -->
-<!ELEMENT registry ( meta, record* ) >
+<!-- DTD for link-local messaging TXT records parameter registry -->
+<!ELEMENT registry ( meta, param* ) >
 <!ELEMENT meta ( title, legal, overview, revision+ ) >
 <!ELEMENT title (#PCDATA)* >
 <!ELEMENT legal (#PCDATA)* >
@@ -10,7 +10,7 @@
 <!ELEMENT date (#PCDATA)* >
 <!ELEMENT initials (#PCDATA)* >
 <!ELEMENT remark (#PCDATA)* >
-<!ELEMENT record ( name, desc, status ) >
+<!ELEMENT param ( name, desc, status ) >
 <!ELEMENT name (#PCDATA)* >
 <!ELEMENT desc (#PCDATA)* >
 <!ELEMENT status (#PCDATA)* >
