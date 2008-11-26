@@ -20,7 +20,7 @@
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
           <tr class='tablebody'>
-            <th>TXT Record</th>
+            <th>Parameter</th>
             <th>Description</th>
             <th>Status</th>
           </tr>
