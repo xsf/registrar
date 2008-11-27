@@ -48,7 +48,7 @@
 <param>
   <name>ext</name>
   <desc>
-    A space-separated list of extensions; the value of this record MUST 
+    A space-separated list of extensions; the value of this parameter MUST 
     be the same as that provided via normal XMPP presence (if applicable) 
     in the 'ext' attribute specified in Entity Capabilities (XEP-0115).
   </desc>
@@ -98,7 +98,7 @@
 <param>
   <name>node</name>
   <desc>
-    A unique identifier for the application; the value of this record MUST 
+    A unique identifier for the application; the value of this parameter MUST 
     be the same as that provided via normal XMPP presence (if applicable) 
     in the 'node' attribute specified in Entity Capabilities (XEP-0115).
   </desc>
@@ -138,8 +138,8 @@
     The presence availability of the user. Allowable values are "avail", 
     "away", and "dnd", which map to mere XMPP presence (the user is 
     available) and the XMPP &lt;show/&gt; values of "away" and "dnd", 
-    respectively; if the status record is not included, the status SHOULD 
-    be assumed to be "avail".
+    respectively; if the status parameter is not included, the status 
+    SHOULD be assumed to be "avail".
   </desc>
   <status>recommended</status>
 </param>
@@ -178,7 +178,7 @@
   <desc>
     A hashed string that defines the XMPP service discovery (XEP-0030) 
     identity of the application and the XMPP service discovery features 
-    supported by the application; the value of this record MUST be the 
+    supported by the application; the value of this parameter MUST be the 
     same as that provided via normal XMPP presence (if applicable) in 
     the 'ver' attribute specified in Entity Capabilities (XEP-0115).
   </desc>
