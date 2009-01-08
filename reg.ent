@@ -92,6 +92,7 @@
 <!ENTITY xep0160 "<link url='http://www.xmpp.org/extensions/xep-0160.html'>XEP-0160: Best Practices for Handling Offline Messages</link>" >
 <!ENTITY xep0175 "<link url='http://www.xmpp.org/extensions/xep-0175.html'>XEP-0175: Best Practices for Use of SASL ANONYMOUS</link>" >
 <!ENTITY xep0182 "<link url='http://www.xmpp.org/extensions/xep-0182.html'>XEP-0182: Application-Specific Error Conditions</link>" >
+<!ENTITY xep0205 "<link url='http://www.xmpp.org/extensions/xep-0205.html'>XEP-0205: Best Practices to Discourage Denial of Service Attacks</link>" >
 
 <!-- Active (Historical) XEPs -->
 
