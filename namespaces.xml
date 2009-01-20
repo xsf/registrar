@@ -495,10 +495,6 @@
     <doc>&xep0084;</doc>
   </ns>
   <ns>
-    <name>urn:xmpp:avatar:data</name>
-    <doc>&xep0084;</doc>
-  </ns>
-  <ns>
     <name>urn:xmpp:bob</name>
     <doc>&xep0231;</doc>
   </ns>
