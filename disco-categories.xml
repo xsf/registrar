@@ -11,7 +11,7 @@
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
       <version>0.20</version>
-      <date>2009-03-12<3date>
+      <date>2009-03-12<date>
       <initials>psa</initials>
       <remark>Added facebook, mrim, and myspaceim types to the gateway category.</remark>
     </revision>
@@ -357,7 +357,7 @@
     </type>
     <type>
       <name>facebook</name>
-      <desc>Gateway to the Facebook instant messaging service</desc>
+      <desc>Gateway to the Facebook IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
@@ -382,7 +382,7 @@
     </type>
     <type>
       <name>mrim</name>
-      <desc>Gateway to the mail.ru instant messaging service</desc>
+      <desc>Gateway to the mail.ru IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
@@ -392,7 +392,7 @@
     </type>
     <type>
       <name>myspaceim</name>
-      <desc>Gateway to the MySpace instant messaging service</desc>
+      <desc>Gateway to the MySpace IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
