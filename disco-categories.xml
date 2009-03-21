@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.21</version>
+      <date>2009-03-20</date>
+      <initials>psa</initials>
+      <remark>Added skype type to the gateway category.</remark>
+    </revision>
+    <revision>
       <version>0.20</version>
       <date>2009-03-13</date>
       <initials>psa</initials>
@@ -413,6 +419,11 @@
     <type>
       <name>simple</name>
       <desc>Gateway to SIP for Instant Messaging and Presence Leveraging Extensions (SIMPLE)</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>skype</name>
+      <desc>Gateway to the Skype service</desc>
       <doc>N/A</doc>
     </type>
     <type>
