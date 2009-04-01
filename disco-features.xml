@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
+      <version>0.17</version>
+      <date>2009-04-01</date>
+      <initials>psa</initials>
+      <remark>Deleted disco#publish, which was removed from XEP-0030.</remark>
+    </revision>
+    <revision>
       <version>0.16</version>
       <date>2008-07-16</date>
       <initials>psa</initials>
@@ -210,11 +216,6 @@
   <var>
     <name>http://jabber.org/protocol/disco#items</name>
     <desc>See XEP-0030</desc>
-    <doc>&xep0030;</doc>
-  </var>
-  <var>
-    <name>http://jabber.org/protocol/disco#publish</name>
-    <desc>Support for the "publishing" feature in Service Discovery.</desc>
     <doc>&xep0030;</doc>
   </var>
   <var>
