@@ -10,6 +10,12 @@
   &LEGALNOTICE;
   <overview>This is the official registry of FORM_TYPEs and associated fields used in the context of the 'jabber:x:data' namespace (see &xep0004; and &xep0068;), as registered with the &REGISTRAR;.</overview>
   <revision>
+    <version>0.9</version>
+    <date>2009-04-06</date>
+    <initials>psa</initials>
+    <remark>Added missing jabber:iq:register:cancel and jabber:iq:register:changepassword FORM_TYPEs from XEP-0077.</remark>
+  </revision>
+  <revision>
     <version>0.8</version>
     <date>2008-09-03</date>
     <initials>psa</initials>
@@ -755,6 +761,36 @@
       var='zip'
       type='text-single'
       label='Postal code portion of a physical or mailing address'/>
+</form_type>
+<form_type>
+  <name>jabber:iq:register:cancel</name>
+  <doc>XEP-0077</doc>
+  <desc>Standardization of fields related to cancellation use case.</desc>
+  <field
+      var='password'
+      type='text-private'
+      label='Password or secret for the user'/>
+  <field
+      var='username'
+      type='text-single'
+      label='Account name associated with the user'/>
+</form_type>
+<form_type>
+  <name>jabber:iq:register:changepassword</name>
+  <doc>XEP-0077</doc>
+  <desc>Standardization of fields related to change password use case.</desc>
+  <field
+      var='old_password'
+      type='text-private'
+      label='Old password for the user'/>
+  <field
+      var='password'
+      type='text-private'
+      label='Desired password for the user'/>
+  <field
+      var='username'
+      type='text-single'
+      label='Account name associated with the user'/>
 </form_type>
 <!-- end FORM_TYPEs for In-Band Registration (XEP-0077) -->
 <!-- begin FORM_TYPEs for Jabber Search (XEP-0055) -->
