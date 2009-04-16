@@ -427,7 +427,6 @@
   <field var='pubsub#type'
          type='text-single'
          label='Payload type'/>
-  </field>
 </form_type>
 <form_type>
   <name>http://jabber.org/protocol/pubsub#node_config</name>
