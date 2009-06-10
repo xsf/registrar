@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
+      <version>0.18</version>
+      <date>2009-06-10</date>
+      <initials>psa</initials>
+      <remark>Added urn:xmpp:jingle:apps:rtp:audio and urn:xmpp:jingle:apps:rtp:video from XEP-0167; added urn:ietf:rfc:3264 from XEP-0176.</remark>
+    </revision>
+    <revision>
       <version>0.17</version>
       <date>2009-04-01</date>
       <initials>psa</initials>
@@ -838,6 +844,11 @@
     <doc>&xmppcore;</doc>
   </var>
   <var>
+    <name>urn:ietf:rfc:3264</name>
+    <desc>See XEP-0176</desc>
+    <doc>&xep0176;</doc>
+  </var>
+  <var>
     <name>urn:xmpp:archive:auto</name>
     <desc>Server supports automatic message archiving</desc>
     <doc>&xep0136;</doc>
@@ -871,6 +882,16 @@
     <name>urn:xmpp:delay</name>
     <desc>See XEP-0203</desc>
     <doc>&xep0203;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:jingle:apps:rtp:audio</name>
+    <desc>See XEP-0167</desc>
+    <doc>&xep0167;</doc>
+  </var>
+  <var>
+    <name>urn:xmpp:jingle:apps:rtp:video</name>
+    <desc>See XEP-0167</desc>
+    <doc>&xep0167;</doc>
   </var>
   <var>
     <name>urn:xmpp:ping</name>
