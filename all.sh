@@ -50,6 +50,11 @@ xsltproc querytypes.xsl querytypes.xml > $regpath/querytypes.html
 # XEP-0156
 xsltproc altconn-xml.xsl alt-connections.xml > $regpath/alt-connections.xml
 xsltproc altconn.xsl alt-connections.xml > $regpath/alt-connections.html
+# XEP-0166 and friends
+xsltproc jingle-apps-xml.xsl jingle-apps.xml > $regpath/jingle-apps.xml
+xsltproc jingle-apps.xsl jingle-apps.xml > $regpath/jingle-apps.html
+xsltproc jingle-transports-xml.xsl jingle-transports.xml > $regpath/jingle-transports.xml
+xsltproc jingle-transports.xsl jingle-transports.xml > $regpath/jingle-transports.html
 # XEP-0174
 xsltproc linklocal-xml.xsl linklocal.xml > $regpath/linklocal.xml
 xsltproc linklocal.xsl linklocal.xml > $regpath/linklocal.html
