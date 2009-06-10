@@ -10,11 +10,11 @@
   </xsl:template>
 
   <xsl:template match='param'>
-    <ns>
+    <param>
       <name><xsl:value-of select='name'/></name>
       <desc><xsl:value-of select='desc'/></desc>
       <status><xsl:value-of select='status'/></status>
-    </ns>
+    </param>
   </xsl:template>
 
 </xsl:stylesheet>
