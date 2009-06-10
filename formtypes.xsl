@@ -68,7 +68,7 @@
     <p><xsl:value-of select='desc'/></p>
     <p>Defined in <xsl:value-of select='doc'/>.</p>
     <table border='1' cellpadding='3' cellspacing='0'>
-      <tr class='tablebody'>
+      <tr class='body'>
         <th>Field Name</th>
         <th>Type</th>
         <th>Description</th>
@@ -78,7 +78,7 @@
   </xsl:template>
 
   <xsl:template match='field'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='@var'/></td>
       <td><xsl:value-of select='@type'/></td>
       <td><xsl:value-of select='@label'/></td>

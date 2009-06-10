@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/compress.xml'>http://xmpp.org/registrar/compress.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Name</th>
             <th>Description</th>
             <th>Documentation</th>
@@ -37,7 +37,7 @@
   </xsl:template>
 
   <xsl:template match='method'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='desc'/></td>
       <xsl:apply-templates select='doc'/>

@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/linklocal.xml'>http://xmpp.org/registrar/linklocal.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Parameter</th>
             <th>Description</th>
             <th>Status</th>
@@ -37,7 +37,7 @@
   </xsl:template>
 
   <xsl:template match='param'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='desc'/></td>
       <td><xsl:value-of select='status'/></td>

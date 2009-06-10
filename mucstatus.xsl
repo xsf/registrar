@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/mucstatus.xml'>http://xmpp.org/registrar/mucstatus.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Number</th>
             <th>Stanza</th>
             <th>Context</th>
@@ -38,7 +38,7 @@
   </xsl:template>
 
   <xsl:template match='statuscode'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='number'/></td>
       <td><xsl:value-of select='stanza'/></td>
       <td><xsl:value-of select='context'/></td>

@@ -64,7 +64,7 @@
     <h3><xsl:value-of select='$num'/><xsl:value-of select='name'/></h3>
     <p><xsl:value-of select='desc'/></p>
     <table border='1' cellpadding='3' cellspacing='0'>
-      <tr class='tablebody'>
+      <tr class='body'>
         <th>Type</th>
         <th>Description</th>
         <th>XML</th>
@@ -74,7 +74,7 @@
   </xsl:template>
 
   <xsl:template match='type'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td>
         <xsl:value-of select='name'/>
       </td>

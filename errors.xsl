@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/errors.xml'>http://xmpp.org/registrar/errors.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Namespace</th>
             <th>Element</th>
             <th>Description</th>
@@ -38,7 +38,7 @@
   </xsl:template>
 
   <xsl:template match='condition'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='ns'/></td>
       <td>&lt;<xsl:value-of select='element'/>/&gt;</td>
       <td><xsl:value-of select='desc'/></td>

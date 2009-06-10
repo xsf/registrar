@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/nodes.xml'>http://xmpp.org/registrar/nodes.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Name</th>
             <th>Description</th>
             <th>Document</th>
@@ -41,7 +41,7 @@
   </xsl:template>
 
   <xsl:template match='node'>
-      <tr class='tablebody'>
+      <tr class='body'>
         <td><xsl:value-of select='name'/></td>
         <td><xsl:value-of select='desc'/></td>
         <td><xsl:apply-templates select='doc'/></td>

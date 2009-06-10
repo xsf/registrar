@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/alt-connections.xml'>http://xmpp.org/registrar/alt-connections.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Method Name</th>
             <th>Description</th>
             <th>Syntax</th>
@@ -38,7 +38,7 @@
   </xsl:template>
 
   <xsl:template match='method'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='desc'/></td>
       <td><xsl:value-of select='syntax'/></td>

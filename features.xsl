@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/stream-features.xml'>http://xmpp.org/registrar/stream-features.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Feature</th>
             <th>XML Element</th>
             <th>Description</th>
@@ -38,7 +38,7 @@
   </xsl:template>
 
   <xsl:template match='feature'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <td>&lt;<xsl:value-of select='element'/><xsl:text> xmlns='</xsl:text><xsl:value-of select='ns'/><xsl:text>'&gt;</xsl:text></td>
       <td><xsl:value-of select='desc'/></td>

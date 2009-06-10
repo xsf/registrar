@@ -19,7 +19,7 @@
         <p>XML: <a href='http://xmpp.org/registrar/namespaces.xml'>http://xmpp.org/registrar/namespaces.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
-          <tr class='tablebody'>
+          <tr class='body'>
             <th>Namespace</th>
             <th>Documentation</th>
           </tr>
@@ -36,7 +36,7 @@
   </xsl:template>
 
   <xsl:template match='ns'>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <xsl:apply-templates select='doc'/>
     </tr>

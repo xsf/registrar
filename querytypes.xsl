@@ -74,7 +74,7 @@
 
   <xsl:template match='keys'>
     <table border='1' cellpadding='3' cellspacing='0'>
-      <tr class='tablebody'>
+      <tr class='body'>
         <th>Key</th>
         <th>Description</th>
         <th>Values</th>
@@ -85,7 +85,7 @@
 
   <xsl:template match='key'>
     <xsl:variable name='values.count' select='count(values)'/>
-    <tr class='tablebody'>
+    <tr class='body'>
       <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='desc'/></td>
       <xsl:choose>
