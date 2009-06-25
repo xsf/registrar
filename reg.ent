@@ -80,6 +80,7 @@
 <!ENTITY xep0221 "<link url='http://www.xmpp.org/extensions/xep-0221.html'>XEP-0221: Data Forms Media Element</link>" >
 <!ENTITY xep0231 "<link url='http://www.xmpp.org/extensions/xep-0231.html'>XEP-0231: Bits of Binary</link>" >
 <!ENTITY xep0224 "<link url='http://www.xmpp.org/extensions/xep-0224.html'>XEP-0224: Attention</link>" >
+<!ENTITY xep0249 "<link url='http://www.xmpp.org/extensions/xep-0249.html'>XEP-0249: Direct MUC Invitations</link>" >
 
 <!-- Active (Informational) XEPs -->
 
