@@ -202,11 +202,11 @@
   <field
       var='muc#register_first'
       type='text-single'
-      label='First Name'/>
+      label='Given Name'/>
   <field
       var='muc#register_last'
       type='text-single'
-      label='Last Name'/>
+      label='Family Name'/>
   <field
       var='muc#register_roomnick'
       type='text-single'
@@ -712,11 +712,11 @@
   <field
       var='first'
       type='text-single'
-      label='First name or given name of the user'/>
+      label='Given name of the user'/>
   <field
       var='last'
       type='text-single'
-      label='Last name, surname, or family name of the user'/>
+      label='Family name of the user'/>
   <field
       var='name'
       type='text-single'
@@ -821,7 +821,7 @@
   <field
       var='first'
       type='text-single'
-      label='First Name'/>
+      label='Given Name'/>
   <field
       var='last'
       type='text-single'
