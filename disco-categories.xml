@@ -389,7 +389,7 @@
     </type>
     <type>
       <name>irc</name>
-      <desc>Gateway to ICQ</desc>
+      <desc>Gateway to IRC</desc>
       <doc>N/A</doc>
     </type>
     <type>
