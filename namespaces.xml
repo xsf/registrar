@@ -559,11 +559,11 @@
     <doc>&xep0167;</doc>
   </ns>
   <ns>
-    <name>urn:xmpp:jingle:apps:transports:ice-udp:1</name>
+    <name>urn:xmpp:jingle:transports:ice-udp:1</name>
     <doc>&xep0176;</doc>
   </ns>
   <ns>
-    <name>urn:xmpp:jingle:apps:transports:raw-udp:1</name>
+    <name>urn:xmpp:jingle:transports:raw-udp:1</name>
     <doc>&xep0176;</doc>
   </ns>
   <ns>
