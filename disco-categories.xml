@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.23</version>
+      <date>2011-02-22</date>
+      <initials>psa</initials>
+      <remark>Added the game and sms types to the client category.</remark>
+    </revision>
+    <revision>
       <version>0.22</version>
       <date>2010-04-02</date>
       <initials>psa</initials>
@@ -238,6 +244,11 @@
       <doc>N/A</doc>
     </type>
     <type>
+      <name>game</name>
+      <desc>A client running on a gaming console</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
       <name>handheld</name>
       <desc>A client running on a PDA, RIM device, or other handheld</desc>
       <doc>N/A</doc>
@@ -250,6 +261,11 @@
     <type>
       <name>phone</name>
       <desc>A client running on a mobile phone or other telephony device</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>sms</name>
+      <desc>A client that is not actually using an instant messaging client; however, messages sent to this contact will be delivered as Short Message Service (SMS) messages</desc>
       <doc>N/A</doc>
     </type>
     <type>
