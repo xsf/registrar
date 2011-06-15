@@ -2,7 +2,7 @@
 
 <!-- legal notice required by the XSF's IPR Policy -->
 
-<!ENTITY LEGALNOTICE "<legal>This material is copyright 1999 - 2010 by the <link url='http://www.xmpp.org/xsf/'>XMPP Standards Foundation</link> (XSF) and is in full conformance with the XSF's Intellectual Property Rights Policy &lt;<link url='http://www.xmpp.org/extensions/ipr-policy.shtml'>http://www.xmpp.org/extensions/ipr-policy.shtml</link>&gt;. This material may be distributed only subject to the terms and conditions set forth in the Creative Commons Attribution License (&lt;<link url='http://creativecommons.org/licenses/by/2.5/'>http://creativecommons.org/licenses/by/2.5/</link>&gt;).</legal>" > 
+<!ENTITY LEGALNOTICE "<legal>This material is copyright 1999 - 2011 by the <link url='http://www.xmpp.org/xsf/'>XMPP Standards Foundation</link> (XSF) and is in full conformance with the XSF's Intellectual Property Rights Policy &lt;<link url='http://www.xmpp.org/extensions/ipr-policy.shtml'>http://www.xmpp.org/extensions/ipr-policy.shtml</link>&gt;. This material may be distributed only subject to the terms and conditions set forth in the Creative Commons Attribution License (&lt;<link url='http://creativecommons.org/licenses/by/2.5/'>http://creativecommons.org/licenses/by/2.5/</link>&gt;).</legal>" > 
 
 <!-- Registrar link -->
 
@@ -10,8 +10,8 @@
 
 <!-- XMPP RFCs -->
 
-<!ENTITY xmppcore "<link url='http://www.ietf.org/rfc/rfc3920.txt'>RFC 3920: XMPP Core</link>" >
-<!ENTITY xmppim "<link url='http://www.ietf.org/rfc/rfc3921.txt'>RFC 3921: XMPP IM</link>" >
+<!ENTITY xmppcore "<link url='http://www.ietf.org/rfc/rfc6120.txt'>RFC 6120: XMPP Core</link>" >
+<!ENTITY xmppim "<link url='http://www.ietf.org/rfc/rfc6121.txt'>RFC 6121: XMPP IM</link>" >
 <!ENTITY xmppe2e "<link url='http://www.ietf.org/rfc/rfc3923.txt'>RFC 3923: XMPP E2E</link>" >
 
 <!-- Final (Standards-Track) XEPs -->
@@ -77,11 +77,13 @@
 <!ENTITY xep0202 "<link url='http://www.xmpp.org/extensions/xep-0202.html'>XEP-0202: Entity Time</link>" >
 <!ENTITY xep0203 "<link url='http://www.xmpp.org/extensions/xep-0203.html'>XEP-0203: Delayed Delivery</link>" >
 <!ENTITY xep0206 "<link url='http://www.xmpp.org/extensions/xep-0206.html'>XEP-0206: XMPP Over BOSH</link>" >
+<!ENTITY xep0220 "<link url='http://www.xmpp.org/extensions/xep-0220.html'>XEP-0220: Server Dialback</link>" >
 <!ENTITY xep0221 "<link url='http://www.xmpp.org/extensions/xep-0221.html'>XEP-0221: Data Forms Media Element</link>" >
 <!ENTITY xep0231 "<link url='http://www.xmpp.org/extensions/xep-0231.html'>XEP-0231: Bits of Binary</link>" >
 <!ENTITY xep0224 "<link url='http://www.xmpp.org/extensions/xep-0224.html'>XEP-0224: Attention</link>" >
 <!ENTITY xep0227 "<link url='http://www.xmpp.org/extensions/xep-0227.html'>XEP-0227: Portable Import/Export Format for XMPP-IM Servers</link>" >
 <!ENTITY xep0249 "<link url='http://www.xmpp.org/extensions/xep-0249.html'>XEP-0249: Direct MUC Invitations</link>" >
+<!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0167.html'>XEP-0167: Use of ZRTP in Jingle RTP Sessions</link>" >
 
 <!-- Active (Informational) XEPs -->
 
