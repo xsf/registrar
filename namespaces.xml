@@ -13,7 +13,7 @@
       <version>0.39</version>
       <date>2011-06-15</date>
       <initials>psa</initials>
-      <remark>Added urn:xmpp:jingle:rtp:zrtp:1 from XEP-0262.</remark>
+      <remark>Added urn:xmpp:jingle:rtp:zrtp:1 from XEP-0262; changed urn:xmpp:langtrans#items to urn:xmpp:langtrans:items per version 1.1 of XEP-0171.</remark>
     </revision>
     <revision>
       <version>0.38</version>
@@ -581,7 +581,7 @@
     <doc>&xep0171;</doc>
   </ns>
   <ns>
-    <name>urn:xmpp:langtrans#items</name>
+    <name>urn:xmpp:langtrans:items</name>
     <doc>&xep0171;</doc>
   </ns>
   <ns>
