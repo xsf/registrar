@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.39</version>
+      <date>2011-06-15</date>
+      <initials>psa</initials>
+      <remark>Added urn:xmpp:jingle:rtp:zrtp:1 from XEP-0262.</remark>
+    </revision>
+    <revision>
       <version>0.38</version>
       <date>2010-03-13</date>
       <initials>psa</initials>
@@ -557,6 +563,10 @@
   <ns>
     <name>urn:xmpp:jingle:apps:rtp:info:1</name>
     <doc>&xep0167;</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:rtp:zrtp:1</name>
+    <doc>&xep0262;</doc>
   </ns>
   <ns>
     <name>urn:xmpp:jingle:transports:ice-udp:1</name>
