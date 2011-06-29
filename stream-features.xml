@@ -102,7 +102,6 @@
     <desc>Support for Transport Layer Security (TLS)</desc>
     <doc>&xmppcore;</doc>
   </feature>
-  </feature>
   <feature>
     <ns>urn:xmpp:sm:3</ns>
     <desc>Support for Stream Management</desc>
