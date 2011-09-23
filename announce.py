@@ -69,7 +69,7 @@ if (version == "0.1"):
 #    The $title registry has been updated.
 #    Version: $version
 #    Changelog: $remark ($initials)
-#    URL: http://www.xmpp.org/registrar/$regname.html
+#    URL: http://xmpp.org/registrar/$regname.html
 
 fromaddr = "registrar@xmpp.org"
 # for testing...
@@ -87,7 +87,7 @@ thesubject = thesubject + title
 
 versionline = 'Version: ' + version
 changelogline = 'Changelog: ' + remark + ' (' + initials + ')'
-urlline = 'URL: http://www.xmpp.org/registrar/' + regname + '.html'
+urlline = 'URL: http://xmpp.org/registrar/' + regname + '.html'
 
 msg = "From: XMPP Registrar <%s>\r\n" % fromaddr
 msg = msg + "To: %s\r\n" % toaddrs
