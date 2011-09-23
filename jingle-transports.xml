@@ -11,12 +11,27 @@
   &LEGALNOTICE;
   <overview>This is the official registry of Jingle Transport Methods as maintained by the &REGISTRAR; and authorized by &xep0166;.</overview>
   <revision>
+    <version>0.2</version>
+    <date>2011-09-23</date>
+    <initials>psa</initials>
+    <remark>Added the "ibb" and "s5b" transports from XEP-0261 and XEP-0260, respectively.</remark>
+  </revision>
+  <revision>
     <version>0.1</version>
     <date>2009-06-10</date>
     <initials>psa</initials>
-    <remark>Initial version, populated with "ice-udp" and "raw-udp" application format from XEP-0176 and XEP-0177.</remark>
+    <remark>Initial version, populated with the "ice-udp" and "raw-udp" transports from XEP-0176 and XEP-0177, respectively.</remark>
   </revision>
 </meta>
+
+<transport>
+  <name>ibb</name>
+  <desc>
+    A method for data exchange over In-Band Bytestreams.
+  </desc>
+  <type>streaming</type>
+  <doc>XEP-0261</doc>
+</transport>
 
 <transport>
   <name>ice-udp</name>
@@ -36,6 +51,15 @@
   <desc>A method for exchanging data over raw UDP associations.</desc>
   <type>datagram</type>
   <doc>XEP-0177</doc>
+</transport>
+
+<transport>
+  <name>s5b</name>
+  <desc>
+    A method for negotiating data exchange over SOCKS5 Bytestreams.
+  </desc>
+  <type>streaming</type>
+  <doc>XEP-0260</doc>
 </transport>
 
 </registry>
