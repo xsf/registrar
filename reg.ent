@@ -83,8 +83,8 @@
 <!ENTITY xep0224 "<link url='http://www.xmpp.org/extensions/xep-0224.html'>XEP-0224: Attention</link>" >
 <!ENTITY xep0227 "<link url='http://www.xmpp.org/extensions/xep-0227.html'>XEP-0227: Portable Import/Export Format for XMPP-IM Servers</link>" >
 <!ENTITY xep0249 "<link url='http://www.xmpp.org/extensions/xep-0249.html'>XEP-0249: Direct MUC Invitations</link>" >
-<!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0260.html'>XEP-0260: Jingle SOCKS5 Bytestreams Transport Method</link>" >
-<!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0261.html'>XEP-0261: Jingle In-Band Bytestreams Transport Method</link>" >
+<!ENTITY xep0260 "<link url='http://www.xmpp.org/extensions/xep-0260.html'>XEP-0260: Jingle SOCKS5 Bytestreams Transport Method</link>" >
+<!ENTITY xep0261 "<link url='http://www.xmpp.org/extensions/xep-0261.html'>XEP-0261: Jingle In-Band Bytestreams Transport Method</link>" >
 <!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0262.html'>XEP-0262: Use of ZRTP in Jingle RTP Sessions</link>" >
 
 <!-- Active (Informational) XEPs -->
