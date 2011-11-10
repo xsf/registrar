@@ -13,7 +13,7 @@
       <version>0.42</version>
       <date>2011-11-10</date>
       <initials>psa</initials>
-      <remark>Added urn:xmpp:sec-label:0, urn:xmpp:sec-label:catalog:1, and urn:xmpp:sec-label:ess:0 from XEP-0258.</remark>
+      <remark>Added urn:xmpp:sec-label:0, urn:xmpp:sec-label:catalog:2, and urn:xmpp:sec-label:ess:0 from XEP-0258.</remark>
     </revision>
     <revision>
       <version>0.41</version>
@@ -631,7 +631,7 @@
     <doc>&xep0258;</doc>
   </ns>
   <ns>
-    <name>urn:xmpp:sec-label:catalog:1</name>
+    <name>urn:xmpp:sec-label:catalog:2</name>
     <doc>&xep0258;</doc>
   </ns>
   <ns>
