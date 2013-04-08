@@ -87,6 +87,7 @@
 <!ENTITY xep0260 "<link url='http://www.xmpp.org/extensions/xep-0260.html'>XEP-0260: Jingle SOCKS5 Bytestreams Transport Method</link>" >
 <!ENTITY xep0261 "<link url='http://www.xmpp.org/extensions/xep-0261.html'>XEP-0261: Jingle In-Band Bytestreams Transport Method</link>" >
 <!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0262.html'>XEP-0262: Use of ZRTP in Jingle RTP Sessions</link>" >
+<!ENTITY xep0308 "<link url='http://www.xmpp.org/extensions/xep-0308.html'>XEP-0308: Last Message Correction</link>" >
 
 <!-- Active (Informational) XEPs -->
 
