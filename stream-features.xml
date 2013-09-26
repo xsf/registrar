@@ -109,7 +109,7 @@
     <doc>&xmppcore;</doc>
   </feature>
   <feature>
-    <ns>urn:xmpp:bdi</ns>
+    <ns>urn:xmpp:bidi</ns>
     <desc>Support for Bidirectional Server-to-Server Connections</desc>
     <name>bidi</name>
     <element>bidi</element>
