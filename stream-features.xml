@@ -116,6 +116,13 @@
     <doc>&xep0288;</doc>
   </feature>
   <feature>
+    <ns>urn:xmpp:features:dialback</ns>
+    <name>Server Dialback</name>
+    <element>dialback</element>
+    <desc>Support for Server Dialback with dialback errors</desc>
+    <doc>&xep0220;</doc>
+  </feature>
+  <feature>
     <ns>urn:xmpp:sm:3</ns>
     <desc>Support for Stream Management</desc>
     <name>sm</name>
