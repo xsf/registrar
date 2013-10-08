@@ -11,6 +11,12 @@
   &LEGALNOTICE;
   <overview>This is the official registry of Alternative XMPP Connection Methods as maintained by the &REGISTRAR; and authorized by &xep0156;.</overview>
   <revision>
+    <version>0.2</version>
+    <date>2013-10-07</date>
+    <initials>psa</initials>
+    <remark>Added _xmpp-client-websocket from draft-ietf-xmpp-websocket.</remark>
+  </revision>
+  <revision>
     <version>0.1</version>
     <date>2007-06-12</date>
     <initials>psa</initials>
@@ -23,6 +29,13 @@
   <desc>HTTP Polling connection method</desc>
   <syntax>The http: or https: URL at which to contact the HTTP Polling connection manager or proxy</syntax>
   <doc>XEP-0025 (DEPRECATED)</doc>
+</method>
+
+<method>
+  <name>_xmpp-client-websocket</name>
+  <desc>WebSocket connection method</desc>
+  <syntax>The ws: or wss: URI at which to contact the WebSocket connection manager or proxy</syntax>
+  <doc>&websocket;</doc>
 </method>
 
 <method>
