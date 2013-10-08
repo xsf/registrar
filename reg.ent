@@ -131,4 +131,5 @@
 <!ENTITY ecma151 "<link url='http://www.ecma-international.org/publications/standards/Ecma-151.htm'>Standard ECMA-151: Data Compression for Information Interchange - Adaptive Coding with Embedded Dictionary - DLCZ Algorithm</link>" >
 <!ENTITY rfc1950 "<link url='http://www.ietf.org/rfc/rfc1950.txt'>RFC 1950: ZLIB Compressed Data Format Specification version 3.3</link>" >
 <!ENTITY w3xmlschema2 "<link url='http://www.w3.org/TR/xmlschema-2/'>XML Schema Part 2: Datatypes</link>" >
+<!ENTITY websocket "<link url='https://datatracker.ietf.org/doc/draft-ietf-xmpp-websocket/'>An XMPP Sub-protocol for WebSocket</link>" >
 
