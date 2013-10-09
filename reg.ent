@@ -89,6 +89,7 @@
 <!ENTITY xep0262 "<link url='http://www.xmpp.org/extensions/xep-0262.html'>XEP-0262: Use of ZRTP in Jingle RTP Sessions</link>" >
 <!ENTITY xep0288 "<link url='http://www.xmpp.org/extensions/xep-0288.html'>XEP-0288: Bidirectional Server-to-Server Connections</link>" >
 <!ENTITY xep0297 "<link url='http://www.xmpp.org/extensions/xep-0297.html'>XEP-0297: Stanza Forwarding</link>" >
+<!ENTITY xep0301 "<link url='http://www.xmpp.org/extensions/xep-0301.html'>XEP-0301: In-Band Real Time Text</link>" >
 <!ENTITY xep0308 "<link url='http://www.xmpp.org/extensions/xep-0308.html'>XEP-0308: Last Message Correction</link>" >
 
 <!-- Active (Informational) XEPs -->
