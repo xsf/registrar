@@ -11,6 +11,12 @@
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
       <version>0.19</version>
+      <date>2014-05-12</date>
+      <initials>mam</initials>
+      <remark>Fixed typo regarding urn:xmpp:receipts and its relevant document.</remark>
+    </revision>
+    <revision>
+      <version>0.19</version>
       <date>2010-03-15</date>
       <initials>psa</initials>
       <remark>Added missing feature http://jabber.org/protocol/bytestreams#udp from XEP-0065.</remark>
@@ -911,8 +917,8 @@
   </var>
   <var>
     <name>urn:xmpp:receipts</name>
-    <desc>See XEP-0199</desc>
-    <doc>&xep0199;</doc>
+    <desc>See XEP-0184</desc>
+    <doc>&xep0184;</doc>
   </var>
   <var>
     <name>urn:xmpp:ssn</name>
