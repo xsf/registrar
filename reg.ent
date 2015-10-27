@@ -93,6 +93,7 @@
 <!ENTITY xep0297 "<link url='http://www.xmpp.org/extensions/xep-0297.html'>XEP-0297: Stanza Forwarding</link>" >
 <!ENTITY xep0301 "<link url='http://www.xmpp.org/extensions/xep-0301.html'>XEP-0301: In-Band Real Time Text</link>" >
 <!ENTITY xep0308 "<link url='http://www.xmpp.org/extensions/xep-0308.html'>XEP-0308: Last Message Correction</link>" >
+<!ENTITY xep0320 "<link url='http://www.xmpp.org/extensions/xep-0320.html'>XEP-0320: Use of DTLS-SRTP in Jingle Sessions</link>" >
 
 <!-- Active (Informational) XEPs -->
 
@@ -136,4 +137,3 @@
 <!ENTITY rfc1950 "<link url='http://www.ietf.org/rfc/rfc1950.txt'>RFC 1950: ZLIB Compressed Data Format Specification version 3.3</link>" >
 <!ENTITY w3xmlschema2 "<link url='http://www.w3.org/TR/xmlschema-2/'>XML Schema Part 2: Datatypes</link>" >
 <!ENTITY websocket "<link url='https://datatracker.ietf.org/doc/draft-ietf-xmpp-websocket/'>An XMPP Sub-protocol for WebSocket</link>" >
-
