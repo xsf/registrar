@@ -7,6 +7,8 @@
   <xsl:template match='/'>
     <html>
       <head>
+        <meta name="url" content="{$OUTPUT_FILENAME}"/>
+        <meta name="save_as" content="{$OUTPUT_FILENAME}"/>
         <title><xsl:value-of select='/registry/meta/title'/></title>
         <link rel='stylesheet' type='text/css' href='/xmpp.css' />
         <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
