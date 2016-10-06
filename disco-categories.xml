@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.24.1</version>
+      <date>2016-10-06</date>
+      <initials>egp, ssw</initials>
+      <remark>Fixed the tablet client category xml and XEP listings.</remark>
+    </revision>
+    <revision>
       <version>0.24</version>
       <date>2016-07-28</date>
       <initials>dg</initials>
@@ -275,8 +281,9 @@
       <doc>N/A</doc>
     </type>
     <type>
-      <name>tablet</tablet>
+      <name>tablet</name>
       <desc>A client running on a touchscreen device larger than a smartphone and without a physical keyboard permanently attached to it.</desc>
+      <doc>N/A</doc>
     </type>
     <type>
       <name>web</name>
@@ -358,7 +365,7 @@
     <type>
       <name>text</name>
       <desc>Text conferencing service</desc>
-      <doc>&xep0045;</doc>
+      <doc>XEP-0045</doc>
     </type>
   </category>
   <category>
@@ -519,12 +526,12 @@
     <type>
       <name>branch</name>
       <desc>A service discovery node that contains further nodes in the hierarchy.</desc>
-      <doc>&xep0030;</doc>
+      <doc>XEP-0030</doc>
     </type>
     <type>
       <name>leaf</name>
       <desc>A service discovery node that does not contain further nodes in the hierarchy.</desc>
-      <doc>&xep0030;</doc>
+      <doc>XEP-0030</doc>
     </type>
   </category>
   <category>
@@ -533,13 +540,13 @@
     <type>
       <name>bytestreams</name>
       <desc>SOCKS5 bytestreams proxy service</desc>
-      <doc>&xep0065;</doc>
+      <doc>XEP-0065</doc>
     </type>
     <!--
     <type>
       <name>stun</name>
       <desc>a STUN (Simple Traversal of UDP Through NATs) service per RFC 3489</desc>
-      <doc>&xep0176;</doc>
+      <doc>XEP-0176</doc>
     </type>
     -->
   </category>
@@ -549,12 +556,12 @@
     <type>
       <name>collection</name>
       <desc>A pubsub node of the "collection" type.</desc>
-      <doc>&xep0060;</doc>
+      <doc>XEP-0060</doc>
     </type>
     <type>
       <name>leaf</name>
       <desc>A pubsub node of the "leaf" type.</desc>
-      <doc>&xep0060;</doc>
+      <doc>XEP-0060</doc>
     </type>
     <type>
       <name>pep</name>
@@ -564,7 +571,7 @@
     <type>
       <name>service</name>
       <desc>A pubsub service that supports the functionality defined in XEP-0060.</desc>
-      <doc>&xep0060;</doc>
+      <doc>XEP-0060</doc>
     </type>
   </category>
   <category>
