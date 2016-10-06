@@ -11,7 +11,7 @@
 
   <xsl:template match='feature'>
     <feature>
-      <ns><xsl:value-of select='name'/></ns>
+      <ns><xsl:value-of select='ns'/></ns>
       <name><xsl:value-of select='name'/></name>
       <element><xsl:value-of select='element'/></element>
       <desc><xsl:value-of select='desc'/></desc>
