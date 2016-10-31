@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of XML stream features as maintained by the &REGISTRAR;. This registry contains only stream features that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other stream features may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.8</version>
+      <date>2016-10-31</date>
+      <initials>ssw</initials>
+      <remark>Added http://jabber.org/protocol/caps from XEP-0115.</remark>
+    </revision>
+    <revision>
       <version>0.7</version>
       <date>2013-09-26</date>
       <initials>psa</initials>
@@ -52,6 +58,13 @@
       <remark>Initial version.</remark>
     </revision>
   </meta>
+  <feature>
+    <ns>http://jabber.org/protocol/caps</ns>
+    <desc>Support for hashed entity capabilities</desc>
+    <name>caps</name>
+    <element>c</element>
+    <doc>&xep0115;</doc>
+  </feature>
   <feature>
     <ns>http://jabber.org/features/amp</ns>
     <desc>Support for Advanced Message Processing</desc>
