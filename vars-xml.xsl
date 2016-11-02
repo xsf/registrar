@@ -14,6 +14,7 @@
       <name><xsl:value-of select='name'/></name>
       <desc><xsl:value-of select='desc'/></desc>
       <doc><xsl:value-of select='doc'/></doc>
+      <xsl:if test="status"><status><xsl:value-of select='status'/></status></xsl:if>
     </var>
   </xsl:template>
 

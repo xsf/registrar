@@ -26,8 +26,19 @@
             <th>Description</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/var'/>
+          <xsl:apply-templates select='/registry/var[not(status = "proposed")]'/>
         </table>
+        <xsl:if test='count(/registry/var[status = "proposed"]) &gt; 0'>
+          <h3>Proposed Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/var[status = "proposed"]'/>
+          </table>
+        </xsl:if>
         <hr />
         <h2>Revision History</h2>
           <blockquote>
