@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.24.1</version>
+      <date>2016-10-06</date>
+      <initials>egp</initials>
+      <remark>Fixed the tablet client category xml.</remark>
+    </revision>
+    <revision>
       <version>0.24</version>
       <date>2016-07-28</date>
       <initials>dg</initials>
@@ -275,7 +281,7 @@
       <doc>N/A</doc>
     </type>
     <type>
-      <name>tablet</tablet>
+      <name>tablet</name>
       <desc>A client running on a touchscreen device larger than a smartphone and without a physical keyboard permanently attached to it.</desc>
     </type>
     <type>
