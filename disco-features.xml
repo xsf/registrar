@@ -217,6 +217,11 @@
     <doc>&xep0115;</doc>
   </var>
   <var>
+    <name>http://jabber.org/protocol/caps#optimize</name>
+    <desc>See XEP-0115</desc>
+    <doc>&xep0115;</doc>
+  </var>
+  <var>
     <name>http://jabber.org/protocol/chatstates</name>
     <desc>See XEP-0085</desc>
     <doc>&xep0085;</doc>
