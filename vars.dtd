@@ -4,7 +4,7 @@
 <!ELEMENT meta ( title, legal, overview, revision+ ) >
 <!ELEMENT title (#PCDATA)* >
 <!ELEMENT legal (#PCDATA)* >
-<!ELEMENT overview (#PCDATA, link)* >
+<!ELEMENT overview (#PCDATA | link)* >
 <!ELEMENT revision ( version, date, initials, remark ) >
 <!ELEMENT version (#PCDATA)* >
 <!ELEMENT date (#PCDATA)* >

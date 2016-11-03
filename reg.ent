@@ -14,8 +14,9 @@
 <!ENTITY xmppim "<link url='https://www.ietf.org/rfc/rfc6121.txt'>RFC 6121: XMPP IM</link>" >
 <!ENTITY xmppe2e "<link url='https://www.ietf.org/rfc/rfc3923.txt'>RFC 3923: XMPP E2E</link>" >
 
-<!-- Final (Standards-Track) XEPs -->
+<!-- Standards-Track XEPs -->
 
+<!ENTITY xep0003 "<link url='https://xmpp.org/extensions/xep-0003.html'>XEP-0003: Proxy Accept Socket Service (PASS)</link>" >
 <!ENTITY xep0004 "<link url='https://xmpp.org/extensions/xep-0004.html'>XEP-0004: Data Forms</link>" >
 <!ENTITY xep0009 "<link url='https://xmpp.org/extensions/xep-0009.html'>XEP-0009: Jabber-RPC</link>" >
 <!ENTITY xep0030 "<link url='https://xmpp.org/extensions/xep-0030.html'>XEP-0030: Service Discovery</link>" >
@@ -25,11 +26,12 @@
 <!ENTITY xep0138 "<link url='https://xmpp.org/extensions/xep-0138.html'>XEP-0138: Stream Compression</link>" >
 <!ENTITY xep0199 "<link url='https://xmpp.org/extensions/xep-0199.html'>XEP-0199: XMPP Ping</link>" >
 
-<!-- Draft (Standards-Track) XEPs -->
-
+<!ENTITY xep0011 "<link url='https://xmpp.org/extensions/xep-0011.html'>XEP-0011: Jabber Browsing</link>" >
 <!ENTITY xep0012 "<link url='https://xmpp.org/extensions/xep-0012.html'>XEP-0012: Last Activity</link>" >
 <!ENTITY xep0013 "<link url='https://xmpp.org/extensions/xep-0013.html'>XEP-0013: Flexible Offline Message Retrieval</link>" >
 <!ENTITY xep0020 "<link url='https://xmpp.org/extensions/xep-0020.html'>XEP-0020: Feature Negotiation</link>" >
+<!ENTITY xep0022 "<link url='https://xmpp.org/extensions/xep-0022.html'>XEP-0022: Message Events</link>" >
+<!ENTITY xep0023 "<link url='https://xmpp.org/extensions/xep-0023.html'>XEP-0023: Message Expiration</link>" >
 <!ENTITY xep0033 "<link url='https://xmpp.org/extensions/xep-0033.html'>XEP-0033: Extended Stanza Addressing</link>" >
 <!ENTITY xep0045 "<link url='https://xmpp.org/extensions/xep-0045.html'>XEP-0045: Multi-User Chat</link>" >
 <!ENTITY xep0047 "<link url='https://xmpp.org/extensions/xep-0047.html'>XEP-0047: In-Band Bytestreams</link>" >
@@ -46,6 +48,7 @@
 <!ENTITY xep0080 "<link url='https://xmpp.org/extensions/xep-0080.html'>XEP-0080: User Geolocation</link>" >
 <!ENTITY xep0084 "<link url='https://xmpp.org/extensions/xep-0084.html'>XEP-0084: User Avatars</link>" >
 <!ENTITY xep0092 "<link url='https://xmpp.org/extensions/xep-0092.html'>XEP-0092: Software Version</link>" >
+<!ENTITY xep0093 "<link url='https://xmpp.org/extensions/xep-0093.html'>XEP-0093: Roster Item Exchange</link>" >
 <!ENTITY xep0095 "<link url='https://xmpp.org/extensions/xep-0095.html'>XEP-0095: Stream Initiation</link>" >
 <!ENTITY xep0096 "<link url='https://xmpp.org/extensions/xep-0096.html'>XEP-0096: File Transfer</link>" >
 <!ENTITY xep0106 "<link url='https://xmpp.org/extensions/xep-0106.html'>XEP-0106: JID Escaping</link>" >
