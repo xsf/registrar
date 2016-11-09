@@ -26,7 +26,7 @@
             <th>Description</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/var[not(status = "proposed")]'/>
+          <xsl:apply-templates select='/registry/var[status = "standard" or not(status)]'/>
         </table>
         <xsl:if test='count(/registry/var[status = "proposed"]) &gt; 0'>
           <h3>Proposed Features</h3>
@@ -37,6 +37,17 @@
               <th>Documentation</th>
             </tr>
             <xsl:apply-templates select='/registry/var[status = "proposed"]'/>
+          </table>
+        </xsl:if>
+        <xsl:if test='count(/registry/var[status = "deprecated"]) &gt; 0'>
+          <h3>Deprecated Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/var[status = "deprecated"]'/>
           </table>
         </xsl:if>
         <hr />

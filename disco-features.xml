@@ -324,8 +324,9 @@
   </var>
   <var>
     <name>http://jabber.org/protocol/physloc</name>
-    <desc>DEPRECATED</desc>
+    <desc>See XEP-0080</desc>
     <doc>&xep0080;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>http://jabber.org/protocol/pubsub#access-authorize</name>
@@ -619,7 +620,8 @@
   <var>
     <name>jabber:iq:browse</name>
     <desc>See XEP-0011</desc>
-    <doc>&xep0011; (DEPRECATED)</doc>
+    <doc>&xep0011;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:iq:gateway</name>
@@ -639,7 +641,8 @@
   <var>
     <name>jabber:iq:pass</name>
     <desc>See XEP-0003</desc>
-    <doc>&xep0003; (DEPRECATED)</doc>
+    <doc>&xep0003;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:iq:privacy</name>
@@ -673,8 +676,9 @@
   </var>
   <var>
     <name>jabber:iq:time</name>
-    <desc>DEPRECATED</desc>
+    <desc>See XEP-0202</desc>
     <doc>&xep0202;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:iq:version</name>
@@ -693,8 +697,9 @@
   </var>
   <var>
     <name>jabber:x:delay</name>
-    <desc>DEPRECATED</desc>
+    <desc>See XEP-0203</desc>
     <doc>&xep0203;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:x:encrypted</name>
@@ -704,12 +709,14 @@
   <var>
     <name>jabber:x:event</name>
     <desc>See XEP-0022</desc>
-    <doc>&xep0022; (DEPRECATED)</doc>
+    <doc>&xep0022;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:x:expire</name>
     <desc>See XEP-0023</desc>
-    <doc>&xep0023; (DEPRECATED)</doc>
+    <doc>&xep0023;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:x:oob</name>
@@ -719,7 +726,8 @@
   <var>
     <name>jabber:x:roster</name>
     <desc>See XEP-0093</desc>
-    <doc>&xep0093; (DEPRECATED)</doc>
+    <doc>&xep0093;</doc>
+    <status>deprecated</status>
   </var>
   <var>
     <name>jabber:x:signed</name>
