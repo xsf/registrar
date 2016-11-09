@@ -14,3 +14,5 @@
 <!ELEMENT name (#PCDATA)* >
 <!ELEMENT desc (#PCDATA)* >
 <!ELEMENT doc (#PCDATA)* >
+<!ELEMENT link (#PCDATA)* >
+<!ATTLIST link url CDATA '' >
