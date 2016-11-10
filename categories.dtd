@@ -3,8 +3,8 @@
 <!ELEMENT registry ( meta, category* ) >
 <!ELEMENT meta ( title, legal, overview, revision+ ) >
 <!ELEMENT title (#PCDATA)* >
-<!ELEMENT legal (#PCDATA)* >
-<!ELEMENT overview (#PCDATA)* >
+<!ELEMENT legal (#PCDATA | link)* >
+<!ELEMENT overview (#PCDATA | link)* >
 <!ELEMENT revision ( version, date, initials, remark ) >
 <!ELEMENT version (#PCDATA)* >
 <!ELEMENT date (#PCDATA)* >
@@ -15,3 +15,5 @@
 <!ELEMENT name (#PCDATA)* >
 <!ELEMENT desc (#PCDATA)* >
 <!ELEMENT doc (#PCDATA)* >
+<!ELEMENT link (#PCDATA)* >
+<!ATTLIST link url CDATA '' >
