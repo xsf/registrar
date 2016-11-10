@@ -1,25 +1,11 @@
-language: go
-go:
-  - master
-env:
-  - "PATH=/home/travis/gopath/bin:$PATH"
 addons:
   apt:
     packages:
       - xsltproc
       - libxml2-utils
 before_install:
-  - go get github.com/iangrunert/git-ratchet
-  - git fetch origin refs/notes/*:refs/notes/*
+  - wget -O git-ratchet https://github.com/iangrunert/git-ratchet/releases/download/v0.3.1/linux_amd64_git-ratchet
+  - chmod +x git-ratchet
+  - git fetch https://github.com/xsf/registrar.git refs/notes/*:refs/notes/*
 script:
-  - echo "lint,$(xmllint --nonet --noout --noent --loaddtd --valid *.xml 2>&1 | wc -l)" | git-ratchet check -w
-after_success:
-  - ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
-  - ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
-  - ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-  - ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-  - openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in deploy_key.enc -out deploy_key -d
-  - chmod 600 deploy_key
-  - eval `ssh-agent -s`
-  - ssh-add deploy_key
-  - git push origin refs/notes/*:refs/notes/*
+  - echo "lint,$(xmllint --nonet --noout --noent --loaddtd --valid *.xml 2>&1 | wc -l)" | ./git-ratchet check -v
