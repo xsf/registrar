@@ -26,28 +26,28 @@
             <th>Description</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/var[status = "standard" or not(status)]'/>
+          <xsl:apply-templates select='/registry/var[status = "permanent" or not(status)]'/>
         </table>
-        <xsl:if test='count(/registry/var[status = "proposed"]) &gt; 0'>
-          <h3>Proposed Features</h3>
+        <xsl:if test='count(/registry/var[status = "provisional"]) &gt; 0'>
+          <h3>Provisional Features</h3>
           <table border='1' cellpadding='3' cellspacing='0'>
             <tr class='body'>
               <th>Name</th>
               <th>Description</th>
               <th>Documentation</th>
             </tr>
-            <xsl:apply-templates select='/registry/var[status = "proposed"]'/>
+            <xsl:apply-templates select='/registry/var[status = "provisional"]'/>
           </table>
         </xsl:if>
-        <xsl:if test='count(/registry/var[status = "deprecated"]) &gt; 0'>
-          <h3>Deprecated Features</h3>
+        <xsl:if test='count(/registry/var[status = "historical"]) &gt; 0'>
+          <h3>Historical Features</h3>
           <table border='1' cellpadding='3' cellspacing='0'>
             <tr class='body'>
               <th>Name</th>
               <th>Description</th>
               <th>Documentation</th>
             </tr>
-            <xsl:apply-templates select='/registry/var[status = "deprecated"]'/>
+            <xsl:apply-templates select='/registry/var[status = "historical"]'/>
           </table>
         </xsl:if>
         <hr />

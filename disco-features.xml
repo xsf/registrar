@@ -332,7 +332,7 @@
     <name>http://jabber.org/protocol/physloc</name>
     <desc>See XEP-0080</desc>
     <doc>&xep0080;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>http://jabber.org/protocol/pubsub#access-authorize</name>
@@ -627,7 +627,7 @@
     <name>jabber:iq:browse</name>
     <desc>See XEP-0011</desc>
     <doc>&xep0011;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:iq:gateway</name>
@@ -648,7 +648,7 @@
     <name>jabber:iq:pass</name>
     <desc>See XEP-0003</desc>
     <doc>&xep0003;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:iq:privacy</name>
@@ -684,7 +684,7 @@
     <name>jabber:iq:time</name>
     <desc>See XEP-0202</desc>
     <doc>&xep0202;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:iq:version</name>
@@ -705,7 +705,7 @@
     <name>jabber:x:delay</name>
     <desc>See XEP-0203</desc>
     <doc>&xep0203;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:x:encrypted</name>
@@ -716,13 +716,13 @@
     <name>jabber:x:event</name>
     <desc>See XEP-0022</desc>
     <doc>&xep0022;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:x:expire</name>
     <desc>See XEP-0023</desc>
     <doc>&xep0023;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:x:oob</name>
@@ -733,7 +733,7 @@
     <name>jabber:x:roster</name>
     <desc>See XEP-0093</desc>
     <doc>&xep0093;</doc>
-    <status>deprecated</status>
+    <status>historical</status>
   </var>
   <var>
     <name>jabber:x:signed</name>
@@ -949,7 +949,7 @@
     <name>urn:xmpp:sid:0</name>
     <desc>Indicates that an entity adds stanza-ids and follows the business rules described in the XEP</desc>
     <doc>&xep0359;</doc>
-    <status>proposed</status>
+    <status>provisional</status>
   </var>
   <var>
     <name>urn:xmpp:ssn</name>
