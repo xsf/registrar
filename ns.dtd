@@ -4,12 +4,15 @@
 <!ELEMENT meta ( title, legal, overview, revision+ ) >
 <!ELEMENT title (#PCDATA)* >
 <!ELEMENT legal (#PCDATA)* >
-<!ELEMENT overview (#PCDATA)* >
+<!ELEMENT overview (#PCDATA | link)* >
 <!ELEMENT revision ( version, date, initials, remark ) >
 <!ELEMENT version (#PCDATA)* >
 <!ELEMENT date (#PCDATA)* >
 <!ELEMENT initials (#PCDATA)* >
 <!ELEMENT remark (#PCDATA)* >
-<!ELEMENT ns ( name, doc ) >
+<!ELEMENT ns ( name, doc, status? ) >
 <!ELEMENT name (#PCDATA)* >
-<!ELEMENT doc (#PCDATA)* >
+<!ELEMENT doc (#PCDATA | link)* >
+<!ELEMENT link (#PCDATA)* >
+<!ATTLIST link url CDATA '' >
+<!ELEMENT status (#PCDATA)* >

@@ -25,8 +25,28 @@
             <th>Namespace</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/ns'/>
+          <xsl:apply-templates select='/registry/ns[status = "permanent" or not(status)]'/>
         </table>
+        <xsl:if test='count(/registry/ns[status = "provisional"]) &gt; 0'>
+          <h3>Provisional Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Namespace</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/ns[status = "provisional"]'/>
+          </table>
+        </xsl:if>
+        <xsl:if test='count(/registry/ns[status = "historical"]) &gt; 0'>
+          <h3>Historical Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Namespace</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/ns[status = "historical"]'/>
+          </table>
+        </xsl:if>
         <hr />
         <h2>Revision History</h2>
           <blockquote>
