@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.24</version>
+      <date>2016-12-07</date>
+      <initials>ssw</initials>
+      <remark>Add authz category from XEP-0383.</remark>
+    </revision>
+    <revision>
       <version>0.24.1</version>
       <date>2016-10-06</date>
       <initials>egp, ssw</initials>
@@ -211,6 +217,16 @@
       <name>radius</name>
       <desc>A server component that authenticates against a Radius system</desc>
       <doc>N/A</doc>
+    </type>
+  </category>
+  <category>
+    <name>authz</name>
+    <desc>Services and nodes that provide authorization identities.</desc>
+    <status>provisional</status>
+    <type>
+      <name>ephemeral</name>
+      <desc>An authorization service that provides ephemeral identities.</desc>
+      <doc>XEP-0383</doc>
     </type>
   </category>
   <category>
