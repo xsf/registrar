@@ -6,7 +6,7 @@
   <!ELEMENT type (#PCDATA)* >
 %ents;
 ]>
-<?xml-stylesheet type='text/xsl' href='linklocal.xsl'?>
+<?xml-stylesheet type='text/xsl' href='jingle-transports.xsl'?>
 <registry>
 
 <meta>
