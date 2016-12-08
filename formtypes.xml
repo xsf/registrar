@@ -9,7 +9,7 @@
   >
   <!ELEMENT value (#PCDATA)* >
   <!-- TODO: What should the definition of field be? -->
-  <!ELEMENT field EMPTY >
+  <!ELEMENT field ( option* | value? ) >
   <!ATTLIST field
             var CDATA #REQUIRED
             type CDATA #REQUIRED
