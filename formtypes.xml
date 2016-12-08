@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'formtypes.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, form_type* ) >
+  <!ELEMENT form_type ( name, doc, desc, field+ ) >
+  <!ELEMENT option ( value ) >
+  <!ATTLIST option
+            label CDATA #REQUIRED
+  >
+  <!ELEMENT value (#PCDATA)* >
+  <!-- TODO: What should the definition of field be? -->
+  <!ELEMENT field EMPTY >
+  <!ATTLIST field
+            var CDATA #REQUIRED
+            type CDATA #REQUIRED
+            label CDATA #REQUIRED
+  >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='formtypes.xsl'?>

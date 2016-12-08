@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'linklocal.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, transport* ) >
+  <!ELEMENT transport ( name, desc, type, doc ) >
+  <!ELEMENT type (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='linklocal.xsl'?>

@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'altconn.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, method* ) >
+  <!ELEMENT method ( name, desc, syntax, doc ) >
+  <!ELEMENT syntax (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='altconn.xsl'?>

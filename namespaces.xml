@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'ns.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, ns* ) >
+  <!ELEMENT ns ( name, doc, status? ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='ns.xsl'?>

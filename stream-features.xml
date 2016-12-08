@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'features.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, feature* ) >
+  <!ELEMENT feature ( ns, name, element, desc, doc ) >
+  <!ELEMENT ns (#PCDATA)* >
+  <!ELEMENT element (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='features.xsl'?>
@@ -66,9 +70,9 @@
   </meta>
   <feature>
     <ns>http://jabber.org/features/amp</ns>
-    <desc>Support for Advanced Message Processing</desc>
     <name>amp</name>
     <element>amp</element>
+    <desc>Support for Advanced Message Processing</desc>
     <doc>&xep0079;</doc>
   </feature>
   <feature>
@@ -122,9 +126,9 @@
   </feature>
   <feature>
     <ns>urn:xmpp:bidi</ns>
-    <desc>Support for Bidirectional Server-to-Server Connections</desc>
     <name>bidi</name>
     <element>bidi</element>
+    <desc>Support for Bidirectional Server-to-Server Connections</desc>
     <doc>&xep0288;</doc>
   </feature>
   <feature>
@@ -143,16 +147,16 @@
   </feature>
   <feature>
     <ns>urn:xmpp:sm:3</ns>
-    <desc>Support for Stream Management</desc>
     <name>sm</name>
     <element>sm</element>
+    <desc>Support for Stream Management</desc>
     <doc>&xep0198;</doc>
   </feature>
   <feature>
     <ns>http://jabber.org/protocol/caps</ns>
-    <desc>Hash of entity capabilities</desc>
     <name>caps</name>
     <element>c</element>
+    <desc>Hash of entity capabilities</desc>
     <doc>&xep0115;</doc>
   </feature>
 </registry>

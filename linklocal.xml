@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'linklocal.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, param* ) >
+  <!ELEMENT param ( name, desc, status ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='linklocal.xsl'?>

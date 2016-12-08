@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'xdv-prefixes.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, datatype-prefix* ) >
+  <!ELEMENT datatype-prefix ( prefix, desc, doc ) >
+  <!ELEMENT prefix (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='xdv-prefixes.xsl'?>

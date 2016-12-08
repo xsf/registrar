@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'shim.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, header* ) >
+  <!ELEMENT header ( name, desc, doc ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='shim.xsl'?>

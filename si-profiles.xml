@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'si-profiles.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, profile* ) >
+  <!ELEMENT profile ( name, doc, desc ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='si-profiles.xsl'?>

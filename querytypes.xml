@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'querytypes.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, querytype* ) >
+  <!ELEMENT querytype ( name, proto, desc, doc, keys* ) >
+  <!ELEMENT proto (#PCDATA)* >
+  <!ELEMENT keys (key+) >
+  <!ELEMENT key ( name, desc, values? ) >
+  <!ELEMENT values (value+) >
+  <!ELEMENT value ( name, desc ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='querytypes.xsl'?>

@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'linklocal.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, application* ) >
+  <!ELEMENT application ( name, desc, transport, doc ) >
+  <!ELEMENT transport (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='linklocal.xsl'?>
@@ -21,7 +24,7 @@
 <application>
   <name>rtp</name>
   <desc>
-    Jingle sessions that support media exchange 
+    Jingle sessions that support media exchange
     via the Real-time Transport Protocol.
   </desc>
   <transport>datagram</transport>

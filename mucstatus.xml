@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'mucstatus.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, statuscode* ) >
+  <!ELEMENT statuscode ( number, stanza, context, purpose ) >
+  <!ELEMENT number (#PCDATA)* >
+  <!ELEMENT stanza (#PCDATA)* >
+  <!ELEMENT context (#PCDATA)* >
+  <!ELEMENT purpose (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='mucstatus.xsl'?>

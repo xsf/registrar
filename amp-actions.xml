@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'amp-actions.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, action* ) >
+  <!ELEMENT action ( name, ns, behavior, doc ) >
+  <!ELEMENT behavior (#PCDATA)* >
+  <!ELEMENT ns (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='amp-actions.xsl'?>

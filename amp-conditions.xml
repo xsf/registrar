@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'amp-conditions.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, condition* ) >
+  <!ELEMENT condition ( name, ns, per-hop, value, processing, doc ) >
+  <!ELEMENT per-hop (#PCDATA)* >
+  <!ELEMENT value (#PCDATA)* >
+  <!ELEMENT processing (#PCDATA)* >
+  <!ELEMENT ns (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='amp-conditions.xsl'?>

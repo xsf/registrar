@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'categories.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, category* ) >
+  <!ELEMENT category ( name, desc, status?, type+ ) >
+  <!ELEMENT type ( name, desc, doc ) >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='categories.xsl'?>

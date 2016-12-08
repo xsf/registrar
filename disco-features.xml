@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'vars.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM "reg.ent">
+  <!ELEMENT registry ( meta, var* ) >
+  <!ELEMENT var ( name, desc, doc, status? ) >
+  <!ELEMENT ns (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='vars.xsl'?>

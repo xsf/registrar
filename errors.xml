@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'errors.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, condition* ) >
+  <!ELEMENT condition ( ns, element, desc, doc ) >
+  <!ELEMENT element (#PCDATA)* >
+  <!ELEMENT ns (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='errors.xsl'?>

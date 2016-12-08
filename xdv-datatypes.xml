@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE registry SYSTEM 'xdv-prefixes.dtd' [
+<!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
+  <!ELEMENT registry ( meta, datatype* ) >
+  <!ELEMENT datatype ( name, desc, methods, min, max, doc? ) >
+  <!ELEMENT methods (#PCDATA)* >
+  <!ELEMENT min (#PCDATA)* >
+  <!ELEMENT max (#PCDATA)* >
 %ents;
 ]>
 <?xml-stylesheet type='text/xsl' href='xdv-prefixes.xsl'?>
@@ -25,10 +30,10 @@
 <datatype>
   <name>sipub:file-transfer</name>
   <desc>Datatype for publishing an SI using the File Transfer Profile</desc>
-  <doc>XEP-0096</doc>
   <methods>basic</methods>
   <min>N/A</min>
   <max>N/A</max>
+  <doc>XEP-0096</doc>
 </datatype>
 <datatype>
   <name>xs:anyURI</name>
