@@ -10,6 +10,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of XML stream features as maintained by the &REGISTRAR;. This registry contains only stream features that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other stream features may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.9</version>
+      <date>2017-03-02</date>
+      <initials>rnm</initials>
+      <remark>Added urn:xmpp:features:rosterver from RFC-6121</remark>
+    </revision>
+    <revision>
       <version>0.8</version>
       <date>2016-10-06</date>
       <initials>egp (XEP Editor: ssw)</initials>
@@ -127,6 +133,13 @@
     <element>dialback</element>
     <desc>Support for Server Dialback with dialback errors</desc>
     <doc>&xep0220;</doc>
+  </feature>
+  <feature>
+    <ns>urn:xmpp:features:rosterver</ns>
+    <name>Roster Versioning</name>
+    <element>ver</element>
+    <desc>Support for Roster Versioning</desc>
+    <doc>&xmppim;</doc>
   </feature>
   <feature>
     <ns>urn:xmpp:sm:3</ns>
