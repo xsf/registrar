@@ -95,11 +95,14 @@
 <!ENTITY xep0297 "<link url='https://xmpp.org/extensions/xep-0297.html'>XEP-0297: Stanza Forwarding</link>" >
 <!ENTITY xep0301 "<link url='https://xmpp.org/extensions/xep-0301.html'>XEP-0301: In-Band Real Time Text</link>" >
 <!ENTITY xep0308 "<link url='https://xmpp.org/extensions/xep-0308.html'>XEP-0308: Last Message Correction</link>" >
+<!ENTITY xep0319 "<link url='https://xmpp.org/extensions/xep-0319.html'>XEP-0319: Last User Interaction in Presence</link>" >
 <!ENTITY xep0320 "<link url='https://xmpp.org/extensions/xep-0320.html'>XEP-0320: Use of DTLS-SRTP in Jingle Sessions</link>" >
 <!ENTITY xep0359 "<link url='https://xmpp.org/extensions/xep-0359.html'>XEP-0359: Unique and Stable Stanza IDs</link>" >
 <!ENTITY xep0382 "<link url='https://xmpp.org/extensions/xep-0382.html'>XEP-0382: Spoiler messages</link>" >
 <!ENTITY xep0383 "<link url='https://xmpp.org/extensions/xep-0383.html'>XEP-0383: Burner JIDs</link>" >
 <!ENTITY xep0384 "<link url='https://xmpp.org/extensions/xep-0384.html'>XEP-0384: OMEMO Encryption</link>" >
+<!ENTITY xep0385 "<link url='https://xmpp.org/extensions/xep-0385.html'>XEP-0385: Stateless Inline Media Sharing (SIMS)</link>" >
+<!ENTITY xep0386 "<link url='https://xmpp.org/extensions/xep-0386.html'>XEP-0386: Bind 2.0</link>" >
 
 <!-- Active (Informational) XEPs -->
 
