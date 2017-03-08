@@ -98,6 +98,7 @@
 <!ENTITY xep0319 "<link url='https://xmpp.org/extensions/xep-0319.html'>XEP-0319: Last User Interaction in Presence</link>" >
 <!ENTITY xep0320 "<link url='https://xmpp.org/extensions/xep-0320.html'>XEP-0320: Use of DTLS-SRTP in Jingle Sessions</link>" >
 <!ENTITY xep0359 "<link url='https://xmpp.org/extensions/xep-0359.html'>XEP-0359: Unique and Stable Stanza IDs</link>" >
+<!ENTITY xep0363 "<link url='https://xmpp.org/extensions/xep-0363.html'>XEP-0363: HTTP File Upload</link>" >
 <!ENTITY xep0382 "<link url='https://xmpp.org/extensions/xep-0382.html'>XEP-0382: Spoiler messages</link>" >
 <!ENTITY xep0383 "<link url='https://xmpp.org/extensions/xep-0383.html'>XEP-0383: Burner JIDs</link>" >
 <!ENTITY xep0384 "<link url='https://xmpp.org/extensions/xep-0384.html'>XEP-0384: OMEMO Encryption</link>" >
