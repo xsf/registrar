@@ -93,6 +93,7 @@
 <!ENTITY xep0293 "<link url='https://xmpp.org/extensions/xep-0293.html'>XEP-0293: Jingle RTP Feedback Negotiation</link>" >
 <!ENTITY xep0294 "<link url='https://xmpp.org/extensions/xep-0294.html'>XEP-0294: Jingle RTP Header Extensions Negotiation</link>" >
 <!ENTITY xep0297 "<link url='https://xmpp.org/extensions/xep-0297.html'>XEP-0297: Stanza Forwarding</link>" >
+<!ENTITY xep0233 "<link url='https://xmpp.org/extensions/xep-0233.html'>XEP-0233: Use of Domain-Based Service Names in XMPP SASL Negotiation</link>" >
 <!ENTITY xep0301 "<link url='https://xmpp.org/extensions/xep-0301.html'>XEP-0301: In-Band Real Time Text</link>" >
 <!ENTITY xep0308 "<link url='https://xmpp.org/extensions/xep-0308.html'>XEP-0308: Last Message Correction</link>" >
 <!ENTITY xep0319 "<link url='https://xmpp.org/extensions/xep-0319.html'>XEP-0319: Last User Interaction in Presence</link>" >
