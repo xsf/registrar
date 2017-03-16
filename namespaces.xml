@@ -12,6 +12,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.55</version>
+      <date>2017-03-16</date>
+      <initials>ssw</initials>
+      <remark>Add provisional namespaces from XEP-0388 and XEP-0389.</remark>
+    </revision>
+    <revision>
       <version>0.54</version>
       <date>2017-03-16</date>
       <initials>ssw</initials>
@@ -823,5 +829,15 @@
   <ns>
     <name>urn:xmpp:domain-based-name:1</name>
     <doc>&xep0233;</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:sasl:0</name>
+    <doc>&xep0388;</doc>
+    <status>provisional</status>
+  </ns>
+  <ns>
+    <name>urn:xmpp:register:0</name>
+    <doc>&xep0389;</doc>
+    <status>provisional</status>
   </ns>
 </registry>
