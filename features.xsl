@@ -27,8 +27,31 @@
             <th>Description</th>
             <th>Documentation</th>
           </tr>
-          <xsl:apply-templates select='/registry/feature'/>
+          <xsl:apply-templates select='/registry/feature[status = "permanent" or not(status)]'/>
         </table>
+        <xsl:if test='count(/registry/feature[status = "provisional"]) &gt; 0'>
+          <h3>Provisional Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Feature</th>
+              <th>XML Element</th>
+              <th>Description</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/feature[status = "provisional"]'/>
+          </table>
+        </xsl:if>
+        <xsl:if test='count(/registry/feature[status = "historical"]) &gt; 0'>
+          <h3>Historical Features</h3>
+          <table border='1' cellpadding='3' cellspacing='0'>
+            <tr class='body'>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Documentation</th>
+            </tr>
+            <xsl:apply-templates select='/registry/feature[status = "historical"]'/>
+          </table>
+        </xsl:if>
         <hr />
         <h2>Revision History</h2>
           <blockquote>
