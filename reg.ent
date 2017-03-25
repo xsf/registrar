@@ -107,6 +107,7 @@
 <!ENTITY xep0386 "<link url='https://xmpp.org/extensions/xep-0386.html'>XEP-0386: Bind 2.0</link>" >
 <!ENTITY xep0388 "<link url='https://xmpp.org/extensions/xep-0388.html'>XEP-0388: XEP-0388: Extensible SASL Profile</link>" >
 <!ENTITY xep0389 "<link url='https://xmpp.org/extensions/xep-0389.html'>XEP-0389: XEP-0389: Extensible In-Band Registration</link>" >
+<!ENTITY xep0390 "<link url='https://xmpp.org/extensions/xep-0390.html'>XEP-0390: XEP-0390: Entity Capabilities 2.0</link>" >
 
 <!-- Active (Informational) XEPs -->
 
