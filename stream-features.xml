@@ -171,6 +171,5 @@
     <element>c</element>
     <desc>Indicate support for Entity Capabilities 2.0 and publish capabilities to peer.</desc>
     <doc>&xep0390;</doc>
-    <status>provisional</status>
   </feature>
 </registry>

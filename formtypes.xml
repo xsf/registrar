@@ -393,7 +393,8 @@
     </option>
   </field>
   <field var='pubsub#subscription_type'
-         type='list-single'>
+         type='list-single'
+         label=''>
     <option label='Receive notification of new items only'>
       <value>items</value>
     </option>
@@ -402,7 +403,8 @@
     </option>
   </field>
   <field var='pubsub#subscription_depth'
-         type='list-single'>
+         type='list-single'
+         label=''>
     <option label='Receive notification from direct child nodes only'>
       <value>1</value>
     </option>
