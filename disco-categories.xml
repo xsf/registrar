@@ -13,7 +13,13 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
-      <version>0.24</version>
+      <version>0.26</version>
+      <date>2018-09-04</date>
+      <initials>lnj</initials>
+      <remark>Add Telegram gateway type.</remark>
+    </revision>
+    <revision>
+      <version>0.25</version>
       <date>2016-12-07</date>
       <initials>ssw</initials>
       <remark>Add authz category from XEP-0383.</remark>
@@ -497,6 +503,11 @@
     <type>
       <name>smtp</name>
       <desc>Gateway to the SMTP (email) network</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>telegram</name>
+      <desc>Gateway to the Telegram IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
