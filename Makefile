@@ -15,10 +15,10 @@ validate:
 $(OUTDIR):
 	mkdir -p "$@"
 
-$(html): $(OUTDIR)/%.html: %.xml %.xsl $(OUTDIR)
+$(html): $(OUTDIR)/%.html: %.xml %.xsl | $(OUTDIR)
 	$(xsltproc) --stringparam OUTPUT_FILENAME "$@" "$(patsubst %.xml,%.xsl,$<)" "$<" > "$@"
 
-$(xml): $(OUTDIR)/%.xml: %.xml %-xml.xsl $(OUTDIR)
+$(xml): $(OUTDIR)/%.xml: %.xml %-xml.xsl | $(OUTDIR)
 	$(xsltproc) "$(patsubst %.xml,%-xml.xsl,$<)" "$<" > "$@"
 
 clean:
