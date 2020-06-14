@@ -1,0 +1,50 @@
+stages:
+- build
+- pack
+
+"build@main":
+  image: registry.gitlab.com/xsf/docker-images/registry-buildspace/image:0.1.0
+  stage: build
+  script:
+  - make 
+  rules:
+  - if: '$CI_COMMIT_REF_NAME =~ /^main$/'
+    when: always
+  - when: never
+  artifacts:
+    paths:
+    - registrar/
+    expire_in: '1 day'
+
+"pack@main":
+  image: docker:19.03.11
+  stage: pack
+  services:
+  - docker:19.03.11-dind
+  script:
+  - 'export IMAGE_REF="${CI_REGISTRY_IMAGE}/packed:main-$(date -Idate)-${CI_COMMIT_SHORT_SHA}"'
+  - 'export LATEST_REF="${CI_REGISTRY_IMAGE}/packed:main-latest"'
+  - 'docker build -t "$IMAGE_REF" -f pack-only.Dockerfile .'
+  - 'docker image tag "$IMAGE_REF" "$LATEST_REF"'
+  - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
+  - 'docker push "$IMAGE_REF"'
+  - 'docker push "$LATEST_REF"'
+  rules:
+  - if: '$CI_COMMIT_REF_NAME =~ /^main$/'
+    when: on_success
+  - when: never
+
+"build@mr":
+  image: registry.gitlab.com/xsf/docker-images/registry-buildspace/image:0.1.0
+  stage: build
+  script:
+  - make
+  rules:
+  - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    when: always
+  - when: never 
+  artifacts:
+    expose_as: "Content"
+    paths:
+    - registrar/
+    expire_in: '1 day'
