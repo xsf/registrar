@@ -12,6 +12,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of SHIM headers as authorized by &xep0131; and as maintained by the &REGISTRAR;.</overview>
     <revision>
+      <version>0.6</version>
+      <date>2018-08-03</date>
+      <initials>mv</initials>
+      <remark>Correct pubsub headers from XEP-0060 and XEP-0248.</remark>
+    </revision>
+    <revision>
       <version>0.5</version>
       <date>2006-07-05</date>
       <initials>psa</initials>
@@ -119,6 +125,12 @@
   <name>Classification</name>
   <desc>a level within a classification scheme</desc>
   <doc>XEP-0131</doc>
+</header>
+
+<header>
+  <name>Collection</name>
+  <desc>The collection via which a notification was received from the originating node</desc>
+  <doc>XEP-0248</doc>
 </header>
 
 <header>
@@ -416,24 +428,6 @@
 </header>
 
 <header>
-  <name>pubsub#collection</name>
-  <desc>The collection via which a notification was received from the originating node.</desc>
-  <doc>XEP-0060</doc>
-</header>
-
-<header>
-  <name>pubsub#expire</name>
-  <desc>The DateTime at which a pubsub leased subscription will end or has ended.</desc>
-  <doc>XEP-0060</doc>
-</header>
-
-<header>
-  <name>pubsub#subid</name>
-  <desc>A subscription identifer within the pubsub protocol.</desc>
-  <doc>XEP-0060</doc>
-</header>
-
-<header>
   <name>Range</name>
   <desc>see RFC 2616</desc>
   <doc>RFC 2616</doc>
@@ -590,6 +584,12 @@
 </header>
 
 <header>
+  <name>SubID</name>
+  <desc>A subscription identifer within the pubsub protocol</desc>
+  <doc>XEP-0060</doc>
+</header>
+
+<header>
   <name>Subject</name>
   <desc>the human-readable topic of a message or resource</desc>
   <doc>RFC 2822 or RFC 2413</doc>
@@ -663,7 +663,7 @@
 
 <header>
   <name>Urgency</name>
-  <desc>The degree to which a message requires immediate action or attention; consistent with existing messaging triage systems, the defined values are "high", "medium", and "low".</desc>
+  <desc>The degree to which a message requires immediate action or attention; consistent with existing messaging triage systems, the defined values are "high", "medium", and "low"</desc>
   <doc>N/A</doc>
 </header>
 
