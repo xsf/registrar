@@ -22,6 +22,7 @@
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
           <tr class='body'>
+            <th>Name</th>
             <th>Number</th>
             <th>Stanza</th>
             <th>Context</th>
@@ -41,6 +42,7 @@
 
   <xsl:template match='statuscode'>
     <tr class='body'>
+      <td><xsl:value-of select='name'/></td>
       <td><xsl:value-of select='number'/></td>
       <td><xsl:value-of select='stanza'/></td>
       <td><xsl:value-of select='context'/></td>

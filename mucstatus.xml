@@ -2,7 +2,7 @@
 <!DOCTYPE registry SYSTEM 'reg.dtd' [
   <!ENTITY % ents SYSTEM 'reg.ent'>
   <!ELEMENT registry ( meta, statuscode* ) >
-  <!ELEMENT statuscode ( number, stanza, context, purpose ) >
+  <!ELEMENT statuscode ( name, number, stanza, context, purpose ) >
   <!ELEMENT number (#PCDATA)* >
   <!ELEMENT stanza (#PCDATA)* >
   <!ELEMENT context (#PCDATA)* >
@@ -15,6 +15,12 @@
     <title>Multi-User Chat Status Codes</title>
     &LEGALNOTICE;
     <overview>This is the official registry of Multi-User Chat Status Codes as maintained by the &REGISTRAR; and authorized by &xep0045;.</overview>
+    <revision>
+      <version>0.4</version>
+      <date>2021-07-03</date>
+      <initials>ssw</initials>
+      <remark>Add names for each code.</remark>
+    </revision>
     <revision>
       <version>0.3</version>
       <date>2006-11-30</date>
@@ -35,102 +41,119 @@
     </revision>
   </meta>
   <statuscode>
+    <name>RoomNotAnonymous</name>
     <number>100</number>
     <stanza>message</stanza>
     <context>Entering a room</context>
     <purpose>Inform user that any occupant is allowed to see the user's full JID</purpose>
   </statuscode>
   <statuscode>
+    <name>AffiliationChanged</name>
     <number>101</number>
     <stanza>message (out of band)</stanza>
     <context>Affiliation change</context>
     <purpose>Inform user that his or her affiliation changed while not in the room</purpose>
   </statuscode>
   <statuscode>
+    <name>ShowingUnavailableMembers</name>
     <number>102</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that room now shows unavailable members</purpose>
   </statuscode>
   <statuscode>
+    <name>HidingUnavailableMembers</name>
     <number>103</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that room now does not show unavailable members</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomConfigChanged</name>
     <number>104</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that a non-privacy-related room configuration change has occurred</purpose>
   </statuscode>
   <statuscode>
+    <name>SelfPresence</name>
     <number>110</number>
     <stanza>presence</stanza>
     <context>Any room presence</context>
     <purpose>Inform user that presence refers to one of its own room occupants</purpose>
   </statuscode>
   <statuscode>
+    <name>LoggingEnabled</name>
     <number>170</number>
     <stanza>message or initial presence</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that room logging is now enabled</purpose>
   </statuscode>
   <statuscode>
+    <name>LoggingDisabled</name>
     <number>171</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that room logging is now disabled</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomChangedNonAnonymous</name>
     <number>172</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that the room is now non-anonymous</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomChangedSemiAnonymous</name>
     <number>173</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that the room is now semi-anonymous</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomChangedFullyAnonymous</name>
     <number>174</number>
     <stanza>message</stanza>
     <context>Configuration change</context>
     <purpose>Inform occupants that the room is now fully-anonymous</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomCreated</name>
     <number>201</number>
     <stanza>presence</stanza>
     <context>Entering a room</context>
     <purpose>Inform user that a new room has been created</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomModifiedNick</name>
     <number>210</number>
     <stanza>presence</stanza>
     <context>Entering a room</context>
     <purpose>Inform user that the service has assigned or modified the occupant's roomnick</purpose>
   </statuscode>
   <statuscode>
+    <name>RoomModifiedNick</name>
     <number>301</number>
     <stanza>presence</stanza>
     <context>Removal from room</context>
     <purpose>Inform user that he or she has been banned from the room</purpose>
   </statuscode>
   <statuscode>
+    <name>OldNicknameChanged</name>
     <number>303</number>
     <stanza>presence</stanza>
     <context>Exiting a room</context>
     <purpose>Inform all occupants of new room nickname</purpose>
   </statuscode>
   <statuscode>
+    <name>UserKicked</name>
     <number>307</number>
     <stanza>presence</stanza>
     <context>Removal from room</context>
     <purpose>Inform user that he or she has been kicked from the room</purpose>
   </statuscode>
   <statuscode>
+    <name>UserRemovedAffilation</name>
     <number>321</number>
     <stanza>presence</stanza>
     <context>Removal from room</context>
@@ -138,6 +161,7 @@
       because of an affiliation change</purpose>
   </statuscode>
   <statuscode>
+    <name>NonMemberRemoveed</name>
     <number>322</number>
     <stanza>presence</stanza>
     <context>Removal from room</context>
@@ -146,6 +170,7 @@
       is not a member</purpose>
   </statuscode>
   <statuscode>
+    <name>SystemShutdown</name>
     <number>332</number>
     <stanza>presence</stanza>
     <context>Removal from room</context>

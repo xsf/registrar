@@ -11,6 +11,7 @@
 
   <xsl:template match='statuscode'>
     <statuscode>
+      <number><xsl:value-of select='name'/></number>
       <number><xsl:value-of select='number'/></number>
       <stanza><xsl:value-of select='stanza'/></stanza>
       <context><xsl:value-of select='context'/></context>
