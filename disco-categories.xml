@@ -13,6 +13,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.27</version>
+      <date>2021-10-06</date>
+      <initials>mw</initials>
+      <remark>Add PSTN gateway type.</remark>
+    </revision>
+    <revision>
       <version>0.26</version>
       <date>2018-09-04</date>
       <initials>lnj</initials>
@@ -475,6 +481,10 @@
       <desc>Gateway to Microsoft Office Communications Server</desc>
       <doc>N/A</doc>
     </type>
+    <type>
+      <name>pstn</name>
+      <desc>Gateway to the Public Switched Telephone Network (PSTN)</desc>
+      <doc>N/A</doc>
     <type>
       <name>qq</name>
       <desc>Gateway to the QQ IM service</desc>
