@@ -39,7 +39,7 @@
       <xsl:apply-templates select='//form_type' mode='toc'/>
     </p>
   </xsl:template>
-      
+
   <xsl:template match='overview'>
       <p><xsl:apply-templates/></p>
   </xsl:template>
