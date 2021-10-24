@@ -14,7 +14,7 @@
       <name><xsl:value-of select='name'/></name>
       <desc><xsl:value-of select='desc'/></desc>
       <doc><xsl:value-of select='doc'/></doc>
-      <xsl:apply-templates select='/registry/formtype/field'/>
+      <xsl:apply-templates select='field'/>
     </form_type>
   </xsl:template>
 
@@ -25,16 +25,16 @@
       <xsl:attribute name='type'><xsl:value-of select='@type'/></xsl:attribute>
       <xsl:attribute name='label'><xsl:value-of select='@label'/></xsl:attribute>
       <xsl:if test='$option.count &gt; 0'>
-        <xsl:apply-templates select='/registry/formtype/field/option'/>
+        <xsl:apply-templates select='option'/>
       </xsl:if>
     </field>
   </xsl:template>
 
   <xsl:template match='option'>
-    <field>
+    <option>
       <xsl:attribute name='label'><xsl:value-of select='@label'/></xsl:attribute>
       <value><xsl:value-of select='value'/></value>
-    </field>
+    </option>
   </xsl:template>
 
 </xsl:stylesheet>
