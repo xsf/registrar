@@ -1,27 +1,32 @@
+.POSIX:
+.SILENT:
+.PHONY: all build clean validate
+
+
 xsltproc ?= xsltproc
 xmllint ?= xmllint
 OUTDIR ?= registrar
-srcs = $(wildcard *.xml)
-html = $(patsubst %.xml,$(OUTDIR)/%.html,$(srcs))
-xml = $(patsubst %.xml,$(OUTDIR)/%.xml,$(srcs))
+srcs != find . -maxdepth 1 -name '*.xml'
+html = ${srcs:./%.xml=$(OUTDIR)/%.html}
+xml = ${srcs:./%.xml=$(OUTDIR)/%.xml}
 
 all: validate build
 
 build: $(html) $(xml)
 
 validate:
-	$(foreach srcfile,$(srcs),$(xmllint) --nonet --noout --noent --loaddtd --valid "$(srcfile)" > /dev/null && ) true
-
-$(OUTDIR):
-	mkdir -p "$@"
-
-$(html): $(OUTDIR)/%.html: %.xml %.xsl | $(OUTDIR)
-	$(xsltproc) --stringparam OUTPUT_FILENAME "$@" "$(patsubst %.xml,%.xsl,$<)" "$<" > "$@"
-
-$(xml): $(OUTDIR)/%.xml: %.xml %-xml.xsl | $(OUTDIR)
-	$(xsltproc) "$(patsubst %.xml,%-xml.xsl,$<)" "$<" > "$@"
+	for srcfile in $(srcs); do \
+		$(xmllint) --nonet --noout --noent --loaddtd --valid "$${srcfile}" > /dev/null; \
+	done
 
 clean:
 	rm -rf "$(OUTDIR)"
 
-.PHONY: all clean validate
+$(OUTDIR):
+	mkdir -p "$@"
+
+$(html): $(OUTDIR) ${@:$(OUTDIR)/%.html=%.xml} ${@:$(OUTDIR)/%.html=%.xsl}
+	$(xsltproc) --stringparam OUTPUT_FILENAME "$@" "${@:$(OUTDIR)/%.html=%.xsl}" "${@:$(OUTDIR)/%.html=%.xml}" > "$@"
+
+$(xml): $(OUTDIR) ${@:$(OUTDIR)/%=%} ${@:$(OUTDIR)/%.xml=%-xml.xsl}
+	$(xsltproc) "${@:$(OUTDIR)/%.xml=%-xml.xsl}" "${@:$(OUTDIR)/%=%}" > "$@"
