@@ -13,6 +13,12 @@
     &LEGALNOTICE;
     <overview>The 'var' attribute of the &lt;feature/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace may contain any namespace that is registered with the &REGISTRAR; (see &lt;<link url='http://www.xmpp.org/registrar/namespaces.html'>http://www.xmpp.org/registrar/namespaces.html</link>&gt;) as well as some additional values that have been separately registered with the Registrar.</overview>
     <revision>
+      <version>0.24</version>
+      <date>2021-10-10</date>
+      <initials>ssw</initials>
+      <remark>Add namespaces from XEP-0393.</remark>
+    </revision>
+    <revision>
       <version>0.23</version>
       <date>2017-03-25</date>
       <initials>ssw</initials>
@@ -991,5 +997,10 @@
     <desc>Indicate support for optimisation of Entity Capabilities 2.0 broadcast.</desc>
     <doc>&xep0390;</doc>
     <status>provisional</status>
+  </var>
+  <var>
+    <name>urn:xmpp:styling:0</name>
+    <desc>Support for rendering message styling.</desc>
+    <doc>&xep0393;</doc>
   </var>
 </registry>
