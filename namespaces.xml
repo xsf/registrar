@@ -12,6 +12,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of Jabber/XMPP protocol namespaces as maintained by the &REGISTRAR;. This registry contains only namespaces that are defined in the <link url='/specs/'>XMPP RFCs</link> (published by the <link url='http://www.ietf.org/'>IETF</link>) or in <link url='/extensions/'>XMPP Extension Protocols</link> that have advanced to a status of Active, Draft, or Final within the standards process of the <link url='/xsf/'>XMPP Standards Foundation</link>. Other namespaces may be in use within the Jabber/XMPP community, but are not added to this page until the relevant document meets the above criteria.</overview>
     <revision>
+      <version>0.58</version>
+      <date>2022-02-24</date>
+      <initials>ssw</initials>
+      <remark>Fix spec link for xmpp-session.</remark>
+    </revision>
+    <revision>
       <version>0.57</version>
       <date>2021-10-10</date>
       <initials>ssw</initials>
@@ -637,7 +643,7 @@
   </ns>
   <ns>
     <name>urn:ietf:params:xml:ns:xmpp-session</name>
-    <doc>&xmppim;</doc>
+    <doc>&rfc3921;</doc>
   </ns>
   <ns>
     <name>urn:ietf:params:xml:ns:xmpp-stanzas</name>
