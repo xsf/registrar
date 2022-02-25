@@ -13,6 +13,7 @@
 <!ENTITY xmppcore "<link url='https://www.ietf.org/rfc/rfc6120.txt'>RFC 6120: XMPP Core</link>" >
 <!ENTITY xmppim "<link url='https://www.ietf.org/rfc/rfc6121.txt'>RFC 6121: XMPP IM</link>" >
 <!ENTITY xmppe2e "<link url='https://www.ietf.org/rfc/rfc3923.txt'>RFC 3923: XMPP E2E</link>" >
+<!ENTITY rfc3921 "<link url='https://www.ietf.org/rfc/rfc3921.txt'>RFC 3921: XMPP IM (Legacy)</link>" >
 
 <!-- Standards-Track XEPs -->
 
