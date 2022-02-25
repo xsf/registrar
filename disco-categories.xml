@@ -485,6 +485,7 @@
       <name>pstn</name>
       <desc>Gateway to the Public Switched Telephone Network (PSTN)</desc>
       <doc>N/A</doc>
+    </type>
     <type>
       <name>qq</name>
       <desc>Gateway to the QQ IM service</desc>
