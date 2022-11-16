@@ -13,6 +13,12 @@
     &LEGALNOTICE;
     <overview>This is the official registry of values for the 'category' and 'type' attributes of the &lt;identity/&gt; element within the 'http://jabber.org/protocol/disco#info' namespace (see &xep0030;), as registered with the &REGISTRAR;.</overview>
     <revision>
+      <version>0.28</version>
+      <date>2022-11-16</date>
+      <initials>mw</initials>
+      <remark>Add discord, mattermost, signal and steam gateway types.</remark>
+    </revision>
+    <revision>
       <version>0.27</version>
       <date>2021-10-06</date>
       <initials>mw</initials>
@@ -432,6 +438,11 @@
       <doc>N/A</doc>
     </type>
     <type>
+      <name>discord</name>
+      <desc>Gateway to the Discord IM service</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
       <name>facebook</name>
       <desc>Gateway to the Facebook IM service</desc>
       <doc>N/A</doc>
@@ -459,6 +470,11 @@
     <type>
       <name>lcs</name>
       <desc>Gateway to Microsoft Live Communications Server</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>mattermost</name>
+      <desc>Gateway to a mattermost instance IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
@@ -497,6 +513,11 @@
       <doc>N/A</doc>
     </type>
     <type>
+      <name>signal</name>
+      <desc>Gateway to Signal IM service</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
       <name>simple</name>
       <desc>Gateway to SIP for Instant Messaging and Presence Leveraging Extensions (SIMPLE)</desc>
       <doc>N/A</doc>
@@ -514,6 +535,11 @@
     <type>
       <name>smtp</name>
       <desc>Gateway to the SMTP (email) network</desc>
+      <doc>N/A</doc>
+    </type>
+    <type>
+      <name>steam</name>
+      <desc>Gateway to Steam IM service</desc>
       <doc>N/A</doc>
     </type>
     <type>
