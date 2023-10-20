@@ -18,7 +18,7 @@
         <xsl:apply-templates select='/registry/meta/overview'/>
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
-        <p>XML: <a href='http://xmpp.org/registrar/shim.xml'>http://xmpp.org/registrar/shim.xml</a></p>
+        <p>XML: <a href='https://xmpp.org/registrar/shim.xml'>https://xmpp.org/registrar/shim.xml</a></p>
         <hr />
         <table border='1' cellpadding='3' cellspacing='0'>
           <tr class='body'>

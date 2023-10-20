@@ -18,7 +18,7 @@
         <xsl:apply-templates select='/registry/meta/overview'/>
         <!--<p><xsl:value-of select='/registry/meta/legal'/></p>-->
         <p>Last Updated: <xsl:value-of select='/registry/meta/revision/date'/></p>
-        <p>XML: <a href='http://xmpp.org/registrar/formtypes.xml'>http://xmpp.org/registrar/formtypes.xml</a></p>
+        <p>XML: <a href='https://xmpp.org/registrar/formtypes.xml'>https://xmpp.org/registrar/formtypes.xml</a></p>
         <hr />
         <xsl:call-template name='processTOC' />
         <hr />
