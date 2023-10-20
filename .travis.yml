@@ -1,8 +1,0 @@
-addons:
-  apt:
-    packages:
-      - xsltproc
-      - libxml2-utils
-script:
-- make validate
-- make build
