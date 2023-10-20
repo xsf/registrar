@@ -10,8 +10,8 @@
         <meta name="url" content="{$OUTPUT_FILENAME}"/>
         <meta name="save_as" content="{$OUTPUT_FILENAME}"/>
         <title><xsl:value-of select='/registry/meta/title'/></title>
-        <link rel='stylesheet' type='text/css' href='/xmpp.css' />
-        <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+        <link rel='stylesheet' type='text/css' href='https://xmpp.org/xmpp.css' />
+        <link rel='shortcut icon' type='image/x-icon' href='https://xmpp.org/favicon.ico' />
       </head>
       <body bgcolor='#FFFFFF'>
         <h2><xsl:value-of select='/registry/meta/title'/></h2>
