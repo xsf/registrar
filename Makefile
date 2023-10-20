@@ -13,6 +13,8 @@ xml = ${srcs:./%.xml=$(OUTDIR)/%.xml}
 all: validate build
 
 build: $(html) $(xml)
+	cp *.html "$(OUTDIR)"
+
 
 validate:
 	for srcfile in $(srcs); do \

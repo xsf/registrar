@@ -11,5 +11,4 @@ RUN cd /usr/local/src/registrar && make all
 
 FROM nginx:alpine
 COPY deploy/registrar.conf /etc/nginx/conf.d/default.conf
-COPY --from=0 /usr/local/src/registrar/index.html /var/www/registrar/index.html
 COPY --from=0 /usr/local/src/registrar/registrar /var/www/registrar/
